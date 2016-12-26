@@ -1,0 +1,29 @@
+{
+    "language" : "ਪੰਜਾਬੀ",
+    "keyFontSize" : 20,
+    "commandFontSize" : 18,
+    "space": "ਸਪੇਸ",
+    "alphaKeyTitle": "ਅ",
+    "punctuationKeyTitle": "#+=",
+    "numericKeyTitle": "੧੨੩",
+    
+    "emergency": "ਸੰਕਟਕਾਲ",
+    "yahoo": "ਖੋਜ ਕਰੋ",
+    "search": "ਖੋਜ ਕਰੋ",
+    "send": "ਭੇਜਣ",
+    "next": "ਨੂੰ ਅਗਲੇ",
+    "route": "ਰਸਤਾ",
+    "go": "ਜਾਣ",
+    "google": "ਖੋਜ ਕਰੋ",
+    "join": "ਵਿੱਚ ਸ਼ਾਮਲ",
+    "done": "ਸਮਾਪਤ",
+    "defaultTitle": "ਲਾਈਨ",
+    
+    "alpha": [ { "key": "ਅ", "diacritic": "\u0ACD"}, { "key": "ਇ", "diacritic": "\u0ABF"} , { "key": "ਉ", "diacritic": "\u0AC1"}, { "key": "ઋ", "diacritic": "\u0AC3"}, { "key": "ਏ", "diacritic": "\u0AC5"},{ "key": "ઐ", "diacritic": "\u0AC8"}, { "key": "ઑ", "diacritic": "\u0AC9"}, { "key": "ઌ", "diacritic": "\u0AE2"}, { "key": "\u0A82"}, { "key": "ਮ"}, { "key": "ਕ"}, { "key": "ਗ"}, { "key": "ਚ"}, { "key": "ਜ"}, { "key": "ਟ"}, { "key": "ਡ"}, { "key": "ਤ"}, { "key": "ਦ"}, { "key": "ਪ"}, { "key": "ਬ"}, { "key": "ਯ"}, { "key": "ਰ"}, { "key": "ਲ"}, { "key": "ਵ"}, { "key": "ਸ਼"}, { "key": "ਸ"}, { "key": "ਹ"} ],
+    
+    "shift": [ { "key": "ਆ", "diacritic": "\u0ABE"}, { "key": "ਈ", "diacritic": "\u0AC0"} , { "key": "ਊ", "diacritic": "\u0AC2"}, { "key": "ૠ", "diacritic": "\u0AC4"}, { "key": "એ", "diacritic": "\u0AC7"},{ "key": "ઔ", "diacritic": "\u0ACC"}, { "key": "ઓ", "diacritic": "\u0ACB"}, { "key": "ૡ", "diacritic": "\u0AE3"}, { "key": "\u0A83"}, { "key": "ન"}, { "key": "ਖ"}, { "key": "ਘ"}, { "key": "ਛ"}, { "key": "ਝ"}, { "key": "ਠ"}, { "key": "ਢ"}, { "key": "ਥ"}, { "key": "ਧ"}, { "key": "ਫ"}, { "key": "ਭ"}, { "key": "ઙ"}, { "key": "\u0AD0"}, { "key": "ળ"}, { "key": "ઞ"}, { "key": "ષ"}, { "key": "ણ"}, { "key": "\u0A81"} ],
+    
+    "numeric": [ { "key": "૧"}, { "key": "૨"} , { "key": "૩"}, { "key": "૪"}, { "key": "૫"},{ "key": "૬"}, { "key": "૭"}, { "key": "૮"}, { "key": "૯"}, { "key": "૦"}, { "key": "-"}, { "key": "/"}, { "key": ":"}, { "key": ";"}, { "key": "("}, { "key": ")"}, { "key": "₹"}, { "key": "&"}, {"key": "@"}, { "key": "”"}, { "key": "\u0ABC"}, { "key": "."}, { "key": ","}, { "key": "?"}, { "key": "!"}],
+    
+    "punctuations": [ { "key": "["}, { "key": "]"} , { "key": "{"}, { "key": "}"}, { "key": "#"},{ "key": "%"}, { "key": "^"}, { "key": "*"}, { "key": "+"}, { "key": "="}, { "key": "_"}, { "key": "\\"}, { "key": "|"}, { "key": "~"}, { "key": "<"}, { "key": ">"}, { "key": "$"}, { "key": "€"}, { "key": "•"}, { "key": "’"}, { "key": "ઽ"}, { "key": "Ť", "value": "\u200D"}, { "key": "⏐", "value": "\u200C"}, { "key": "\u0964"}, { "key": "\u0965"} ]
+}

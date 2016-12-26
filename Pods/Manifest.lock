@@ -1,0 +1,22 @@
+PODS:
+  - JSONModel (1.7.0)
+  - nlp (0.0.1)
+  - ObjectMapper (2.1.0)
+
+DEPENDENCIES:
+  - JSONModel
+  - nlp (from `../nlp`)
+  - ObjectMapper (~> 2.1.0)
+
+EXTERNAL SOURCES:
+  nlp:
+    :path: "../nlp"
+
+SPEC CHECKSUMS:
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  nlp: 6c43fe98abf807e09603d0760529721ed41ad745
+  ObjectMapper: e5e0f8aef8590fc2ddcde7f27eddb255863ee6e9
+
+PODFILE CHECKSUM: 48c5224a360740e8905871007523cff56694085f
+
+COCOAPODS: 1.1.1

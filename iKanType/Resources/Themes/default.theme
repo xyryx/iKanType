@@ -1,0 +1,155 @@
+{
+    "themeName": "default",
+    "version": "1.0",
+    "previewImage": "default",
+    "darkTheme": {
+        "backgroundColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 0.0 },
+        "key": {
+            "textColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 },
+            "keyColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 0.25 },
+            "shadowColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 }         
+        },
+        "popUp": {
+            "keyColor": { "red": 131.0, "green": 131.0, "blue": 131.0, "alpha": 1.0 },
+            "textColor": { "red": 172.0, "green": 172.0, "blue": 172.0, "alpha": 1.0 },
+            "shadowColor": { "red": 74.0, "green": 74.0, "blue": 77.0, "alpha": 1.0 }
+        },
+        "shift": {
+            "keyColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 0.1 },
+            "tintColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 },
+            "textColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 },
+            "shadowColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "highlightKeyColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 0.25 },
+            "highlightTintColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 }
+        },
+        "delete": {
+            "keyColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 0.1 },
+            "tintColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 },
+            "textColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 },
+            "shadowColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "highlightKeyColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 0.25 },
+            "highlightTintColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 }
+        },
+        "alphaNumeric": {
+            "keyColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 0.1 },
+            "tintColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 },
+            "textColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 },
+            "shadowColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "highlightKeyColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 0.1 },
+            "highlightTintColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 }
+        },
+        "changeKeyboard": {
+            "keyColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 0.1 },
+            "tintColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 },
+            "highlightKeyColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 0.25 },
+            "highlightTintColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 }
+        },
+        "space": {
+            "keyColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 0.25 },
+            "tintColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 },
+            "highlightKeyColor": { "red": 204.0, "green": 172.0, "blue": 105.0, "alpha": 1.0 },
+            "highlightTintColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 }
+        },
+        "returnKey": {
+            "keyColor": { "red": 0.0, "green": 122.0, "blue": 255.0, "alpha": 1.0 },
+            "textColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 }
+        },
+        "disabledReturnKey": {
+            "keyColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 0.1 },
+            "textColor": { "red": 157.0, "green": 157.0, "blue": 157.0, "alpha": 1.0 }
+        },
+        "defaultReturnKey": {
+            "keyColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 0.1 },
+            "textColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 }
+        },
+        "defaultDisabledReturn": {
+            "keyColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 0.1 },
+            "textColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 }
+        },
+        "prediction": {
+            "textColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 },
+            "backgroundColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 0.0 },
+            "predictionColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 0.25 }
+        }        
+    },
+    "lightTheme": {
+        "backgroundColor": { "red": 0.9, "green": 0.0, "blue": 0.0, "alpha": 0.0 },
+        "key": {
+            "textColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "keyColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 },
+            "shadowColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 }         
+        },
+        "popUp": {
+            "keyColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 },
+            "textColor": { "red": 172.0, "green": 172.0, "blue": 172.0, "alpha": 1.0 },
+            "shadowColor": { "red": 74.0, "green": 74.0, "blue": 77.0, "alpha": 1.0 }
+        },
+        "shift": {
+            "keyColor": { "red": 174.0, "green": 179.0, "blue": 190.0, "alpha": 1.0 },
+            "tintColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "textColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "shadowColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "highlightKeyColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 },
+            "highlightTintColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 }
+        },
+        "delete": {
+            "keyColor": { "red": 174.0, "green": 179.0, "blue": 190.0, "alpha": 1.0 },
+            "tintColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "textColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "shadowColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "highlightKeyColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 },
+            "highlightTintColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 }
+        },
+        "alphaNumeric": {
+            "keyColor": { "red": 174.0, "green": 179.0, "blue": 190.0, "alpha": 1.0 },
+            "tintColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "textColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "shadowColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "highlightKeyColor": { "red": 174.0, "green": 179.0, "blue": 190.0, "alpha": 1.0 },
+            "highlightTintColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 }
+        },
+        "changeKeyboard": {
+            "keyColor": { "red": 174.0, "green": 179.0, "blue": 190.0, "alpha": 1.0 },
+            "tintColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "textColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "shadowColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "highlightKeyColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 },
+            "highlightTintColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 }
+        },
+        "space": {
+            "keyColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 },
+            "textColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "shadowColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "highlightKeyColor": { "red": 174.0, "green": 179.0, "blue": 190.0, "alpha": 0.5 },
+            "highlightTintColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "highlightShadowColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 }
+        },
+        "returnKey": {
+            "keyColor": { "red": 0.0, "green": 122.0, "blue": 255.0, "alpha": 1.0 },
+            "textColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 },
+            "shadowColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 }
+        },
+        "disabledReturnKey": {
+            "keyColor": { "red": 174.0, "green": 179.0, "blue": 190.0, "alpha": 1.0 },
+            "textColor": { "red": 157.0, "green": 157.0, "blue": 157.0, "alpha": 1.0 },
+            "shadowColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 }
+        },
+        "defaultReturnKey": {
+            "keyColor": { "red": 174.0, "green": 179.0, "blue": 190.0, "alpha": 1.0 },
+            "textColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "shadowColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "highlightKeyColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 },
+            "highlightTintColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 }
+        },
+        "defaultDisabledReturn": {
+            "keyColor": { "red": 174.0, "green": 179.0, "blue": 190.0, "alpha": 1.0 },
+            "textColor": { "red": 74.0, "green": 74.0, "blue": 77.0, "alpha": 1.0 },
+            "shadowColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 }
+        },
+        "prediction": {
+            "textColor": { "red": 255.0, "green": 255.0, "blue": 255.0, "alpha": 1.0 },
+            "backgroundColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 0.0 },
+            "predictionColor": { "red": 174.0, "green": 179.0, "blue": 190.0, "alpha": 1.0 }
+        }        
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "themeName": "milkyway",
+    "version": "1.0",
+    "previewImage": "milkyway",
+    "darkTheme": {
+        "backgroundImage": "milkywayBackground",
+        "key": {
+            "textColor": { "rgb": "#DFD6CC", "alpha": 1.0 },
+            "borderColor": { "rgb": "#6D6695", "alpha": 1.0 },
+            "keyColor": { "rgb": "#6D6695", "alpha": 0.25 }          
+        },
+        "popUp": {
+            "keyColor": { "rgb": "#6D6695", "alpha": 0.5 },
+            "textColor": { "rgb": "#DFD6CC", "alpha": 1.0 },
+            "shadowColor": { "red": 62.0, "green": 51.0, "blue": 94.0, "alpha": 1.0 }
+        },
+        "shift": {
+            "keyColor": { "rgb": "#6D6695", "alpha": 0.25 },
+            "tintColor": { "rgb": "#DFD6CC", "alpha": 1.0 },
+            "textColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "highlightKeyColor": { "red": 93.0, "green": 75.0, "blue": 99.0, "alpha": 1.0 },
+            "highlightTintColor": { "red": 255.0, "green": 214.0, "blue": 135.0, "alpha": 1.0 }
+        },
+        "delete": {
+            "keyColor": { "rgb": "#6D6695", "alpha": 0.25 },
+            "tintColor": { "rgb": "#DFD6CC", "alpha": 1.0 },
+            "textColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "highlightKeyColor": { "red": 93.0, "green": 75.0, "blue": 99.0, "alpha": 1.0 },
+            "highlightTintColor": { "red": 255.0, "green": 214.0, "blue": 135.0, "alpha": 1.0 }
+        },
+        "alphaNumeric": {
+            "keyColor": { "rgb": "#6D6695", "alpha": 0.25 },
+            "tintColor": { "rgb": "#DFD6CC", "alpha": 1.0 },
+            "highlightKeyColor": { "red": 93.0, "green": 75.0, "blue": 99.0, "alpha": 1.0 },
+            "highlightTintColor": { "red": 255.0, "green": 214.0, "blue": 135.0, "alpha": 1.0 }
+        },
+        "changeKeyboard": {
+            "keyColor": { "rgb": "#6D6695", "alpha": 0.25 },
+            "tintColor": { "rgb": "#DFD6CC", "alpha": 1.0 },
+            "highlightKeyColor": { "red": 93.0, "green": 75.0, "blue": 99.0, "alpha": 1.0 },
+            "highlightTintColor": { "red": 255.0, "green": 214.0, "blue": 135.0, "alpha": 1.0 }
+        },
+        "space": {
+            "keyColor": { "rgb": "#6D6695", "alpha": 0.25 },
+            "textColor": { "rgb": "#DFD6CC", "alpha": 1.0 }
+        },
+        "returnKey": {
+            "keyColor": { "rgb": "#6D6695", "alpha": 0.25 },
+            "textColor": { "rgb": "#DFD6CC", "alpha": 1.0 }
+        },
+        "disabledReturnKey": {
+            "keyColor": { "rgb": "#6D6695", "alpha": 0.25 },
+            "textColor": { "rgb": "#DFD6CC", "alpha": 1.0 }
+        },
+        "defaultReturnKey": {
+            "keyColor": { "rgb": "#6D6695", "alpha": 0.25 },
+            "textColor": { "rgb": "#DFD6CC", "alpha": 1.0 }
+        },
+        "defaultDisabledReturn": {
+            "keyColor": { "rgb": "#6D6695", "alpha": 0.25 },
+            "textColor": { "rgb": "#DFD6CC", "alpha": 1.0 }
+        },
+        "prediction": {
+            "textColor": { "rgb": "#DFD6CC", "alpha": 1.0 },
+            "backgroundColor": { "rgb": "#343a5d", "alpha": 1.0 },
+            "predictionColor": { "rgb": "#1a1b31", "alpha": 1.0 }
+        }        
+    }
+}
