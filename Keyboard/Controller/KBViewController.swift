@@ -16,7 +16,7 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
     var shiftAlphaView: KBAlphaView?
     var numericView: KBNumericView?
     var punctationView: KBNumericView?
-//    var accessoryView: KBPredictionView?
+    var accessoryView: KBPredictionView?
     
     public var predictor: IPredictor? {
         didSet {
@@ -95,9 +95,9 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
     }
     
     func initAccessoryView() {
-//        accessoryView = KBPredictionView()
-//        accessoryView?.delegate = self
-//        accessoryView?.translatesAutoresizingMaskIntoConstraints = false
+        accessoryView = KBPredictionView()
+        accessoryView?.delegate = self
+        accessoryView?.translatesAutoresizingMaskIntoConstraints = false
     }
     
     //MARK: - access
@@ -146,34 +146,36 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
         self.playClickForCustomKeyTap()
         self.advanceToNextInputMode()
     }
+    
     func spaceKeyPressed() {
         self.playClickForCustomKeyTap()
         self.textDocumentProxy.insertText(" ")
         
-//        self.accessoryView?.predictions = nil
+        self.accessoryView?.predictions = nil
     }
+    
     func textEntered(text: String) {
         self.playClickForCustomKeyTap()
         self.textDocumentProxy.insertText(text)
         
-//        if(self.predictor != nil) {
-//            self.predictor?.predict(paragraph: self.textDocumentProxy.documentContextBeforeInput, language: self.keyboard?.language)
-//        }
-        //    [self requestSupplementaryLexiconWithCompletion:^(UILexicon *lecixon) {
-        //        for (UILexiconEntry *entry in lecixon.entries) {
-        //            NSLog(@"Lexicon = text: %@, user entry: %@", entry.documentText, entry.userInput);
-        //        }
-        //    }];
-        //    [self textDidChange:nil];
+        if(self.predictor != nil) {
+            self.predictor?.predict(paragraph: self.textDocumentProxy.documentContextBeforeInput, language: self.keyboard?.language)
+        }
+//            [self requestSupplementaryLexiconWithCompletion:^(UILexicon *lecixon) {
+//                for (UILexiconEntry *entry in lecixon.entries) {
+//                    NSLog(@"Lexicon = text: %@, user entry: %@", entry.documentText, entry.userInput);
+//                }
+//            }];
+//            [self textDidChange:nil];
     }
     
     func deleteText() {
         self.playClickForCustomKeyTap()
         self.textDocumentProxy.deleteBackward()
-//        if(self.predictor != nil) {
-//            self.predictor?.predict(paragraph: self.textDocumentProxy.documentContextBeforeInput, language: self.keyboard?.language)
-//        }
-        //    [self textDidChange:nil];
+        if(self.predictor != nil) {
+            self.predictor?.predict(paragraph: self.textDocumentProxy.documentContextBeforeInput, language: self.keyboard?.language)
+        }
+//            [self textDidChange:nil];
     }
     
     func hasText() -> Bool {
@@ -183,11 +185,11 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
     func returnKeyPressed() {
         self.playClickForCustomKeyTap()
         self.textDocumentProxy.insertText("\n")
-//        if(self.predictor != nil) {
-//            self.predictor?.updatePredictions(paragraph: self.textDocumentProxy.documentContextBeforeInput, language: self.keyboard?.language, createdBy: "user")
-//        }
+        if(self.predictor != nil) {
+            self.predictor?.updatePredictions(paragraph: self.textDocumentProxy.documentContextBeforeInput, language: self.keyboard?.language, createdBy: "user")
+        }
         
-//        self.accessoryView?.predictions = nil
+        self.accessoryView?.predictions = nil
     }
     
     func getKeyboardType() -> UIReturnKeyType {
@@ -313,7 +315,7 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
         let heightConstraint: NSLayoutConstraint = NSLayoutConstraint(item: subview, attribute: .height, relatedBy: .equal, toItem: container, attribute: .height, multiplier: 1.0, constant: -accessoryViewHeight)
         
         // bottom constraint
-        let bottomConstraint: NSLayoutConstraint = NSLayoutConstraint(item: subview, attribute: .bottom, relatedBy: .equal, toItem: container, attribute: .bottom, multiplier: 1.0, constant: 0.0)
+//        let bottomConstraint: NSLayoutConstraint = NSLayoutConstraint(item: subview, attribute: .bottom, relatedBy: .equal, toItem: container, attribute: .bottom, multiplier: 1.0, constant: 0.0)
         
         // leading constraint
         let leftConstraint: NSLayoutConstraint = NSLayoutConstraint(item: subview, attribute: .leading, relatedBy: .equal, toItem: container, attribute: .leading, multiplier: 1.0, constant: 0.0)
@@ -321,29 +323,29 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
         // trailing constraint
         let rightConstraint: NSLayoutConstraint = NSLayoutConstraint(item: subview, attribute: .trailing, relatedBy: .equal, toItem: container, attribute: .trailing, multiplier: 1.0, constant: 0)
         
-        container.addConstraints([heightConstraint, bottomConstraint, leftConstraint, rightConstraint])
+        container.addConstraints([heightConstraint, /*bottomConstraint,*/ leftConstraint, rightConstraint])
     }
     
     func addAccessoryViewConstraints() {
         let container = self.view!
         
-//        self.view.insertSubview(accessoryView!, belowSubview: self.alphaView!)
+        self.view.insertSubview(accessoryView!, belowSubview: self.alphaView!)
         
-        // top constraint
-//        let topConstraint = NSLayoutConstraint(item: accessoryView!, attribute: .top, relatedBy: .equal, toItem: container, attribute: .top, multiplier: 1.0, constant: 0.0)
+//         top constraint
+        let topConstraint = NSLayoutConstraint(item: accessoryView!, attribute: .top, relatedBy: .equal, toItem: container, attribute: .top, multiplier: 1.0, constant: 0.0)
         
-        // bottom constraint
-        //let bottomConstraint = NSLayoutConstraint(item: accessoryView!, attribute: .Bottom, relatedBy: .Equal, toItem: alphaView, attribute: .Top, multiplier: 1.0, constant: 0.0)
+//         bottom constraint
+        let bottomConstraint = NSLayoutConstraint(item: accessoryView!, attribute: .bottom, relatedBy: .equal, toItem: alphaView, attribute: .top, multiplier: 1.0, constant: 0.0)
         
-        // leading constraint
-//        let leftConstraint = NSLayoutConstraint(item: accessoryView!, attribute: .leading, relatedBy: .equal, toItem: container, attribute: .leading, multiplier: 1.0, constant: 0.0)
+//         leading constraint
+        let leftConstraint = NSLayoutConstraint(item: accessoryView!, attribute: .leading, relatedBy: .equal, toItem: container, attribute: .leading, multiplier: 1.0, constant: 0.0)
         
-        // trailing constraint
-//        let rightConstraint = NSLayoutConstraint(item: accessoryView!, attribute: .trailing, relatedBy: .equal, toItem: container, attribute: .trailing, multiplier: 1.0, constant: 0)
+//         trailing constraint
+        let rightConstraint = NSLayoutConstraint(item: accessoryView!, attribute: .trailing, relatedBy: .equal, toItem: container, attribute: .trailing, multiplier: 1.0, constant: 0)
         
-//        let accessoryHeightConstraint = NSLayoutConstraint(item: accessoryView!, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1.0, constant: accessoryViewHeight)
-//        
-//        container.addConstraints([topConstraint, /*bottomConstraint,*/ leftConstraint, rightConstraint, accessoryHeightConstraint])
+        let accessoryHeightConstraint = NSLayoutConstraint(item: accessoryView!, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1.0, constant: accessoryViewHeight)
+        
+        container.addConstraints([topConstraint, bottomConstraint, leftConstraint, rightConstraint, accessoryHeightConstraint])
         
     }
     
@@ -359,9 +361,9 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
             theme = themeModel!.lightTheme ?? (themeModel?.darkTheme)!
         }
         
-//        if(self.accessoryView != nil) {
-//            self.accessoryView!.theme = theme.prediction
-//        }
+        if(self.accessoryView != nil) {
+            self.accessoryView!.theme = theme.prediction
+        }
         
         self.setTheme(view: self.alphaView, theme: theme)
         self.setTheme(view: self.shiftAlphaView, theme: theme)
@@ -377,7 +379,7 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
     
     //MARK: - PredictiveKeyboardDelegate
     public func predictionComplete(predictions: [String]) {
-//        self.accessoryView?.predictions = predictions
+        self.accessoryView?.predictions = predictions
     }
     
     public func predictionSelected(prediction: String) {
@@ -398,6 +400,6 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
             self.shiftAlphaView?.isDiacriticEnabled = false
         }
         
-//        self.accessoryView?.predictions = nil
+        self.accessoryView?.predictions = nil
     }
 }

@@ -15,7 +15,6 @@
 		59295F211E10CC2B0044D0A8 /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598FC1DD1DEAB85A001F0B48 /* Keyboard.storyboard */; };
 		5929BDE41DEAB0E500DE84E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929BDE31DEAB0E500DE84E5 /* AppDelegate.swift */; };
 		5929BDE61DEAB0E500DE84E5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929BDE51DEAB0E500DE84E5 /* FirstViewController.swift */; };
-		5929BDE81DEAB0E500DE84E5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929BDE71DEAB0E500DE84E5 /* SecondViewController.swift */; };
 		5929BDEB1DEAB0E500DE84E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5929BDE91DEAB0E500DE84E5 /* Main.storyboard */; };
 		5929BDED1DEAB0E500DE84E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5929BDEC1DEAB0E500DE84E5 /* Assets.xcassets */; };
 		5929BDF01DEAB0E500DE84E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5929BDEE1DEAB0E500DE84E5 /* LaunchScreen.storyboard */; };
@@ -50,8 +49,6 @@
 		5943F8FB1E10832E0017079A /* space.theme in Resources */ = {isa = PBXBuildFile; fileRef = 5943F8E51E10826F0017079A /* space.theme */; };
 		5943F8FC1E1083320017079A /* transformers.theme in Resources */ = {isa = PBXBuildFile; fileRef = 5943F8E61E10826F0017079A /* transformers.theme */; };
 		597910EB1E116C0700CAFA41 /* nlp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597910EA1E116C0700CAFA41 /* nlp.framework */; };
-		597910ED1E1175DC00CAFA41 /* NGramModel.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 597910EC1E1175DC00CAFA41 /* NGramModel.sqlite */; };
-		597910EE1E1175F000CAFA41 /* NGramModel.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 597910EC1E1175DC00CAFA41 /* NGramModel.sqlite */; };
 		597910F91E11782500CAFA41 /* NGramModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 597910F71E11782500CAFA41 /* NGramModel.xcdatamodeld */; };
 		597910FA1E11782500CAFA41 /* NGramModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 597910F71E11782500CAFA41 /* NGramModel.xcdatamodeld */; };
 		597910FB1E1179CA00CAFA41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5929BDEC1DEAB0E500DE84E5 /* Assets.xcassets */; };
@@ -86,6 +83,8 @@
 		598FC1F51DEAB85A001F0B48 /* KBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598FC1DB1DEAB85A001F0B48 /* KBView.swift */; };
 		598FC1F61DEAB85A001F0B48 /* KeyAlignmentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598FC1DC1DEAB85A001F0B48 /* KeyAlignmentType.swift */; };
 		598FC1F71DEAB85A001F0B48 /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598FC1DD1DEAB85A001F0B48 /* Keyboard.storyboard */; };
+		59B5556F1E11A18C0053B13B /* NGramModel.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 59B5556E1E11A18C0053B13B /* NGramModel.sqlite */; };
+		59B555701E11A19F0053B13B /* NGramModel.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 59B5556E1E11A18C0053B13B /* NGramModel.sqlite */; };
 		59F14ED01E0FA0040094DC4D /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598FC1FA1DEABCDC001F0B48 /* JSONModel.framework */; };
 		59F14ED11E0FA0040094DC4D /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 595BEB891E0DF189001E8407 /* ObjectMapper.framework */; };
 		59F14ED31E0FA0050094DC4D /* Pods_Keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F14ED21E0FA0050094DC4D /* Pods_Keyboard.framework */; };
@@ -167,7 +166,6 @@
 		5929BDE01DEAB0E500DE84E5 /* iKanType.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKanType.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5929BDE31DEAB0E500DE84E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5929BDE51DEAB0E500DE84E5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		5929BDE71DEAB0E500DE84E5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		5929BDEA1DEAB0E500DE84E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5929BDEC1DEAB0E500DE84E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5929BDEF1DEAB0E500DE84E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -200,7 +198,6 @@
 		5943F8E61E10826F0017079A /* transformers.theme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = transformers.theme; sourceTree = "<group>"; };
 		595BEB891E0DF189001E8407 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = "../../Library/Developer/Xcode/DerivedData/iKanType-aggdhtbvgvmfajbngljrcfldadbg/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework"; sourceTree = "<group>"; };
 		597910EA1E116C0700CAFA41 /* nlp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nlp.framework; path = "../../Library/Developer/Xcode/DerivedData/iKanType-aggdhtbvgvmfajbngljrcfldadbg/Build/Products/Debug-iphonesimulator/nlp/nlp.framework"; sourceTree = "<group>"; };
-		597910EC1E1175DC00CAFA41 /* NGramModel.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = NGramModel.sqlite; sourceTree = "<group>"; };
 		597910F81E11782500CAFA41 /* NGramModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NGramModel.xcdatamodel; sourceTree = "<group>"; };
 		597910FD1E117AD000CAFA41 /* ThemeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeCell.swift; sourceTree = "<group>"; };
 		597910FE1E117AD000CAFA41 /* ThemeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeViewController.swift; sourceTree = "<group>"; };
@@ -234,6 +231,7 @@
 		598FC1DC1DEAB85A001F0B48 /* KeyAlignmentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyAlignmentType.swift; sourceTree = "<group>"; };
 		598FC1DD1DEAB85A001F0B48 /* Keyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Keyboard.storyboard; sourceTree = "<group>"; };
 		598FC1FA1DEABCDC001F0B48 /* JSONModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSONModel.framework; path = "../../Library/Developer/Xcode/DerivedData/iKanType-aggdhtbvgvmfajbngljrcfldadbg/Build/Products/Debug-iphonesimulator/JSONModel/JSONModel.framework"; sourceTree = "<group>"; };
+		59B5556E1E11A18C0053B13B /* NGramModel.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = NGramModel.sqlite; path = Resources/NGramModel.sqlite; sourceTree = "<group>"; };
 		59F14ED21E0FA0050094DC4D /* Pods_Keyboard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Keyboard.framework; path = "../../Library/Developer/Xcode/DerivedData/iKanType-aggdhtbvgvmfajbngljrcfldadbg/Build/Products/Debug-iphonesimulator/Pods_Keyboard.framework"; sourceTree = "<group>"; };
 		5E2147F849E4A4ABB2B23B1B /* Pods_Keyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Keyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E447533F0C88A7C1A76BAF3 /* Pods-Keyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-Keyboard/Pods-Keyboard.release.xcconfig"; sourceTree = "<group>"; };
@@ -335,14 +333,12 @@
 		5929BDE21DEAB0E500DE84E5 /* iKanType */ = {
 			isa = PBXGroup;
 			children = (
-				597910EC1E1175DC00CAFA41 /* NGramModel.sqlite */,
 				5943F8D41E10825F0017079A /* Resources */,
 				5943F8D31E1080D70017079A /* iKanType.entitlements */,
 				5929BDE31DEAB0E500DE84E5 /* AppDelegate.swift */,
 				5929BDE51DEAB0E500DE84E5 /* FirstViewController.swift */,
 				597910FD1E117AD000CAFA41 /* ThemeCell.swift */,
 				597910FE1E117AD000CAFA41 /* ThemeViewController.swift */,
-				5929BDE71DEAB0E500DE84E5 /* SecondViewController.swift */,
 				5929BDE91DEAB0E500DE84E5 /* Main.storyboard */,
 				5929BDEC1DEAB0E500DE84E5 /* Assets.xcassets */,
 				5929BDEE1DEAB0E500DE84E5 /* LaunchScreen.storyboard */,
@@ -382,6 +378,7 @@
 		5943F8D41E10825F0017079A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				59B5556E1E11A18C0053B13B /* NGramModel.sqlite */,
 				5943F8D51E10826F0017079A /* Keyboards */,
 				5943F8DF1E10826F0017079A /* Themes */,
 				597910F71E11782500CAFA41 /* NGramModel.xcdatamodeld */,
@@ -745,7 +742,7 @@
 				5929BDF01DEAB0E500DE84E5 /* LaunchScreen.storyboard in Resources */,
 				5943F8EF1E10826F0017079A /* default.theme in Resources */,
 				5943F8E81E10826F0017079A /* kn.json in Resources */,
-				597910ED1E1175DC00CAFA41 /* NGramModel.sqlite in Resources */,
+				59B5556F1E11A18C0053B13B /* NGramModel.sqlite in Resources */,
 				5929BDED1DEAB0E500DE84E5 /* Assets.xcassets in Resources */,
 				5943F8F41E10826F0017079A /* transformers.theme in Resources */,
 				5943F8F01E10826F0017079A /* gold.theme in Resources */,
@@ -776,11 +773,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5943F8FB1E10832E0017079A /* space.theme in Resources */,
-				597910EE1E1175F000CAFA41 /* NGramModel.sqlite in Resources */,
 				597910FB1E1179CA00CAFA41 /* Assets.xcassets in Resources */,
 				5943F8FC1E1083320017079A /* transformers.theme in Resources */,
 				5943F8F61E1083130017079A /* kn.json in Resources */,
 				5943F8F81E1083240017079A /* gold.theme in Resources */,
+				59B555701E11A19F0053B13B /* NGramModel.sqlite in Resources */,
 				5943F8F51E1082830017079A /* default.theme in Resources */,
 				5943F8FA1E10832B0017079A /* purple.theme in Resources */,
 				5943F8F71E1083200017079A /* dark.theme in Resources */,
@@ -920,7 +917,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				597911031E117AD000CAFA41 /* ThemeViewController.swift in Sources */,
-				5929BDE81DEAB0E500DE84E5 /* SecondViewController.swift in Sources */,
 				597911011E117AD000CAFA41 /* ThemeCell.swift in Sources */,
 				597910F91E11782500CAFA41 /* NGramModel.xcdatamodeld in Sources */,
 				5929BDE41DEAB0E500DE84E5 /* AppDelegate.swift in Sources */,

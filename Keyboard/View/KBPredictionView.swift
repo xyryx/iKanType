@@ -7,13 +7,13 @@
 //
 
 import Foundation
-//import nlp
+import nlp
 
 public class KBPredictionView: UIView {
     var labels: [UILabel]?
     let numberOfPredictions = 3
     
-//    var delegate : PredictiveKeyboardDelegate?
+    var delegate : PredictiveKeyboardDelegate?
     
     var predictions: [String]? {
         didSet {
@@ -123,10 +123,10 @@ public class KBPredictionView: UIView {
     func predictionSelected(recognizer: UITapGestureRecognizer) {
         let text = (recognizer.view as! UILabel).text
         
-//        if(delegate != nil) {
-//            if(text != nil && !text!.isEmpty) {
-//                delegate?.predictionSelected(prediction: text!)
-//            }
-//        }
+        if(delegate != nil) {
+            if(text != nil && !text!.isEmpty) {
+                delegate?.predictionSelected(prediction: text!)
+            }
+        }
     }
 }

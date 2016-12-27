@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8A6741926BC20F80295EBD0FB8596775A1B182EE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A45EC612C0DC088B5BDDD990211274604BF99846" : 9223372036854775807,
+    "8A6741926BC20F80295EBD0FB8596775A1B182EE" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0614CD95-4692-47AD-9DCF-0B33F358E285",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A45EC612C0DC088B5BDDD990211274604BF99846" : "nlp\/",
+    "8A6741926BC20F80295EBD0FB8596775A1B182EE" : "iKanType\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iKanType",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iKanType.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xyryx\/iKanType.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8A6741926BC20F80295EBD0FB8596775A1B182EE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xyryx\/nlp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A45EC612C0DC088B5BDDD990211274604BF99846"
+    }
+  ]
+}
