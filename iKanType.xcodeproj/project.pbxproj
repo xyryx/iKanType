@@ -1153,7 +1153,7 @@
 				CODE_SIGN_ENTITLEMENTS = iKanType/iKanType.entitlements;
 				DEVELOPMENT_TEAM = XM48Z8F5QX;
 				INFOPLIST_FILE = iKanType/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ajeyatj.blogspot.com.iKanType;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1170,7 +1170,7 @@
 				CODE_SIGN_ENTITLEMENTS = iKanType/iKanType.entitlements;
 				DEVELOPMENT_TEAM = XM48Z8F5QX;
 				INFOPLIST_FILE = iKanType/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ajeyatj.blogspot.com.iKanType;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1244,7 +1244,7 @@
 				CODE_SIGN_ENTITLEMENTS = Kannada/Kannada.entitlements;
 				DEVELOPMENT_TEAM = XM48Z8F5QX;
 				INFOPLIST_FILE = Kannada/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ajeyatj.blogspot.com.iKanType.Kannada;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1261,7 +1261,7 @@
 				CODE_SIGN_ENTITLEMENTS = Kannada/Kannada.entitlements;
 				DEVELOPMENT_TEAM = XM48Z8F5QX;
 				INFOPLIST_FILE = Kannada/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ajeyatj.blogspot.com.iKanType.Kannada;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1286,7 +1286,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Keyboard/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ajeyatj.blogspot.com.Keyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1314,7 +1314,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Keyboard/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ajeyatj.blogspot.com.Keyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
