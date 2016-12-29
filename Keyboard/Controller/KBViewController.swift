@@ -17,6 +17,7 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
     var numericView: KBNumericView?
     var punctationView: KBNumericView?
     var accessoryView: KBPredictionView?
+    var limit: Int = 5
     
     public var predictor: IPredictor? {
         didSet {
@@ -158,24 +159,26 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
         self.playClickForCustomKeyTap()
         self.textDocumentProxy.insertText(text)
         
-        if(self.predictor != nil) {
-            self.predictor?.predict(paragraph: self.textDocumentProxy.documentContextBeforeInput, language: self.keyboard?.language)
+        let queue = DispatchQueue.global(qos: DispatchQoS.userInteractive.qosClass)
+        
+        queue.async {
+            if(self.predictor != nil) {
+                self.predictor?.predict(paragraph: self.textDocumentProxy.documentContextBeforeInput, language: self.keyboard?.language, limit: self.limit)
+            }
         }
-//            [self requestSupplementaryLexiconWithCompletion:^(UILexicon *lecixon) {
-//                for (UILexiconEntry *entry in lecixon.entries) {
-//                    NSLog(@"Lexicon = text: %@, user entry: %@", entry.documentText, entry.userInput);
-//                }
-//            }];
-//            [self textDidChange:nil];
     }
     
     func deleteText() {
         self.playClickForCustomKeyTap()
         self.textDocumentProxy.deleteBackward()
-        if(self.predictor != nil) {
-            self.predictor?.predict(paragraph: self.textDocumentProxy.documentContextBeforeInput, language: self.keyboard?.language)
+        let queue = DispatchQueue.global(qos: DispatchQoS.userInteractive.qosClass)
+        
+        queue.async {
+            if(self.predictor != nil) {
+                self.predictor?.predict(paragraph: self.textDocumentProxy.documentContextBeforeInput, language: self.keyboard?.language, limit: self.limit)
+            }
         }
-//            [self textDidChange:nil];
+        //            [self textDidChange:nil];
     }
     
     func hasText() -> Bool {
@@ -185,8 +188,12 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
     func returnKeyPressed() {
         self.playClickForCustomKeyTap()
         self.textDocumentProxy.insertText("\n")
-        if(self.predictor != nil) {
-            self.predictor?.updatePredictions(paragraph: self.textDocumentProxy.documentContextBeforeInput, language: self.keyboard?.language, createdBy: "user")
+        let queue = DispatchQueue.global(qos: DispatchQoS.userInteractive.qosClass)
+        
+        queue.async {
+            if(self.predictor != nil) {
+                self.predictor?.updatePredictions(paragraph: self.textDocumentProxy.documentContextBeforeInput, language: self.keyboard?.language, createdBy: "user")
+            }
         }
         
         self.accessoryView?.predictions = nil
@@ -315,7 +322,7 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
         let heightConstraint: NSLayoutConstraint = NSLayoutConstraint(item: subview, attribute: .height, relatedBy: .equal, toItem: container, attribute: .height, multiplier: 1.0, constant: -accessoryViewHeight)
         
         // bottom constraint
-//        let bottomConstraint: NSLayoutConstraint = NSLayoutConstraint(item: subview, attribute: .bottom, relatedBy: .equal, toItem: container, attribute: .bottom, multiplier: 1.0, constant: 0.0)
+        let bottomConstraint: NSLayoutConstraint = NSLayoutConstraint(item: subview, attribute: .bottom, relatedBy: .equal, toItem: container, attribute: .bottom, multiplier: 1.0, constant: 0.0)
         
         // leading constraint
         let leftConstraint: NSLayoutConstraint = NSLayoutConstraint(item: subview, attribute: .leading, relatedBy: .equal, toItem: container, attribute: .leading, multiplier: 1.0, constant: 0.0)
@@ -323,7 +330,7 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
         // trailing constraint
         let rightConstraint: NSLayoutConstraint = NSLayoutConstraint(item: subview, attribute: .trailing, relatedBy: .equal, toItem: container, attribute: .trailing, multiplier: 1.0, constant: 0)
         
-        container.addConstraints([heightConstraint, /*bottomConstraint,*/ leftConstraint, rightConstraint])
+        container.addConstraints([heightConstraint, bottomConstraint, leftConstraint, rightConstraint])
     }
     
     func addAccessoryViewConstraints() {
@@ -331,16 +338,16 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
         
         self.view.insertSubview(accessoryView!, belowSubview: self.alphaView!)
         
-//         top constraint
+        //         top constraint
         let topConstraint = NSLayoutConstraint(item: accessoryView!, attribute: .top, relatedBy: .equal, toItem: container, attribute: .top, multiplier: 1.0, constant: 0.0)
         
-//         bottom constraint
+        //         bottom constraint
         let bottomConstraint = NSLayoutConstraint(item: accessoryView!, attribute: .bottom, relatedBy: .equal, toItem: alphaView, attribute: .top, multiplier: 1.0, constant: 0.0)
         
-//         leading constraint
+        //         leading constraint
         let leftConstraint = NSLayoutConstraint(item: accessoryView!, attribute: .leading, relatedBy: .equal, toItem: container, attribute: .leading, multiplier: 1.0, constant: 0.0)
         
-//         trailing constraint
+        //         trailing constraint
         let rightConstraint = NSLayoutConstraint(item: accessoryView!, attribute: .trailing, relatedBy: .equal, toItem: container, attribute: .trailing, multiplier: 1.0, constant: 0)
         
         let accessoryHeightConstraint = NSLayoutConstraint(item: accessoryView!, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1.0, constant: accessoryViewHeight)
@@ -379,12 +386,14 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
     
     //MARK: - PredictiveKeyboardDelegate
     public func predictionComplete(predictions: [String]) {
-        self.accessoryView?.predictions = predictions
+        DispatchQueue.main.async{
+            self.accessoryView?.predictions = predictions
+        }
     }
     
     public func predictionSelected(prediction: String) {
         self.playClickForCustomKeyTap()
-      
+        
         let words = self.textDocumentProxy.documentContextBeforeInput?.components(separatedBy: NSCharacterSet.whitespaces)
         
         let lastWord = words![words!.count - 1]

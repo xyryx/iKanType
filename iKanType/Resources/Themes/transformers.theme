@@ -8,7 +8,7 @@
             "textColor": { "rgb": "#c9e9f4", "alpha": 1.0 },
             "keyColor": { "rgb": "#51acc1", "alpha": 0.25 },
             "borderColor": { "rgb": "#88fdf7", "alpha": 1.0 },
-            "font": "Hind Mysuru"
+            "font": "Noto Serif Kannada"
         },
         "popUp": {
             "keyColor": { "rgb": "#51acc1", "alpha": 0.5 },
@@ -22,7 +22,7 @@
             "borderColor": { "rgb": "#88fdf7", "alpha": 1.0 },      
             "highlightKeyColor": { "red": 93.0, "green": 75.0, "blue": 99.0, "alpha": 1.0 },
             "highlightTintColor": { "red": 255.0, "green": 214.0, "blue": 135.0, "alpha": 1.0 },
-            "font": "Hind Mysuru"
+            "font": "Noto Serif Kannada"
         },
         "delete": {
             "keyColor": { "rgb": "#000000", "alpha": 0.5 },
@@ -38,7 +38,7 @@
             "borderColor": { "rgb": "#88fdf7", "alpha": 1.0 },      
             "highlightKeyColor": { "red": 93.0, "green": 75.0, "blue": 99.0, "alpha": 1.0 },
             "highlightTintColor": { "red": 255.0, "green": 214.0, "blue": 135.0, "alpha": 1.0 },
-            "font": "Hind Mysuru"
+            "font": "Noto Serif Kannada"
         },
         "changeKeyboard": {
             "keyColor": { "rgb": "#000000", "alpha": 0.5 },
@@ -51,37 +51,37 @@
             "keyColor": { "rgb": "#000000", "alpha": 0.5 },
             "textColor": { "rgb": "#c9e9f4", "alpha": 1.0 },
             "borderColor": { "rgb": "#88fdf7", "alpha": 1.0 },
-            "font": "Hind Mysuru"
+            "font": "Noto Serif Kannada"
         },
         "returnKey": {
             "keyColor": { "rgb": "#ecf9ff", "alpha": 1.0 },
             "textColor": { "rgb": "#052136", "alpha": 1.0 },
             "borderColor": { "rgb": "#daf2fc", "alpha": 1.0 },
-            "font": "Hind Mysuru"
+            "font": "Noto Serif Kannada"
         },
         "disabledReturnKey": {
             "keyColor": { "rgb": "#123751", "alpha": 0.25 },
             "textColor": { "rgb": "#003650", "alpha": 1.0 },
             "borderColor": { "rgb": "#003650", "alpha": 1.0 },
-            "font": "Hind Mysuru"
+            "font": "Noto Serif Kannada"
         },
         "defaultReturnKey": {
             "keyColor": { "rgb": "#ecf9ff", "alpha": 1.0 },
             "textColor": { "rgb": "#052136", "alpha": 1.0 },
             "borderColor": { "rgb": "#daf2fc", "alpha": 1.0 },
-            "font": "Hind Mysuru"
+            "font": "Noto Serif Kannada"
         },
         "defaultDisabledReturn": {
             "keyColor": { "rgb": "#123751", "alpha": 0.25 },
             "textColor": { "rgb": "#003650", "alpha": 1.0 },
             "borderColor": { "rgb": "#003650", "alpha": 1.0 },
-            "font": "Hind Mysuru"
+            "font": "Noto Serif Kannada"
         },
         "prediction": {
             "textColor": { "rgb": "#daf2fc", "alpha": 1.0 },
             "backgroundColor": { "rgb": "#052136", "alpha": 1.0 },
             "predictionColor": { "rgb": "#0e3049", "alpha": 1.0 },
-            "font": "Hind Mysuru"
+            "font": "Noto Serif Kannada"
         }        
     }
 }
