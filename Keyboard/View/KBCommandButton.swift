@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class KBCommandButton: UIButton {
+public class KBCommandButton: UIButton {
     var fontSize: CGFloat = 0.0 {
         didSet{
             self.button.titleLabel!.font = UIFont.systemFont(ofSize: fontSize)
@@ -73,7 +73,7 @@ class KBCommandButton: UIButton {
         }
     }
     
-    override var isHighlighted: Bool {
+    override public var isHighlighted: Bool {
         didSet {
             if isHighlighted {
                 button.backgroundColor = UIColor.colorFromAJColor(ajColor: self.theme?.highlightKeyColor)
@@ -130,12 +130,12 @@ class KBCommandButton: UIButton {
         self.setupConstraints()
     }
     
-    required init(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
         self.baseInit()
     }
     
-    required convenience init() {
+    required convenience public init() {
         self.init(frame: CGRect.zero)
     }
     
@@ -173,43 +173,47 @@ class KBCommandButton: UIButton {
     }
     
     //MARK: - touches
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesBegan(touches, with: event)
         button.sendActions(for: .touchUpInside)
         self.isHighlighted = true
-        //    [_button sendActionsForControlEvents: UIControlEventTouchDown];
     }
     
-    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        //target!.performSelector(selector, withObject: self)
+    override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesEnded(touches, with: event)
         button.sendActions(for: .touchUpOutside)
         self.isHighlighted = false
     }
     
-    override func touchesCancelled(_ touches: Set<UITouch>?, with event: UIEvent?) {
+    override public func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesCancelled(touches, with: event)
         button.sendActions(for: .touchCancel)
         self.isHighlighted = false
     }
     
     //MARK: - setters
-    override func setTitleColor(_ color: UIColor?, for state: UIControlState) {
+    override public func setTitleColor(_ color: UIColor?, for state: UIControlState) {
         button.setTitleColor(color!, for: state)
     }
     
-    override func setTitle(_ title: String?, for state: UIControlState) {
+    override public func setTitle(_ title: String?, for state: UIControlState) {
         button.setTitle(title, for: state)
     }
     
-    override func setTitleShadowColor(_ color: UIColor?, for state: UIControlState) {
+    override public func setTitleShadowColor(_ color: UIColor?, for state: UIControlState) {
         button.setTitleShadowColor(color!, for: state)
     }
     
-    override func setImage(_ image: UIImage?, for state: UIControlState) {
+    override public func setImage(_ image: UIImage?, for state: UIControlState) {
         button.setImage(image, for:state)
     }
     
     //MARK: -
-    override func addTarget(_ target: Any?, action: Selector, for controlEvents: UIControlEvents) {
+    override public func addTarget(_ target: Any?, action: Selector, for controlEvents: UIControlEvents) {
         button.addTarget(target, action: action, for: controlEvents)
     }
     
+    public func addTargetForBase(_ target: Any?, action: Selector, for controlEvents: UIControlEvents) {
+        super.addTarget(target, action: action, for: controlEvents)
+    }
 }

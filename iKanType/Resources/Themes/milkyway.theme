@@ -3,7 +3,7 @@
     "version": "1.0",
     "previewImage": "milkyway",
     "darkTheme": {
-        "backgroundImage": "milkywayBackground",
+        "backgroundImage": "tranquility",
         "key": {
             "textColor": { "rgb": "#DFD6CC", "alpha": 1.0 },
             "borderColor": { "rgb": "#6D6695", "alpha": 1.0 },
@@ -17,20 +17,21 @@
         "shift": {
             "keyColor": { "rgb": "#6D6695", "alpha": 0.25 },
             "tintColor": { "rgb": "#DFD6CC", "alpha": 1.0 },
-            "textColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "textColor": { "rgb": "#DFD6CC", "alpha": 1.0 },
             "highlightKeyColor": { "red": 93.0, "green": 75.0, "blue": 99.0, "alpha": 1.0 },
             "highlightTintColor": { "red": 255.0, "green": 214.0, "blue": 135.0, "alpha": 1.0 }
         },
         "delete": {
             "keyColor": { "rgb": "#6D6695", "alpha": 0.25 },
             "tintColor": { "rgb": "#DFD6CC", "alpha": 1.0 },
-            "textColor": { "red": 0.0, "green": 0.0, "blue": 0.0, "alpha": 1.0 },
+            "textColor": { "rgb": "#DFD6CC", "alpha": 1.0 },
             "highlightKeyColor": { "red": 93.0, "green": 75.0, "blue": 99.0, "alpha": 1.0 },
             "highlightTintColor": { "red": 255.0, "green": 214.0, "blue": 135.0, "alpha": 1.0 }
         },
         "alphaNumeric": {
             "keyColor": { "rgb": "#6D6695", "alpha": 0.25 },
             "tintColor": { "rgb": "#DFD6CC", "alpha": 1.0 },
+            "textColor": { "rgb": "#DFD6CC", "alpha": 1.0 },
             "highlightKeyColor": { "red": 93.0, "green": 75.0, "blue": 99.0, "alpha": 1.0 },
             "highlightTintColor": { "red": 255.0, "green": 214.0, "blue": 135.0, "alpha": 1.0 }
         },

@@ -192,6 +192,7 @@ class KBButton: UIButton {
         keyController!.view!.tag = button!.tag * 100
         keyController!.titleLabel.text = button!.titleLabel!.text!
         keyController!.titleLabel.textColor = button!.titleLabel!.textColor
+        keyController!.titleLabel.font = button!.titleLabel!.font
         keyController!.view!.tintColor = UIColor.colorFromAJColor(ajColor: popUpTheme?.keyColor)
         addCornerAndShadow(view: keyController!.view!)
         keyController!.view!.setNeedsDisplay()

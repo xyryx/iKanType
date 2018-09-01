@@ -28,6 +28,8 @@
 		59393EFA1E103354004E2081 /* Keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598FC19F1DEAB788001F0B48 /* Keyboard.framework */; };
 		59393EFB1E1034D2004E2081 /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598FC1FA1DEABCDC001F0B48 /* JSONModel.framework */; };
 		59393EFC1E1034D2004E2081 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 595BEB891E0DF189001E8407 /* ObjectMapper.framework */; };
+		593ABC7A1E3C419C00A6FEAF /* du.theme in Resources */ = {isa = PBXBuildFile; fileRef = 593ABC791E3C419C00A6FEAF /* du.theme */; };
+		593ABC7B1E3C41A400A6FEAF /* du.theme in Resources */ = {isa = PBXBuildFile; fileRef = 593ABC791E3C419C00A6FEAF /* du.theme */; };
 		5943F8E71E10826F0017079A /* gu.json in Resources */ = {isa = PBXBuildFile; fileRef = 5943F8D61E10826F0017079A /* gu.json */; };
 		5943F8E81E10826F0017079A /* kn.json in Resources */ = {isa = PBXBuildFile; fileRef = 5943F8D71E10826F0017079A /* kn.json */; };
 		5943F8E91E10826F0017079A /* ml.json in Resources */ = {isa = PBXBuildFile; fileRef = 5943F8D81E10826F0017079A /* ml.json */; };
@@ -69,7 +71,6 @@
 		598FC1E51DEAB85A001F0B48 /* IDiacriticKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598FC1CA1DEAB85A001F0B48 /* IDiacriticKeyboard.swift */; };
 		598FC1E61DEAB85A001F0B48 /* IKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598FC1CB1DEAB85A001F0B48 /* IKeyboard.swift */; };
 		598FC1E71DEAB85A001F0B48 /* KeyboardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598FC1CC1DEAB85A001F0B48 /* KeyboardFactory.swift */; };
-		598FC1E81DEAB85A001F0B48 /* KeyboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598FC1CD1DEAB85A001F0B48 /* KeyboardModel.swift */; };
 		598FC1EB1DEAB85A001F0B48 /* PredictionTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598FC1D01DEAB85A001F0B48 /* PredictionTheme.swift */; };
 		598FC1EC1DEAB85A001F0B48 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598FC1D11DEAB85A001F0B48 /* Theme.swift */; };
 		598FC1ED1DEAB85A001F0B48 /* ThemeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598FC1D21DEAB85A001F0B48 /* ThemeFactory.swift */; };
@@ -182,6 +183,7 @@
 		59393EE81E10314D004E2081 /* Kannada.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Kannada.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		59393EEA1E10314D004E2081 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		59393EEC1E10314D004E2081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		593ABC791E3C419C00A6FEAF /* du.theme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = du.theme; sourceTree = "<group>"; };
 		5943F8D21E1080BC0017079A /* Kannada.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kannada.entitlements; sourceTree = "<group>"; };
 		5943F8D31E1080D70017079A /* iKanType.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iKanType.entitlements; sourceTree = "<group>"; };
 		5943F8D61E10826F0017079A /* gu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gu.json; sourceTree = "<group>"; };
@@ -216,7 +218,6 @@
 		598FC1CA1DEAB85A001F0B48 /* IDiacriticKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDiacriticKeyboard.swift; sourceTree = "<group>"; };
 		598FC1CB1DEAB85A001F0B48 /* IKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IKeyboard.swift; sourceTree = "<group>"; };
 		598FC1CC1DEAB85A001F0B48 /* KeyboardFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardFactory.swift; sourceTree = "<group>"; };
-		598FC1CD1DEAB85A001F0B48 /* KeyboardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardModel.swift; sourceTree = "<group>"; };
 		598FC1D01DEAB85A001F0B48 /* PredictionTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PredictionTheme.swift; sourceTree = "<group>"; };
 		598FC1D11DEAB85A001F0B48 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		598FC1D21DEAB85A001F0B48 /* ThemeFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeFactory.swift; sourceTree = "<group>"; };
@@ -402,6 +403,7 @@
 		5943F8DF1E10826F0017079A /* Themes */ = {
 			isa = PBXGroup;
 			children = (
+				593ABC791E3C419C00A6FEAF /* du.theme */,
 				5943F8E01E10826F0017079A /* dark.theme */,
 				5943F8E11E10826F0017079A /* default.theme */,
 				5943F8E21E10826F0017079A /* gold.theme */,
@@ -465,7 +467,6 @@
 				598FC1CA1DEAB85A001F0B48 /* IDiacriticKeyboard.swift */,
 				598FC1CB1DEAB85A001F0B48 /* IKeyboard.swift */,
 				598FC1CC1DEAB85A001F0B48 /* KeyboardFactory.swift */,
-				598FC1CD1DEAB85A001F0B48 /* KeyboardModel.swift */,
 				598FC1D01DEAB85A001F0B48 /* PredictionTheme.swift */,
 				598FC1D11DEAB85A001F0B48 /* Theme.swift */,
 				598FC1D21DEAB85A001F0B48 /* ThemeFactory.swift */,
@@ -542,7 +543,6 @@
 				5929BDDD1DEAB0E400DE84E5 /* Frameworks */,
 				5929BDDE1DEAB0E400DE84E5 /* Resources */,
 				1C4397FC3242BC0F2B842170 /* [CP] Embed Pods Frameworks */,
-				B2357DA2ED32596A0A2F6D14 /* [CP] Copy Pods Resources */,
 				598FC1BB1DEAB789001F0B48 /* Embed Frameworks */,
 				59393EF31E10314D004E2081 /* Embed App Extensions */,
 			);
@@ -601,7 +601,6 @@
 				59393EE41E10314D004E2081 /* Sources */,
 				59393EE51E10314D004E2081 /* Frameworks */,
 				59393EE61E10314D004E2081 /* Resources */,
-				9AD81225A97E0EB62A55540A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -621,7 +620,6 @@
 				598FC19B1DEAB788001F0B48 /* Frameworks */,
 				598FC19C1DEAB788001F0B48 /* Headers */,
 				598FC19D1DEAB788001F0B48 /* Resources */,
-				0CB62EEAD058159E09A5286E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -658,7 +656,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "ಅಜೇಯ ಜಯರಾಂ";
 				TargetAttributes = {
 					5929BDDF1DEAB0E400DE84E5 = {
@@ -740,6 +738,7 @@
 				5943F8E91E10826F0017079A /* ml.json in Resources */,
 				5943F8F11E10826F0017079A /* milkyway.theme in Resources */,
 				5929BDF01DEAB0E500DE84E5 /* LaunchScreen.storyboard in Resources */,
+				593ABC7A1E3C419C00A6FEAF /* du.theme in Resources */,
 				5943F8EF1E10826F0017079A /* default.theme in Resources */,
 				5943F8E81E10826F0017079A /* kn.json in Resources */,
 				59B5556F1E11A18C0053B13B /* NGramModel.sqlite in Resources */,
@@ -778,6 +777,7 @@
 				5943F8F61E1083130017079A /* kn.json in Resources */,
 				5943F8F81E1083240017079A /* gold.theme in Resources */,
 				59B555701E11A19F0053B13B /* NGramModel.sqlite in Resources */,
+				593ABC7B1E3C41A400A6FEAF /* du.theme in Resources */,
 				5943F8F51E1082830017079A /* default.theme in Resources */,
 				5943F8FA1E10832B0017079A /* purple.theme in Resources */,
 				5943F8F71E1083200017079A /* dark.theme in Resources */,
@@ -804,64 +804,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0CB62EEAD058159E09A5286E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Keyboard/Pods-Keyboard-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		1C4397FC3242BC0F2B842170 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iKanType/Pods-iKanType-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/nlp/nlp.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nlp.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iKanType/Pods-iKanType-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9AD81225A97E0EB62A55540A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kannada/Pods-Kannada-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B2357DA2ED32596A0A2F6D14 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iKanType/Pods-iKanType-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C3E1FF60BF3C768774602CE6 /* [CP] Check Pods Manifest.lock */ = {
@@ -870,13 +832,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kannada-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D395C8C1F76EEB7BE8B6A4D0 /* [CP] Check Pods Manifest.lock */ = {
@@ -885,13 +850,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Keyboard-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E4FC56814907AC7464B9FAA5 /* [CP] Check Pods Manifest.lock */ = {
@@ -900,13 +868,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iKanType-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -968,7 +939,6 @@
 				598FC1F31DEAB85A001F0B48 /* KBNumericView.swift in Sources */,
 				598FC1F61DEAB85A001F0B48 /* KeyAlignmentType.swift in Sources */,
 				598FC1DF1DEAB85A001F0B48 /* AJColorExtensions.swift in Sources */,
-				598FC1E81DEAB85A001F0B48 /* KeyboardModel.swift in Sources */,
 				598FC1EF1DEAB85A001F0B48 /* ButtonViewController.swift in Sources */,
 				598FC1E11DEAB85A001F0B48 /* UIViewExtensions.swift in Sources */,
 				598FC1F41DEAB85A001F0B48 /* KBPredictionView.swift in Sources */,
@@ -1055,15 +1025,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -1087,7 +1065,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1108,15 +1086,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -1134,7 +1120,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

@@ -11,6 +11,7 @@ import AudioToolbox
 import nlp
 
 open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboardDelegate {
+
     public var keyboard: KeyboardModel?
     public var alphaView: KBAlphaView?
     var shiftAlphaView: KBAlphaView?
@@ -143,11 +144,15 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
     }
     
     //MARK: - iKeyboard
-    func changeKeyboard() {
+    func changeKeyboard(from: UIView, with: UIEvent) {
         self.playClickForCustomKeyTap()
         self.advanceToNextInputMode()
     }
-    
+
+    public func registerChangeKeyboard(button: KBCommandButton) {
+        button.addTargetForBase(self, action: #selector(handleInputModeList(from:with:)), for: .allTouchEvents)
+    }
+
     func spaceKeyPressed() {
         self.playClickForCustomKeyTap()
         self.textDocumentProxy.insertText(" ")
@@ -339,7 +344,7 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
         self.view.insertSubview(accessoryView!, belowSubview: self.alphaView!)
         
         //         top constraint
-        let topConstraint = NSLayoutConstraint(item: accessoryView!, attribute: .top, relatedBy: .equal, toItem: container, attribute: .top, multiplier: 1.0, constant: 0.0)
+        let topConstraint = NSLayoutConstraint(item: accessoryView!, attribute: .top, relatedBy: .greaterThanOrEqual, toItem: container, attribute: .top, multiplier: 1.0, constant: 0.0)
         
         //         bottom constraint
         let bottomConstraint = NSLayoutConstraint(item: accessoryView!, attribute: .bottom, relatedBy: .equal, toItem: alphaView, attribute: .top, multiplier: 1.0, constant: 0.0)

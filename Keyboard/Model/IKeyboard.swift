@@ -9,7 +9,8 @@
 import UIKit
 
 protocol IKeyboard : class {
-    func changeKeyboard()
+    func changeKeyboard(from: UIView, with: UIEvent)
+    func registerChangeKeyboard(button: KBCommandButton)
     func textEntered(text: String)
     func deleteText()
     func hasText() -> Bool

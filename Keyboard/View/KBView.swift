@@ -56,7 +56,13 @@ public class KBView: UIView {
             self.shiftButton.fontSize = keyboard!.commandFontSize
         }
     }
-    weak var delegate: IKeyboard?
+    weak var delegate: IKeyboard? {
+        didSet {
+            if(delegate != nil) {
+            delegate?.registerChangeKeyboard(button: changeKeyboardButton)
+            }
+        }
+    }
     var rows: [UIView] = []
     var previousTapValue: Int = 0
     var numberOfRows: Int = 0
@@ -126,7 +132,7 @@ public class KBView: UIView {
         changeKeyboardButton.setImage(globeImage, for: .highlighted)
         changeKeyboardButton.setImage(globeImage, for: .normal)
         changeKeyboardButton.sizeToFit()
-        changeKeyboardButton.addTarget(self, action: #selector(KBView.changeKeyboard(sender:)), for: .touchUpOutside)
+        //changeKeyboardButton.addTarget(self, action: #selector(KBView.changeKeyboard(from:with:)), for: .touchUpOutside)
         self.changeKeyboardButton.adjustsImageWhenHighlighted = false
         self.addSubview(changeKeyboardButton)
         
@@ -444,8 +450,8 @@ public class KBView: UIView {
     }
     
     //MARK: - keyboard events
-    @IBAction func changeKeyboard(sender: UIButton) {
-        self.delegate!.changeKeyboard()
+    @IBAction func changeKeyboard(from view: UIView, with event: UIEvent) {
+        self.delegate!.changeKeyboard(from: self.changeKeyboardButton, with: event)
     }
     
     @IBAction func keyPressed(sender: UIButton) {

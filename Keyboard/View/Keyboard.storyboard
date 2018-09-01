@@ -22,18 +22,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxy-sV-5uH">
-                                <rect key="frame" x="3" y="174" width="45" height="38.5"/>
+                                <rect key="frame" x="3" y="174" width="35" height="38.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" priority="750" constant="35" id="6ZF-zk-6n7"/>
                                 </constraints>
                                 <state key="normal" title="೧೨೩"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhb-xg-Trj">
-                                <rect key="frame" x="56" y="174" width="45" height="38.5"/>
+                                <rect key="frame" x="46" y="174" width="35" height="38.5"/>
                                 <state key="normal" image="globe"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhx-ai-IXB">
-                                <rect key="frame" x="107" y="174" width="130" height="38.5"/>
+                                <rect key="frame" x="87" y="174" width="150" height="38.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="155" id="Qmg-Lu-gfJ"/>
                                 </constraints>
@@ -477,7 +477,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kqM-Qq-m6w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="324" y="246.99999999999997"/>
+            <point key="canvasLocation" x="-11" y="247"/>
         </scene>
         <!--Numeric View Controller-->
         <scene sceneID="A2Y-zT-aa0">
@@ -1018,10 +1018,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="KeyBottom" width="104" height="107"/>
-        <image name="KeyTop" width="104" height="95"/>
-        <image name="caps-on" width="72" height="72"/>
+        <image name="KeyBottom" width="52" height="53"/>
+        <image name="KeyTop" width="52" height="47"/>
+        <image name="caps-on" width="36" height="36"/>
         <image name="delete" width="23" height="17"/>
-        <image name="globe" width="45" height="41"/>
+        <image name="globe" width="22" height="20"/>
     </resources>
 </document>
