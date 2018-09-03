@@ -1,6 +1,0 @@
-framework module nlp {
-  umbrella header "nlp-umbrella.h"
-
-  export *
-  module * { export * }
-}

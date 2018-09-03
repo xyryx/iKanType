@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "nlp",
+        "repositoryURL": "https://github.com/xyryx/nlp.git",
+        "state": {
+          "branch": null,
+          "revision": "29adf44654743a35b4cade2f348c8afb338403d7",
+          "version": "0.1.0"
+        }
+      },
+      {
+        "package": "ObjectMapper",
+        "repositoryURL": "https://github.com/Hearst-DD/ObjectMapper.git",
+        "state": {
+          "branch": null,
+          "revision": "7de160dbc8a9a03ad4c39167e63cc2b7361e4cc5",
+          "version": "3.3.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  iKanType
 //
-//  Created by ಅಜೇಯ on ೨೭/೧೧/೧೬.
-//  Copyright © ೨೦೧೬ ಅಜೇಯ ಜಯರಾಂ. All rights reserved.
+//  Created by ಅಜೇಯ on 9/1/18.
+//  Copyright © 2018 ಅಜೇಯ ಜಯರಾಂ. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }
