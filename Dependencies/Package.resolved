@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "Keyboard",
+        "repositoryURL": "https://github.com/xyryx/Keyboard.git",
+        "state": {
+          "branch": null,
+          "revision": "942387caca74964a1822e7f9a51502c208b50fc4",
+          "version": "0.1.1"
+        }
+      },
+      {
         "package": "nlp",
         "repositoryURL": "https://github.com/xyryx/nlp.git",
         "state": {
