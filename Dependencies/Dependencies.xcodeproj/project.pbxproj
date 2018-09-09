@@ -102,8 +102,8 @@
 		OBJ_39 /* KBNumericView.swift */ = {isa = PBXFileReference; path = KBNumericView.swift; sourceTree = "<group>"; };
 		OBJ_40 /* KBPredictionView.swift */ = {isa = PBXFileReference; path = KBPredictionView.swift; sourceTree = "<group>"; };
 		OBJ_41 /* KBView.swift */ = {isa = PBXFileReference; path = KBView.swift; sourceTree = "<group>"; };
-		OBJ_42 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/ajeyatj/Documents/iKanType/Dependencies/.build/checkouts/Keyboard.git--4482197071231447910/Package.swift"; sourceTree = "<group>"; };
-		OBJ_44 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/ajeyatj/Documents/iKanType/Dependencies/.build/checkouts/ObjectMapper.git-8187353239119286373/Package.swift"; sourceTree = "<group>"; };
+		OBJ_42 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/ajeyatj/Documents/iKanType/Dependencies/.build/checkouts/Keyboard.git-3279379002072074831/Package.swift"; sourceTree = "<group>"; };
+		OBJ_44 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/ajeyatj/Documents/iKanType/Dependencies/.build/checkouts/ObjectMapper.git-3111451107567420452/Package.swift"; sourceTree = "<group>"; };
 		OBJ_45 /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; path = CustomDateFormatTransform.swift; sourceTree = "<group>"; };
 		OBJ_46 /* DataTransform.swift */ = {isa = PBXFileReference; path = DataTransform.swift; sourceTree = "<group>"; };
 		OBJ_47 /* DateFormatterTransform.swift */ = {isa = PBXFileReference; path = DateFormatterTransform.swift; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 		OBJ_78 /* IStemmer.swift */ = {isa = PBXFileReference; path = IStemmer.swift; sourceTree = "<group>"; };
 		OBJ_79 /* IWordExtractor.swift */ = {isa = PBXFileReference; path = IWordExtractor.swift; sourceTree = "<group>"; };
 		OBJ_80 /* PredictiveKeyboardDelegate.swift */ = {isa = PBXFileReference; path = PredictiveKeyboardDelegate.swift; sourceTree = "<group>"; };
-		OBJ_81 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/ajeyatj/Documents/iKanType/Dependencies/.build/checkouts/nlp.git-6489977984236536171/Package.swift"; sourceTree = "<group>"; };
+		OBJ_81 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/ajeyatj/Documents/iKanType/Dependencies/.build/checkouts/nlp.git-4234980559282173670/Package.swift"; sourceTree = "<group>"; };
 		OBJ_9 /* Dependencies.swift */ = {isa = PBXFileReference; path = Dependencies.swift; sourceTree = "<group>"; };
 		ObjectMapper::ObjectMapper::Product /* ObjectMapper.framework */ = {isa = PBXFileReference; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		nlp::nlp::Product /* nlp.framework */ = {isa = PBXFileReference; path = nlp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -183,7 +183,7 @@
 		OBJ_11 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_12 /* Keyboard 0.1.1 */,
+				OBJ_12 /* Keyboard 0.1.3 */,
 				OBJ_43 /* ObjectMapper 3.3.0 */,
 				OBJ_68 /* nlp 0.1.0 */,
 			);
@@ -191,13 +191,13 @@
 			path = "";
 			sourceTree = "<group>";
 		};
-		OBJ_12 /* Keyboard 0.1.1 */ = {
+		OBJ_12 /* Keyboard 0.1.3 */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_13 /* Keyboard */,
 				OBJ_42 /* Package.swift */,
 			);
-			name = "Keyboard 0.1.1";
+			name = "Keyboard 0.1.3";
 			path = "";
 			sourceTree = SOURCE_ROOT;
 		};
@@ -210,7 +210,7 @@
 				OBJ_34 /* View */,
 			);
 			name = Keyboard;
-			path = ".build/checkouts/Keyboard.git--4482197071231447910/Sources/Keyboard";
+			path = ".build/checkouts/Keyboard.git-3279379002072074831/Sources/Keyboard";
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_14 /* Controller */ = {
@@ -298,7 +298,7 @@
 				OBJ_67 /* URLTransform.swift */,
 			);
 			name = "ObjectMapper 3.3.0";
-			path = ".build/checkouts/ObjectMapper.git-8187353239119286373/Sources";
+			path = ".build/checkouts/ObjectMapper.git-3111451107567420452/Sources";
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_5 = {
@@ -333,7 +333,7 @@
 				OBJ_75 /* Protocols */,
 			);
 			name = nlp;
-			path = ".build/checkouts/nlp.git-6489977984236536171/Sources/nlp";
+			path = ".build/checkouts/nlp.git-4234980559282173670/Sources/nlp";
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_7 /* Sources */ = {
@@ -379,10 +379,10 @@
 		OBJ_82 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ObjectMapper::ObjectMapper::Product /* ObjectMapper.framework */,
 				Keyboard::Keyboard::Product /* Keyboard.framework */,
-				Dependencies::Dependencies::Product /* Dependencies.framework */,
 				nlp::nlp::Product /* nlp.framework */,
+				ObjectMapper::ObjectMapper::Product /* ObjectMapper.framework */,
+				Dependencies::Dependencies::Product /* Dependencies.framework */,
 			);
 			name = Products;
 			path = "";
