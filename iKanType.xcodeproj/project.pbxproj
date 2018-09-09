@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,9 +25,19 @@
 		597A23872144DF5A0081C8E1 /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597A23862144DF590081C8E1 /* Keyboard.storyboard */; };
 		597A23882144DFE40081C8E1 /* kn.json in Resources */ = {isa = PBXBuildFile; fileRef = 597A23682144DDE40081C8E1 /* kn.json */; };
 		597A23892144DFE90081C8E1 /* NGramModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 597A23692144DDE40081C8E1 /* NGramModel.xcdatamodeld */; };
-		597A238A2144DFED0081C8E1 /* NGramModel.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 597A236E2144DDE40081C8E1 /* NGramModel.sqlite */; };
 		597A238B2144DFF60081C8E1 /* default.theme in Resources */ = {isa = PBXBuildFile; fileRef = 597A236C2144DDE40081C8E1 /* default.theme */; };
 		597A238C2144DFF90081C8E1 /* dark.theme in Resources */ = {isa = PBXBuildFile; fileRef = 597A236D2144DDE40081C8E1 /* dark.theme */; };
+		597A238D2144E1AC0081C8E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 597A23272144DD370081C8E1 /* Assets.xcassets */; };
+		597A23A02144E4170081C8E1 /* Keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597A23612144DDC40081C8E1 /* Keyboard.framework */; };
+		597A23A12144E4580081C8E1 /* Keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597A23612144DDC40081C8E1 /* Keyboard.framework */; };
+		597A23A22144E4580081C8E1 /* Keyboard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 597A23612144DDC40081C8E1 /* Keyboard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		597A23BE2144E83A0081C8E1 /* nlp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597A23652144DDC40081C8E1 /* nlp.framework */; };
+		597A23BF2144E83E0081C8E1 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597A23632144DDC40081C8E1 /* ObjectMapper.framework */; };
+		597A23C02144E8910081C8E1 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597A23632144DDC40081C8E1 /* ObjectMapper.framework */; };
+		597A23C12144E8910081C8E1 /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 597A23632144DDC40081C8E1 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		597A23C42144E8970081C8E1 /* nlp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597A23652144DDC40081C8E1 /* nlp.framework */; };
+		597A23C52144E8970081C8E1 /* nlp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 597A23652144DDC40081C8E1 /* nlp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		597A23C82144EEF40081C8E1 /* NGramModel.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 597A236E2144DDE40081C8E1 /* NGramModel.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +90,27 @@
 			remoteGlobalIDString = 597A23782144DF390081C8E1;
 			remoteInfo = Kannada;
 		};
+		597A23A32144E4580081C8E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 597A234E2144DDC40081C8E1 /* Dependencies.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "Keyboard::Keyboard";
+			remoteInfo = Keyboard;
+		};
+		597A23C22144E8910081C8E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 597A234E2144DDC40081C8E1 /* Dependencies.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "ObjectMapper::ObjectMapper";
+			remoteInfo = ObjectMapper;
+		};
+		597A23C62144E8970081C8E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 597A234E2144DDC40081C8E1 /* Dependencies.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = "nlp::nlp";
+			remoteInfo = nlp;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -92,6 +123,19 @@
 				597A23802144DF390081C8E1 /* Kannada.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		597A23AD2144E4580081C8E1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				597A23C52144E8970081C8E1 /* nlp.framework in Embed Frameworks */,
+				597A23C12144E8910081C8E1 /* ObjectMapper.framework in Embed Frameworks */,
+				597A23A22144E4580081C8E1 /* Keyboard.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -116,7 +160,7 @@
 		597A236A2144DDE40081C8E1 /* NGramModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NGramModel.xcdatamodel; sourceTree = "<group>"; };
 		597A236C2144DDE40081C8E1 /* default.theme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = default.theme; sourceTree = "<group>"; };
 		597A236D2144DDE40081C8E1 /* dark.theme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dark.theme; sourceTree = "<group>"; };
-		597A236E2144DDE40081C8E1 /* NGramModel.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = NGramModel.sqlite; sourceTree = "<group>"; };
+		597A236E2144DDE40081C8E1 /* NGramModel.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = NGramModel.sqlite; sourceTree = "<group>"; };
 		597A23742144DF1E0081C8E1 /* iKanType.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = iKanType.entitlements; sourceTree = "<group>"; };
 		597A23792144DF390081C8E1 /* Kannada.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Kannada.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		597A237B2144DF390081C8E1 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +174,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				597A23C42144E8970081C8E1 /* nlp.framework in Frameworks */,
+				597A23C02144E8910081C8E1 /* ObjectMapper.framework in Frameworks */,
+				597A23A12144E4580081C8E1 /* Keyboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +198,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				597A23BE2144E83A0081C8E1 /* nlp.framework in Frameworks */,
+				597A23BF2144E83E0081C8E1 /* ObjectMapper.framework in Frameworks */,
+				597A23A02144E4170081C8E1 /* Keyboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +216,7 @@
 				597A233F2144DD380081C8E1 /* iKanTypeUITests */,
 				597A237A2144DF390081C8E1 /* Kannada */,
 				597A231C2144DD370081C8E1 /* Products */,
+				597A238F2144E3B40081C8E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -264,6 +315,13 @@
 			path = Kannada;
 			sourceTree = "<group>";
 		};
+		597A238F2144E3B40081C8E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -275,11 +333,15 @@
 				597A23182144DD370081C8E1 /* Frameworks */,
 				597A23192144DD370081C8E1 /* Resources */,
 				597A23842144DF390081C8E1 /* Embed App Extensions */,
+				597A23AD2144E4580081C8E1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				597A237F2144DF390081C8E1 /* PBXTargetDependency */,
+				597A23A42144E4580081C8E1 /* PBXTargetDependency */,
+				597A23C32144E8910081C8E1 /* PBXTargetDependency */,
+				597A23C72144E8970081C8E1 /* PBXTargetDependency */,
 			);
 			name = iKanType;
 			productName = iKanType;
@@ -351,6 +413,17 @@
 				TargetAttributes = {
 					597A231A2144DD370081C8E1 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+						};
 					};
 					597A23302144DD380081C8E1 = {
 						CreatedOnToolsVersion = 10.0;
@@ -362,11 +435,16 @@
 					};
 					597A23782144DF390081C8E1 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
 			buildConfigurationList = 597A23162144DD360081C8E1 /* Build configuration list for PBXProject "iKanType" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -457,9 +535,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				597A23882144DFE40081C8E1 /* kn.json in Resources */,
-				597A238A2144DFED0081C8E1 /* NGramModel.sqlite in Resources */,
+				597A23C82144EEF40081C8E1 /* NGramModel.sqlite in Resources */,
 				597A23872144DF5A0081C8E1 /* Keyboard.storyboard in Resources */,
 				597A238C2144DFF90081C8E1 /* dark.theme in Resources */,
+				597A238D2144E1AC0081C8E1 /* Assets.xcassets in Resources */,
 				597A238B2144DFF60081C8E1 /* default.theme in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +599,21 @@
 			isa = PBXTargetDependency;
 			target = 597A23782144DF390081C8E1 /* Kannada */;
 			targetProxy = 597A237E2144DF390081C8E1 /* PBXContainerItemProxy */;
+		};
+		597A23A42144E4580081C8E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Keyboard;
+			targetProxy = 597A23A32144E4580081C8E1 /* PBXContainerItemProxy */;
+		};
+		597A23C32144E8910081C8E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjectMapper;
+			targetProxy = 597A23C22144E8910081C8E1 /* PBXContainerItemProxy */;
+		};
+		597A23C72144E8970081C8E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = nlp;
+			targetProxy = 597A23C62144E8970081C8E1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -664,6 +758,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iKanType/iKanType.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XM48Z8F5QX;
 				INFOPLIST_FILE = iKanType/Info.plist;
@@ -683,6 +778,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iKanType/iKanType.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XM48Z8F5QX;
 				INFOPLIST_FILE = iKanType/Info.plist;
@@ -782,6 +878,7 @@
 		597A23822144DF390081C8E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Kannada/Kannada.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XM48Z8F5QX;
 				INFOPLIST_FILE = Kannada/Info.plist;
@@ -801,6 +898,7 @@
 		597A23832144DF390081C8E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Kannada/Kannada.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XM48Z8F5QX;
 				INFOPLIST_FILE = Kannada/Info.plist;
