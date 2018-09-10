@@ -7,6 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59146B0D2145F35B00F01D90 /* Keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59146B042145F35A00F01D90 /* Keyboard.framework */; };
+		59146B142145F35B00F01D90 /* KeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B132145F35B00F01D90 /* KeyboardTests.swift */; };
+		59146B192145F35B00F01D90 /* Keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59146B042145F35A00F01D90 /* Keyboard.framework */; };
+		59146B1A2145F35B00F01D90 /* Keyboard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 59146B042145F35A00F01D90 /* Keyboard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		59146B3F2145F39E00F01D90 /* AJColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B232145F39E00F01D90 /* AJColor.swift */; };
+		59146B402145F39E00F01D90 /* iKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B242145F39E00F01D90 /* iKeyboard.swift */; };
+		59146B412145F39E00F01D90 /* iDiacriticKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B252145F39E00F01D90 /* iDiacriticKeyboard.swift */; };
+		59146B422145F39E00F01D90 /* PredictionTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B262145F39E00F01D90 /* PredictionTheme.swift */; };
+		59146B432145F39E00F01D90 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B272145F39E00F01D90 /* Themes.swift */; };
+		59146B442145F39E00F01D90 /* ButtonTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B282145F39E00F01D90 /* ButtonTheme.swift */; };
+		59146B452145F39E00F01D90 /* ThemeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B292145F39E00F01D90 /* ThemeFactory.swift */; };
+		59146B462145F39E00F01D90 /* AJGradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B2A2145F39E00F01D90 /* AJGradientColor.swift */; };
+		59146B472145F39E00F01D90 /* KeyboardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B2B2145F39E00F01D90 /* KeyboardFactory.swift */; };
+		59146B482145F39E00F01D90 /* KeyAlignmentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B2C2145F39E00F01D90 /* KeyAlignmentType.swift */; };
+		59146B492145F39E00F01D90 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B2D2145F39E00F01D90 /* Theme.swift */; };
+		59146B4A2145F39E00F01D90 /* KeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B2E2145F39E00F01D90 /* KeyModel.swift */; };
+		59146B4B2145F39E00F01D90 /* KeyboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B2F2145F39E00F01D90 /* KeyboardModel.swift */; };
+		59146B4C2145F39E00F01D90 /* KBNumericView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B312145F39E00F01D90 /* KBNumericView.swift */; };
+		59146B4D2145F39E00F01D90 /* KBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B322145F39E00F01D90 /* KBView.swift */; };
+		59146B4E2145F39E00F01D90 /* KBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B332145F39E00F01D90 /* KBButton.swift */; };
+		59146B4F2145F39E00F01D90 /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59146B342145F39E00F01D90 /* Keyboard.storyboard */; };
+		59146B502145F39E00F01D90 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B352145F39E00F01D90 /* ButtonViewController.swift */; };
+		59146B512145F39E00F01D90 /* KBAlphaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B362145F39E00F01D90 /* KBAlphaView.swift */; };
+		59146B522145F39E00F01D90 /* KBCommandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B372145F39E00F01D90 /* KBCommandButton.swift */; };
+		59146B532145F39E00F01D90 /* KBPredictionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B382145F39E00F01D90 /* KBPredictionView.swift */; };
+		59146B542145F39E00F01D90 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B3A2145F39E00F01D90 /* UIViewExtensions.swift */; };
+		59146B552145F39E00F01D90 /* AJColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B3B2145F39E00F01D90 /* AJColorExtensions.swift */; };
+		59146B562145F39E00F01D90 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B3C2145F39E00F01D90 /* UIColorExtensions.swift */; };
+		59146B572145F39E00F01D90 /* KBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B3E2145F39E00F01D90 /* KBViewController.swift */; };
+		59146B5821461BE900F01D90 /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59146B342145F39E00F01D90 /* Keyboard.storyboard */; };
+		59146B5921461C7D00F01D90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 597A23272144DD370081C8E1 /* Assets.xcassets */; };
+		59146B5A21461C8B00F01D90 /* kn.json in Resources */ = {isa = PBXBuildFile; fileRef = 597A23682144DDE40081C8E1 /* kn.json */; };
+		59146B5B21461C8F00F01D90 /* NGramModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 597A23692144DDE40081C8E1 /* NGramModel.xcdatamodeld */; };
+		59146B5C21461C9500F01D90 /* default.theme in Resources */ = {isa = PBXBuildFile; fileRef = 597A236C2144DDE40081C8E1 /* default.theme */; };
+		59146B5D21461C9700F01D90 /* dark.theme in Resources */ = {isa = PBXBuildFile; fileRef = 597A236D2144DDE40081C8E1 /* dark.theme */; };
+		59146B5E21461C9A00F01D90 /* NGramModel.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 597A236E2144DDE40081C8E1 /* NGramModel.sqlite */; };
+		59146B5F21461EDC00F01D90 /* Keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59146B042145F35A00F01D90 /* Keyboard.framework */; };
+		59146B6021461F1A00F01D90 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597A23632144DDC40081C8E1 /* ObjectMapper.framework */; };
+		59146B6121461F1F00F01D90 /* nlp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597A23652144DDC40081C8E1 /* nlp.framework */; };
+		59146B62214625E900F01D90 /* KBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B3E2145F39E00F01D90 /* KBViewController.swift */; };
+		59146B63214625EF00F01D90 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B3A2145F39E00F01D90 /* UIViewExtensions.swift */; };
+		59146B64214625EF00F01D90 /* AJColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B3B2145F39E00F01D90 /* AJColorExtensions.swift */; };
+		59146B65214625EF00F01D90 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B3C2145F39E00F01D90 /* UIColorExtensions.swift */; };
+		59146B66214625F800F01D90 /* AJColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B232145F39E00F01D90 /* AJColor.swift */; };
+		59146B67214625F800F01D90 /* iKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B242145F39E00F01D90 /* iKeyboard.swift */; };
+		59146B68214625F800F01D90 /* iDiacriticKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B252145F39E00F01D90 /* iDiacriticKeyboard.swift */; };
+		59146B69214625F800F01D90 /* PredictionTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B262145F39E00F01D90 /* PredictionTheme.swift */; };
+		59146B6A214625F800F01D90 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B272145F39E00F01D90 /* Themes.swift */; };
+		59146B6B214625F800F01D90 /* ButtonTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B282145F39E00F01D90 /* ButtonTheme.swift */; };
+		59146B6C214625F800F01D90 /* ThemeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B292145F39E00F01D90 /* ThemeFactory.swift */; };
+		59146B6D214625F800F01D90 /* AJGradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B2A2145F39E00F01D90 /* AJGradientColor.swift */; };
+		59146B6E214625F800F01D90 /* KeyboardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B2B2145F39E00F01D90 /* KeyboardFactory.swift */; };
+		59146B6F214625F800F01D90 /* KeyAlignmentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B2C2145F39E00F01D90 /* KeyAlignmentType.swift */; };
+		59146B70214625F800F01D90 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B2D2145F39E00F01D90 /* Theme.swift */; };
+		59146B71214625F800F01D90 /* KeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B2E2145F39E00F01D90 /* KeyModel.swift */; };
+		59146B72214625F800F01D90 /* KeyboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B2F2145F39E00F01D90 /* KeyboardModel.swift */; };
+		59146B732146261100F01D90 /* KBNumericView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B312145F39E00F01D90 /* KBNumericView.swift */; };
+		59146B742146261100F01D90 /* KBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B322145F39E00F01D90 /* KBView.swift */; };
+		59146B752146261100F01D90 /* KBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B332145F39E00F01D90 /* KBButton.swift */; };
+		59146B762146261100F01D90 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B352145F39E00F01D90 /* ButtonViewController.swift */; };
+		59146B772146261100F01D90 /* KBAlphaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B362145F39E00F01D90 /* KBAlphaView.swift */; };
+		59146B782146261100F01D90 /* KBCommandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B372145F39E00F01D90 /* KBCommandButton.swift */; };
+		59146B792146261100F01D90 /* KBPredictionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B382145F39E00F01D90 /* KBPredictionView.swift */; };
+		59146B7B21462AC000F01D90 /* NGramModel.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 59146B7A21462ABF00F01D90 /* NGramModel.sqlite-wal */; };
+		59146B7C21462AC400F01D90 /* NGramModel.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 59146B7A21462ABF00F01D90 /* NGramModel.sqlite-wal */; };
+		59146B7D21462AC500F01D90 /* NGramModel.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 59146B7A21462ABF00F01D90 /* NGramModel.sqlite-wal */; };
 		597A231F2144DD370081C8E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A231E2144DD370081C8E1 /* AppDelegate.swift */; };
 		597A23212144DD370081C8E1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A23202144DD370081C8E1 /* FirstViewController.swift */; };
 		597A23232144DD370081C8E1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A23222144DD370081C8E1 /* SecondViewController.swift */; };
@@ -22,15 +88,11 @@
 		597A23732144DDE40081C8E1 /* NGramModel.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 597A236E2144DDE40081C8E1 /* NGramModel.sqlite */; };
 		597A237C2144DF390081C8E1 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A237B2144DF390081C8E1 /* KeyboardViewController.swift */; };
 		597A23802144DF390081C8E1 /* Kannada.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 597A23792144DF390081C8E1 /* Kannada.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		597A23872144DF5A0081C8E1 /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597A23862144DF590081C8E1 /* Keyboard.storyboard */; };
 		597A23882144DFE40081C8E1 /* kn.json in Resources */ = {isa = PBXBuildFile; fileRef = 597A23682144DDE40081C8E1 /* kn.json */; };
 		597A23892144DFE90081C8E1 /* NGramModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 597A23692144DDE40081C8E1 /* NGramModel.xcdatamodeld */; };
 		597A238B2144DFF60081C8E1 /* default.theme in Resources */ = {isa = PBXBuildFile; fileRef = 597A236C2144DDE40081C8E1 /* default.theme */; };
 		597A238C2144DFF90081C8E1 /* dark.theme in Resources */ = {isa = PBXBuildFile; fileRef = 597A236D2144DDE40081C8E1 /* dark.theme */; };
 		597A238D2144E1AC0081C8E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 597A23272144DD370081C8E1 /* Assets.xcassets */; };
-		597A23A02144E4170081C8E1 /* Keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597A23612144DDC40081C8E1 /* Keyboard.framework */; };
-		597A23A12144E4580081C8E1 /* Keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597A23612144DDC40081C8E1 /* Keyboard.framework */; };
-		597A23A22144E4580081C8E1 /* Keyboard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 597A23612144DDC40081C8E1 /* Keyboard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		597A23BE2144E83A0081C8E1 /* nlp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597A23652144DDC40081C8E1 /* nlp.framework */; };
 		597A23BF2144E83E0081C8E1 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597A23632144DDC40081C8E1 /* ObjectMapper.framework */; };
 		597A23C02144E8910081C8E1 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597A23632144DDC40081C8E1 /* ObjectMapper.framework */; };
@@ -38,9 +100,33 @@
 		597A23C42144E8970081C8E1 /* nlp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597A23652144DDC40081C8E1 /* nlp.framework */; };
 		597A23C52144E8970081C8E1 /* nlp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 597A23652144DDC40081C8E1 /* nlp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		597A23C82144EEF40081C8E1 /* NGramModel.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 597A236E2144DDE40081C8E1 /* NGramModel.sqlite */; };
+		59932287214632770019C5FC /* NGramModel.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 59932282214632770019C5FC /* NGramModel.sqlite-shm */; };
+		599322882146327D0019C5FC /* NGramModel.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 59932282214632770019C5FC /* NGramModel.sqlite-shm */; };
+		599322892146327D0019C5FC /* NGramModel.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 59932282214632770019C5FC /* NGramModel.sqlite-shm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		59146B0E2145F35B00F01D90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 597A23132144DD360081C8E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59146B032145F35A00F01D90;
+			remoteInfo = Keyboard;
+		};
+		59146B102145F35B00F01D90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 597A23132144DD360081C8E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 597A231A2144DD370081C8E1;
+			remoteInfo = iKanType;
+		};
+		59146B172145F35B00F01D90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 597A23132144DD360081C8E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59146B032145F35A00F01D90;
+			remoteInfo = Keyboard;
+		};
 		597A23322144DD380081C8E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 597A23132144DD360081C8E1 /* Project object */;
@@ -62,13 +148,6 @@
 			remoteGlobalIDString = "Dependencies::Dependencies::Product";
 			remoteInfo = Dependencies;
 		};
-		597A23602144DDC40081C8E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 597A234E2144DDC40081C8E1 /* Dependencies.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = "Keyboard::Keyboard::Product";
-			remoteInfo = Keyboard;
-		};
 		597A23622144DDC40081C8E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 597A234E2144DDC40081C8E1 /* Dependencies.xcodeproj */;
@@ -89,13 +168,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 597A23782144DF390081C8E1;
 			remoteInfo = Kannada;
-		};
-		597A23A32144E4580081C8E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 597A234E2144DDC40081C8E1 /* Dependencies.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = "Keyboard::Keyboard";
-			remoteInfo = Keyboard;
 		};
 		597A23C22144E8910081C8E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -133,7 +205,7 @@
 			files = (
 				597A23C52144E8970081C8E1 /* nlp.framework in Embed Frameworks */,
 				597A23C12144E8910081C8E1 /* ObjectMapper.framework in Embed Frameworks */,
-				597A23A22144E4580081C8E1 /* Keyboard.framework in Embed Frameworks */,
+				59146B1A2145F35B00F01D90 /* Keyboard.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +213,37 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		59146B042145F35A00F01D90 /* Keyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Keyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59146B072145F35A00F01D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59146B0C2145F35B00F01D90 /* KeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59146B132145F35B00F01D90 /* KeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardTests.swift; sourceTree = "<group>"; };
+		59146B152145F35B00F01D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59146B232145F39E00F01D90 /* AJColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJColor.swift; sourceTree = "<group>"; };
+		59146B242145F39E00F01D90 /* iKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iKeyboard.swift; sourceTree = "<group>"; };
+		59146B252145F39E00F01D90 /* iDiacriticKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iDiacriticKeyboard.swift; sourceTree = "<group>"; };
+		59146B262145F39E00F01D90 /* PredictionTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PredictionTheme.swift; sourceTree = "<group>"; };
+		59146B272145F39E00F01D90 /* Themes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
+		59146B282145F39E00F01D90 /* ButtonTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTheme.swift; sourceTree = "<group>"; };
+		59146B292145F39E00F01D90 /* ThemeFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeFactory.swift; sourceTree = "<group>"; };
+		59146B2A2145F39E00F01D90 /* AJGradientColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJGradientColor.swift; sourceTree = "<group>"; };
+		59146B2B2145F39E00F01D90 /* KeyboardFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardFactory.swift; sourceTree = "<group>"; };
+		59146B2C2145F39E00F01D90 /* KeyAlignmentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyAlignmentType.swift; sourceTree = "<group>"; };
+		59146B2D2145F39E00F01D90 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		59146B2E2145F39E00F01D90 /* KeyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyModel.swift; sourceTree = "<group>"; };
+		59146B2F2145F39E00F01D90 /* KeyboardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardModel.swift; sourceTree = "<group>"; };
+		59146B312145F39E00F01D90 /* KBNumericView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KBNumericView.swift; sourceTree = "<group>"; };
+		59146B322145F39E00F01D90 /* KBView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KBView.swift; sourceTree = "<group>"; };
+		59146B332145F39E00F01D90 /* KBButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KBButton.swift; sourceTree = "<group>"; };
+		59146B342145F39E00F01D90 /* Keyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Keyboard.storyboard; sourceTree = "<group>"; };
+		59146B352145F39E00F01D90 /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		59146B362145F39E00F01D90 /* KBAlphaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KBAlphaView.swift; sourceTree = "<group>"; };
+		59146B372145F39E00F01D90 /* KBCommandButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KBCommandButton.swift; sourceTree = "<group>"; };
+		59146B382145F39E00F01D90 /* KBPredictionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KBPredictionView.swift; sourceTree = "<group>"; };
+		59146B3A2145F39E00F01D90 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		59146B3B2145F39E00F01D90 /* AJColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJColorExtensions.swift; sourceTree = "<group>"; };
+		59146B3C2145F39E00F01D90 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		59146B3E2145F39E00F01D90 /* KBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KBViewController.swift; sourceTree = "<group>"; };
+		59146B7A21462ABF00F01D90 /* NGramModel.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NGramModel.sqlite-wal"; sourceTree = "<group>"; };
 		597A231B2144DD370081C8E1 /* iKanType.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKanType.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		597A231E2144DD370081C8E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		597A23202144DD370081C8E1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -166,17 +269,34 @@
 		597A237B2144DF390081C8E1 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		597A237D2144DF390081C8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		597A23852144DF590081C8E1 /* Kannada.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Kannada.entitlements; sourceTree = "<group>"; };
-		597A23862144DF590081C8E1 /* Keyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Keyboard.storyboard; sourceTree = "<group>"; };
+		59932282214632770019C5FC /* NGramModel.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NGramModel.sqlite-shm"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		59146B012145F35A00F01D90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59146B6121461F1F00F01D90 /* nlp.framework in Frameworks */,
+				59146B6021461F1A00F01D90 /* ObjectMapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59146B092145F35B00F01D90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59146B0D2145F35B00F01D90 /* Keyboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		597A23182144DD370081C8E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				597A23C42144E8970081C8E1 /* nlp.framework in Frameworks */,
 				597A23C02144E8910081C8E1 /* ObjectMapper.framework in Frameworks */,
-				597A23A12144E4580081C8E1 /* Keyboard.framework in Frameworks */,
+				59146B192145F35B00F01D90 /* Keyboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,15 +318,89 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59146B5F21461EDC00F01D90 /* Keyboard.framework in Frameworks */,
 				597A23BE2144E83A0081C8E1 /* nlp.framework in Frameworks */,
 				597A23BF2144E83E0081C8E1 /* ObjectMapper.framework in Frameworks */,
-				597A23A02144E4170081C8E1 /* Keyboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59146B052145F35A00F01D90 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				59146B3D2145F39E00F01D90 /* Controller */,
+				59146B392145F39E00F01D90 /* Extensions */,
+				59146B222145F39E00F01D90 /* Model */,
+				59146B302145F39E00F01D90 /* View */,
+				59146B072145F35A00F01D90 /* Info.plist */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		59146B122145F35B00F01D90 /* KeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				59146B132145F35B00F01D90 /* KeyboardTests.swift */,
+				59146B152145F35B00F01D90 /* Info.plist */,
+			);
+			path = KeyboardTests;
+			sourceTree = "<group>";
+		};
+		59146B222145F39E00F01D90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				59146B232145F39E00F01D90 /* AJColor.swift */,
+				59146B242145F39E00F01D90 /* iKeyboard.swift */,
+				59146B252145F39E00F01D90 /* iDiacriticKeyboard.swift */,
+				59146B262145F39E00F01D90 /* PredictionTheme.swift */,
+				59146B272145F39E00F01D90 /* Themes.swift */,
+				59146B282145F39E00F01D90 /* ButtonTheme.swift */,
+				59146B292145F39E00F01D90 /* ThemeFactory.swift */,
+				59146B2A2145F39E00F01D90 /* AJGradientColor.swift */,
+				59146B2B2145F39E00F01D90 /* KeyboardFactory.swift */,
+				59146B2C2145F39E00F01D90 /* KeyAlignmentType.swift */,
+				59146B2D2145F39E00F01D90 /* Theme.swift */,
+				59146B2E2145F39E00F01D90 /* KeyModel.swift */,
+				59146B2F2145F39E00F01D90 /* KeyboardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		59146B302145F39E00F01D90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59146B312145F39E00F01D90 /* KBNumericView.swift */,
+				59146B322145F39E00F01D90 /* KBView.swift */,
+				59146B332145F39E00F01D90 /* KBButton.swift */,
+				59146B342145F39E00F01D90 /* Keyboard.storyboard */,
+				59146B352145F39E00F01D90 /* ButtonViewController.swift */,
+				59146B362145F39E00F01D90 /* KBAlphaView.swift */,
+				59146B372145F39E00F01D90 /* KBCommandButton.swift */,
+				59146B382145F39E00F01D90 /* KBPredictionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59146B392145F39E00F01D90 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				59146B3A2145F39E00F01D90 /* UIViewExtensions.swift */,
+				59146B3B2145F39E00F01D90 /* AJColorExtensions.swift */,
+				59146B3C2145F39E00F01D90 /* UIColorExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		59146B3D2145F39E00F01D90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				59146B3E2145F39E00F01D90 /* KBViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		597A23122144DD360081C8E1 = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +409,8 @@
 				597A23342144DD380081C8E1 /* iKanTypeTests */,
 				597A233F2144DD380081C8E1 /* iKanTypeUITests */,
 				597A237A2144DF390081C8E1 /* Kannada */,
+				59146B052145F35A00F01D90 /* Keyboard */,
+				59146B122145F35B00F01D90 /* KeyboardTests */,
 				597A231C2144DD370081C8E1 /* Products */,
 				597A238F2144E3B40081C8E1 /* Frameworks */,
 			);
@@ -227,6 +423,8 @@
 				597A23312144DD380081C8E1 /* iKanTypeTests.xctest */,
 				597A233C2144DD380081C8E1 /* iKanTypeUITests.xctest */,
 				597A23792144DF390081C8E1 /* Kannada.appex */,
+				59146B042145F35A00F01D90 /* Keyboard.framework */,
+				59146B0C2145F35B00F01D90 /* KeyboardTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,7 +467,6 @@
 			isa = PBXGroup;
 			children = (
 				597A235F2144DDC40081C8E1 /* Dependencies.framework */,
-				597A23612144DDC40081C8E1 /* Keyboard.framework */,
 				597A23632144DDC40081C8E1 /* ObjectMapper.framework */,
 				597A23652144DDC40081C8E1 /* nlp.framework */,
 			);
@@ -279,6 +476,8 @@
 		597A23662144DDE40081C8E1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				59932282214632770019C5FC /* NGramModel.sqlite-shm */,
+				59146B7A21462ABF00F01D90 /* NGramModel.sqlite-wal */,
 				597A23672144DDE40081C8E1 /* Keyboards */,
 				597A23692144DDE40081C8E1 /* NGramModel.xcdatamodeld */,
 				597A236B2144DDE40081C8E1 /* Themes */,
@@ -308,7 +507,6 @@
 			isa = PBXGroup;
 			children = (
 				597A23852144DF590081C8E1 /* Kannada.entitlements */,
-				597A23862144DF590081C8E1 /* Keyboard.storyboard */,
 				597A237B2144DF390081C8E1 /* KeyboardViewController.swift */,
 				597A237D2144DF390081C8E1 /* Info.plist */,
 			);
@@ -324,7 +522,54 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		59146AFF2145F35A00F01D90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		59146B032145F35A00F01D90 /* Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59146B1B2145F35B00F01D90 /* Build configuration list for PBXNativeTarget "Keyboard" */;
+			buildPhases = (
+				59146AFF2145F35A00F01D90 /* Headers */,
+				59146B002145F35A00F01D90 /* Sources */,
+				59146B012145F35A00F01D90 /* Frameworks */,
+				59146B022145F35A00F01D90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keyboard;
+			productName = Keyboard;
+			productReference = 59146B042145F35A00F01D90 /* Keyboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		59146B0B2145F35B00F01D90 /* KeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59146B1E2145F35B00F01D90 /* Build configuration list for PBXNativeTarget "KeyboardTests" */;
+			buildPhases = (
+				59146B082145F35B00F01D90 /* Sources */,
+				59146B092145F35B00F01D90 /* Frameworks */,
+				59146B0A2145F35B00F01D90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59146B0F2145F35B00F01D90 /* PBXTargetDependency */,
+				59146B112145F35B00F01D90 /* PBXTargetDependency */,
+			);
+			name = KeyboardTests;
+			productName = KeyboardTests;
+			productReference = 59146B0C2145F35B00F01D90 /* KeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		597A231A2144DD370081C8E1 /* iKanType */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 597A23452144DD380081C8E1 /* Build configuration list for PBXNativeTarget "iKanType" */;
@@ -339,9 +584,9 @@
 			);
 			dependencies = (
 				597A237F2144DF390081C8E1 /* PBXTargetDependency */,
-				597A23A42144E4580081C8E1 /* PBXTargetDependency */,
 				597A23C32144E8910081C8E1 /* PBXTargetDependency */,
 				597A23C72144E8970081C8E1 /* PBXTargetDependency */,
+				59146B182145F35B00F01D90 /* PBXTargetDependency */,
 			);
 			name = iKanType;
 			productName = iKanType;
@@ -411,6 +656,13 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "ಅಜೇಯ ಜಯರಾಂ";
 				TargetAttributes = {
+					59146B032145F35A00F01D90 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					59146B0B2145F35B00F01D90 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 597A231A2144DD370081C8E1;
+					};
 					597A231A2144DD370081C8E1 = {
 						CreatedOnToolsVersion = 10.0;
 						SystemCapabilities = {
@@ -466,6 +718,8 @@
 				597A23302144DD380081C8E1 /* iKanTypeTests */,
 				597A233B2144DD380081C8E1 /* iKanTypeUITests */,
 				597A23782144DF390081C8E1 /* Kannada */,
+				59146B032145F35A00F01D90 /* Keyboard */,
+				59146B0B2145F35B00F01D90 /* KeyboardTests */,
 			);
 		};
 /* End PBXProject section */
@@ -476,13 +730,6 @@
 			fileType = wrapper.framework;
 			path = Dependencies.framework;
 			remoteRef = 597A235E2144DDC40081C8E1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		597A23612144DDC40081C8E1 /* Keyboard.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Keyboard.framework;
-			remoteRef = 597A23602144DDC40081C8E1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		597A23632144DDC40081C8E1 /* ObjectMapper.framework */ = {
@@ -502,6 +749,28 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		59146B022145F35A00F01D90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599322892146327D0019C5FC /* NGramModel.sqlite-shm in Resources */,
+				59146B5A21461C8B00F01D90 /* kn.json in Resources */,
+				59146B5E21461C9A00F01D90 /* NGramModel.sqlite in Resources */,
+				59146B5921461C7D00F01D90 /* Assets.xcassets in Resources */,
+				59146B4F2145F39E00F01D90 /* Keyboard.storyboard in Resources */,
+				59146B5D21461C9700F01D90 /* dark.theme in Resources */,
+				59146B7D21462AC500F01D90 /* NGramModel.sqlite-wal in Resources */,
+				59146B5C21461C9500F01D90 /* default.theme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59146B0A2145F35B00F01D90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		597A23192144DD370081C8E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -510,7 +779,9 @@
 				597A232B2144DD370081C8E1 /* LaunchScreen.storyboard in Resources */,
 				597A23282144DD370081C8E1 /* Assets.xcassets in Resources */,
 				597A23712144DDE40081C8E1 /* default.theme in Resources */,
+				59146B7B21462AC000F01D90 /* NGramModel.sqlite-wal in Resources */,
 				597A23732144DDE40081C8E1 /* NGramModel.sqlite in Resources */,
+				59932287214632770019C5FC /* NGramModel.sqlite-shm in Resources */,
 				597A23262144DD370081C8E1 /* Main.storyboard in Resources */,
 				597A23722144DDE40081C8E1 /* dark.theme in Resources */,
 			);
@@ -534,11 +805,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				599322882146327D0019C5FC /* NGramModel.sqlite-shm in Resources */,
 				597A23882144DFE40081C8E1 /* kn.json in Resources */,
+				59146B5821461BE900F01D90 /* Keyboard.storyboard in Resources */,
 				597A23C82144EEF40081C8E1 /* NGramModel.sqlite in Resources */,
-				597A23872144DF5A0081C8E1 /* Keyboard.storyboard in Resources */,
 				597A238C2144DFF90081C8E1 /* dark.theme in Resources */,
 				597A238D2144E1AC0081C8E1 /* Assets.xcassets in Resources */,
+				59146B7C21462AC400F01D90 /* NGramModel.sqlite-wal in Resources */,
 				597A238B2144DFF60081C8E1 /* default.theme in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -546,6 +819,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		59146B002145F35A00F01D90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59146B472145F39E00F01D90 /* KeyboardFactory.swift in Sources */,
+				59146B542145F39E00F01D90 /* UIViewExtensions.swift in Sources */,
+				59146B462145F39E00F01D90 /* AJGradientColor.swift in Sources */,
+				59146B4E2145F39E00F01D90 /* KBButton.swift in Sources */,
+				59146B4B2145F39E00F01D90 /* KeyboardModel.swift in Sources */,
+				59146B422145F39E00F01D90 /* PredictionTheme.swift in Sources */,
+				59146B4D2145F39E00F01D90 /* KBView.swift in Sources */,
+				59146B4A2145F39E00F01D90 /* KeyModel.swift in Sources */,
+				59146B402145F39E00F01D90 /* iKeyboard.swift in Sources */,
+				59146B492145F39E00F01D90 /* Theme.swift in Sources */,
+				59146B522145F39E00F01D90 /* KBCommandButton.swift in Sources */,
+				59146B502145F39E00F01D90 /* ButtonViewController.swift in Sources */,
+				59146B412145F39E00F01D90 /* iDiacriticKeyboard.swift in Sources */,
+				59146B572145F39E00F01D90 /* KBViewController.swift in Sources */,
+				59146B432145F39E00F01D90 /* Themes.swift in Sources */,
+				59146B4C2145F39E00F01D90 /* KBNumericView.swift in Sources */,
+				59146B562145F39E00F01D90 /* UIColorExtensions.swift in Sources */,
+				59146B5B21461C8F00F01D90 /* NGramModel.xcdatamodeld in Sources */,
+				59146B532145F39E00F01D90 /* KBPredictionView.swift in Sources */,
+				59146B3F2145F39E00F01D90 /* AJColor.swift in Sources */,
+				59146B512145F39E00F01D90 /* KBAlphaView.swift in Sources */,
+				59146B552145F39E00F01D90 /* AJColorExtensions.swift in Sources */,
+				59146B482145F39E00F01D90 /* KeyAlignmentType.swift in Sources */,
+				59146B452145F39E00F01D90 /* ThemeFactory.swift in Sources */,
+				59146B442145F39E00F01D90 /* ButtonTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59146B082145F35B00F01D90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59146B142145F35B00F01D90 /* KeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		597A23172144DD370081C8E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -577,14 +890,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59146B752146261100F01D90 /* KBButton.swift in Sources */,
+				59146B6D214625F800F01D90 /* AJGradientColor.swift in Sources */,
+				59146B772146261100F01D90 /* KBAlphaView.swift in Sources */,
+				59146B64214625EF00F01D90 /* AJColorExtensions.swift in Sources */,
+				59146B6C214625F800F01D90 /* ThemeFactory.swift in Sources */,
+				59146B762146261100F01D90 /* ButtonViewController.swift in Sources */,
+				59146B792146261100F01D90 /* KBPredictionView.swift in Sources */,
 				597A237C2144DF390081C8E1 /* KeyboardViewController.swift in Sources */,
+				59146B62214625E900F01D90 /* KBViewController.swift in Sources */,
+				59146B65214625EF00F01D90 /* UIColorExtensions.swift in Sources */,
+				59146B6E214625F800F01D90 /* KeyboardFactory.swift in Sources */,
+				59146B67214625F800F01D90 /* iKeyboard.swift in Sources */,
+				59146B6A214625F800F01D90 /* Themes.swift in Sources */,
+				59146B63214625EF00F01D90 /* UIViewExtensions.swift in Sources */,
+				59146B69214625F800F01D90 /* PredictionTheme.swift in Sources */,
+				59146B6F214625F800F01D90 /* KeyAlignmentType.swift in Sources */,
 				597A23892144DFE90081C8E1 /* NGramModel.xcdatamodeld in Sources */,
+				59146B732146261100F01D90 /* KBNumericView.swift in Sources */,
+				59146B68214625F800F01D90 /* iDiacriticKeyboard.swift in Sources */,
+				59146B66214625F800F01D90 /* AJColor.swift in Sources */,
+				59146B742146261100F01D90 /* KBView.swift in Sources */,
+				59146B782146261100F01D90 /* KBCommandButton.swift in Sources */,
+				59146B72214625F800F01D90 /* KeyboardModel.swift in Sources */,
+				59146B71214625F800F01D90 /* KeyModel.swift in Sources */,
+				59146B6B214625F800F01D90 /* ButtonTheme.swift in Sources */,
+				59146B70214625F800F01D90 /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		59146B0F2145F35B00F01D90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59146B032145F35A00F01D90 /* Keyboard */;
+			targetProxy = 59146B0E2145F35B00F01D90 /* PBXContainerItemProxy */;
+		};
+		59146B112145F35B00F01D90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 597A231A2144DD370081C8E1 /* iKanType */;
+			targetProxy = 59146B102145F35B00F01D90 /* PBXContainerItemProxy */;
+		};
+		59146B182145F35B00F01D90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59146B032145F35A00F01D90 /* Keyboard */;
+			targetProxy = 59146B172145F35B00F01D90 /* PBXContainerItemProxy */;
+		};
 		597A23332144DD380081C8E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 597A231A2144DD370081C8E1 /* iKanType */;
@@ -599,11 +951,6 @@
 			isa = PBXTargetDependency;
 			target = 597A23782144DF390081C8E1 /* Kannada */;
 			targetProxy = 597A237E2144DF390081C8E1 /* PBXContainerItemProxy */;
-		};
-		597A23A42144E4580081C8E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Keyboard;
-			targetProxy = 597A23A32144E4580081C8E1 /* PBXContainerItemProxy */;
 		};
 		597A23C32144E8910081C8E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -637,6 +984,104 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		59146B1C2145F35B00F01D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = XM48Z8F5QX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ajeyatj.blogspot.com.Keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59146B1D2145F35B00F01D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = XM48Z8F5QX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ajeyatj.blogspot.com.Keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59146B1F2145F35B00F01D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XM48Z8F5QX;
+				INFOPLIST_FILE = KeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ajeyatj.blogspot.com.KeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iKanType.app/iKanType";
+			};
+			name = Debug;
+		};
+		59146B202145F35B00F01D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XM48Z8F5QX;
+				INFOPLIST_FILE = KeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ajeyatj.blogspot.com.KeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iKanType.app/iKanType";
+			};
+			name = Release;
+		};
 		597A23432144DD380081C8E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -918,6 +1363,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		59146B1B2145F35B00F01D90 /* Build configuration list for PBXNativeTarget "Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59146B1C2145F35B00F01D90 /* Debug */,
+				59146B1D2145F35B00F01D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59146B1E2145F35B00F01D90 /* Build configuration list for PBXNativeTarget "KeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59146B1F2145F35B00F01D90 /* Debug */,
+				59146B202145F35B00F01D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		597A23162144DD360081C8E1 /* Build configuration list for PBXProject "iKanType" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

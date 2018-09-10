@@ -7,166 +7,104 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		OBJ_108 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_113 /* KBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* KBViewController.swift */; };
-		OBJ_114 /* AJColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* AJColorExtensions.swift */; };
-		OBJ_115 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* UIColorExtensions.swift */; };
-		OBJ_116 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* UIViewExtensions.swift */; };
-		OBJ_117 /* AJColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* AJColor.swift */; };
-		OBJ_118 /* AJGradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* AJGradientColor.swift */; };
-		OBJ_119 /* ButtonTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* ButtonTheme.swift */; };
-		OBJ_120 /* KeyAlignmentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* KeyAlignmentType.swift */; };
-		OBJ_121 /* KeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* KeyModel.swift */; };
-		OBJ_122 /* KeyboardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* KeyboardFactory.swift */; };
-		OBJ_123 /* KeyboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* KeyboardModel.swift */; };
-		OBJ_124 /* PredictionTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* PredictionTheme.swift */; };
-		OBJ_125 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Theme.swift */; };
-		OBJ_126 /* ThemeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* ThemeFactory.swift */; };
-		OBJ_127 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Themes.swift */; };
-		OBJ_128 /* iDiacriticKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* iDiacriticKeyboard.swift */; };
-		OBJ_129 /* iKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* iKeyboard.swift */; };
-		OBJ_130 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* ButtonViewController.swift */; };
-		OBJ_131 /* KBAlphaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* KBAlphaView.swift */; };
-		OBJ_132 /* KBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* KBButton.swift */; };
-		OBJ_133 /* KBCommandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* KBCommandButton.swift */; };
-		OBJ_134 /* KBNumericView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* KBNumericView.swift */; };
-		OBJ_135 /* KBPredictionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* KBPredictionView.swift */; };
-		OBJ_136 /* KBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* KBView.swift */; };
-		OBJ_138 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ObjectMapper::ObjectMapper::Product /* ObjectMapper.framework */; };
-		OBJ_139 /* nlp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = nlp::nlp::Product /* nlp.framework */; };
-		OBJ_147 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* Package.swift */; };
-		OBJ_152 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* CustomDateFormatTransform.swift */; };
-		OBJ_153 /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* DataTransform.swift */; };
-		OBJ_154 /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* DateFormatterTransform.swift */; };
-		OBJ_155 /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* DateTransform.swift */; };
-		OBJ_156 /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* DictionaryTransform.swift */; };
-		OBJ_157 /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* EnumOperators.swift */; };
-		OBJ_158 /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* EnumTransform.swift */; };
-		OBJ_159 /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* FromJSON.swift */; };
-		OBJ_160 /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* HexColorTransform.swift */; };
-		OBJ_161 /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* ISO8601DateTransform.swift */; };
-		OBJ_162 /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* ImmutableMappable.swift */; };
-		OBJ_163 /* IntegerOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* IntegerOperators.swift */; };
-		OBJ_164 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* Map.swift */; };
-		OBJ_165 /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* MapError.swift */; };
-		OBJ_166 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* Mappable.swift */; };
-		OBJ_167 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* Mapper.swift */; };
-		OBJ_168 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* NSDecimalNumberTransform.swift */; };
-		OBJ_169 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* Operators.swift */; };
-		OBJ_170 /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* ToJSON.swift */; };
-		OBJ_171 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* TransformOf.swift */; };
-		OBJ_172 /* TransformOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* TransformOperators.swift */; };
-		OBJ_173 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* TransformType.swift */; };
-		OBJ_174 /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* URLTransform.swift */; };
-		OBJ_181 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Package.swift */; };
-		OBJ_186 /* KannadaSentenceParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* KannadaSentenceParser.swift */; };
-		OBJ_187 /* KannadaWordExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* KannadaWordExtractor.swift */; };
-		OBJ_188 /* UnigramMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* UnigramMO.swift */; };
-		OBJ_189 /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* Predictor.swift */; };
-		OBJ_190 /* IPredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* IPredictor.swift */; };
-		OBJ_191 /* ISentenceParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* ISentenceParser.swift */; };
-		OBJ_192 /* IStemmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* IStemmer.swift */; };
-		OBJ_193 /* IWordExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* IWordExtractor.swift */; };
-		OBJ_194 /* PredictiveKeyboardDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* PredictiveKeyboardDelegate.swift */; };
-		OBJ_201 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_81 /* Package.swift */; };
-		OBJ_92 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Dependencies.swift */; };
-		OBJ_94 /* Keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = Keyboard::Keyboard::Product /* Keyboard.framework */; };
-		OBJ_95 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ObjectMapper::ObjectMapper::Product /* ObjectMapper.framework */; };
-		OBJ_96 /* nlp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = nlp::nlp::Product /* nlp.framework */; };
+		OBJ_100 /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* URLTransform.swift */; };
+		OBJ_107 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Package.swift */; };
+		OBJ_112 /* KannadaSentenceParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* KannadaSentenceParser.swift */; };
+		OBJ_113 /* KannadaWordExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* KannadaWordExtractor.swift */; };
+		OBJ_114 /* UnigramMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* UnigramMO.swift */; };
+		OBJ_115 /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Predictor.swift */; };
+		OBJ_116 /* IPredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* IPredictor.swift */; };
+		OBJ_117 /* ISentenceParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* ISentenceParser.swift */; };
+		OBJ_118 /* IStemmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* IStemmer.swift */; };
+		OBJ_119 /* IWordExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* IWordExtractor.swift */; };
+		OBJ_120 /* PredictiveKeyboardDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* PredictiveKeyboardDelegate.swift */; };
+		OBJ_127 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* Package.swift */; };
+		OBJ_60 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Dependencies.swift */; };
+		OBJ_62 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ObjectMapper::ObjectMapper::Product /* ObjectMapper.framework */; };
+		OBJ_63 /* nlp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = nlp::nlp::Product /* nlp.framework */; };
+		OBJ_73 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_78 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* CustomDateFormatTransform.swift */; };
+		OBJ_79 /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* DataTransform.swift */; };
+		OBJ_80 /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* DateFormatterTransform.swift */; };
+		OBJ_81 /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* DateTransform.swift */; };
+		OBJ_82 /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* DictionaryTransform.swift */; };
+		OBJ_83 /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* EnumOperators.swift */; };
+		OBJ_84 /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* EnumTransform.swift */; };
+		OBJ_85 /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* FromJSON.swift */; };
+		OBJ_86 /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* HexColorTransform.swift */; };
+		OBJ_87 /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* ISO8601DateTransform.swift */; };
+		OBJ_88 /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* ImmutableMappable.swift */; };
+		OBJ_89 /* IntegerOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* IntegerOperators.swift */; };
+		OBJ_90 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Map.swift */; };
+		OBJ_91 /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* MapError.swift */; };
+		OBJ_92 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Mappable.swift */; };
+		OBJ_93 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Mapper.swift */; };
+		OBJ_94 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* NSDecimalNumberTransform.swift */; };
+		OBJ_95 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Operators.swift */; };
+		OBJ_96 /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* ToJSON.swift */; };
+		OBJ_97 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* TransformOf.swift */; };
+		OBJ_98 /* TransformOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* TransformOperators.swift */; };
+		OBJ_99 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* TransformType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		Dependencies::Dependencies::Product /* Dependencies.framework */ = {isa = PBXFileReference; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		Keyboard::Keyboard::Product /* Keyboard.framework */ = {isa = PBXFileReference; path = Keyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_15 /* KBViewController.swift */ = {isa = PBXFileReference; path = KBViewController.swift; sourceTree = "<group>"; };
-		OBJ_17 /* AJColorExtensions.swift */ = {isa = PBXFileReference; path = AJColorExtensions.swift; sourceTree = "<group>"; };
-		OBJ_18 /* UIColorExtensions.swift */ = {isa = PBXFileReference; path = UIColorExtensions.swift; sourceTree = "<group>"; };
-		OBJ_19 /* UIViewExtensions.swift */ = {isa = PBXFileReference; path = UIViewExtensions.swift; sourceTree = "<group>"; };
-		OBJ_21 /* AJColor.swift */ = {isa = PBXFileReference; path = AJColor.swift; sourceTree = "<group>"; };
-		OBJ_22 /* AJGradientColor.swift */ = {isa = PBXFileReference; path = AJGradientColor.swift; sourceTree = "<group>"; };
-		OBJ_23 /* ButtonTheme.swift */ = {isa = PBXFileReference; path = ButtonTheme.swift; sourceTree = "<group>"; };
-		OBJ_24 /* KeyAlignmentType.swift */ = {isa = PBXFileReference; path = KeyAlignmentType.swift; sourceTree = "<group>"; };
-		OBJ_25 /* KeyModel.swift */ = {isa = PBXFileReference; path = KeyModel.swift; sourceTree = "<group>"; };
-		OBJ_26 /* KeyboardFactory.swift */ = {isa = PBXFileReference; path = KeyboardFactory.swift; sourceTree = "<group>"; };
-		OBJ_27 /* KeyboardModel.swift */ = {isa = PBXFileReference; path = KeyboardModel.swift; sourceTree = "<group>"; };
-		OBJ_28 /* PredictionTheme.swift */ = {isa = PBXFileReference; path = PredictionTheme.swift; sourceTree = "<group>"; };
-		OBJ_29 /* Theme.swift */ = {isa = PBXFileReference; path = Theme.swift; sourceTree = "<group>"; };
-		OBJ_30 /* ThemeFactory.swift */ = {isa = PBXFileReference; path = ThemeFactory.swift; sourceTree = "<group>"; };
-		OBJ_31 /* Themes.swift */ = {isa = PBXFileReference; path = Themes.swift; sourceTree = "<group>"; };
-		OBJ_32 /* iDiacriticKeyboard.swift */ = {isa = PBXFileReference; path = iDiacriticKeyboard.swift; sourceTree = "<group>"; };
-		OBJ_33 /* iKeyboard.swift */ = {isa = PBXFileReference; path = iKeyboard.swift; sourceTree = "<group>"; };
-		OBJ_35 /* ButtonViewController.swift */ = {isa = PBXFileReference; path = ButtonViewController.swift; sourceTree = "<group>"; };
-		OBJ_36 /* KBAlphaView.swift */ = {isa = PBXFileReference; path = KBAlphaView.swift; sourceTree = "<group>"; };
-		OBJ_37 /* KBButton.swift */ = {isa = PBXFileReference; path = KBButton.swift; sourceTree = "<group>"; };
-		OBJ_38 /* KBCommandButton.swift */ = {isa = PBXFileReference; path = KBCommandButton.swift; sourceTree = "<group>"; };
-		OBJ_39 /* KBNumericView.swift */ = {isa = PBXFileReference; path = KBNumericView.swift; sourceTree = "<group>"; };
-		OBJ_40 /* KBPredictionView.swift */ = {isa = PBXFileReference; path = KBPredictionView.swift; sourceTree = "<group>"; };
-		OBJ_41 /* KBView.swift */ = {isa = PBXFileReference; path = KBView.swift; sourceTree = "<group>"; };
-		OBJ_42 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/ajeyatj/Documents/iKanType/Dependencies/.build/checkouts/Keyboard.git--2806166683179931253/Package.swift"; sourceTree = "<group>"; };
-		OBJ_44 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/ajeyatj/Documents/iKanType/Dependencies/.build/checkouts/ObjectMapper.git-5035995262165061095/Package.swift"; sourceTree = "<group>"; };
-		OBJ_45 /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; path = CustomDateFormatTransform.swift; sourceTree = "<group>"; };
-		OBJ_46 /* DataTransform.swift */ = {isa = PBXFileReference; path = DataTransform.swift; sourceTree = "<group>"; };
-		OBJ_47 /* DateFormatterTransform.swift */ = {isa = PBXFileReference; path = DateFormatterTransform.swift; sourceTree = "<group>"; };
-		OBJ_48 /* DateTransform.swift */ = {isa = PBXFileReference; path = DateTransform.swift; sourceTree = "<group>"; };
-		OBJ_49 /* DictionaryTransform.swift */ = {isa = PBXFileReference; path = DictionaryTransform.swift; sourceTree = "<group>"; };
-		OBJ_50 /* EnumOperators.swift */ = {isa = PBXFileReference; path = EnumOperators.swift; sourceTree = "<group>"; };
-		OBJ_51 /* EnumTransform.swift */ = {isa = PBXFileReference; path = EnumTransform.swift; sourceTree = "<group>"; };
-		OBJ_52 /* FromJSON.swift */ = {isa = PBXFileReference; path = FromJSON.swift; sourceTree = "<group>"; };
-		OBJ_53 /* HexColorTransform.swift */ = {isa = PBXFileReference; path = HexColorTransform.swift; sourceTree = "<group>"; };
-		OBJ_54 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; path = ISO8601DateTransform.swift; sourceTree = "<group>"; };
-		OBJ_55 /* ImmutableMappable.swift */ = {isa = PBXFileReference; path = ImmutableMappable.swift; sourceTree = "<group>"; };
-		OBJ_56 /* IntegerOperators.swift */ = {isa = PBXFileReference; path = IntegerOperators.swift; sourceTree = "<group>"; };
-		OBJ_57 /* Map.swift */ = {isa = PBXFileReference; path = Map.swift; sourceTree = "<group>"; };
-		OBJ_58 /* MapError.swift */ = {isa = PBXFileReference; path = MapError.swift; sourceTree = "<group>"; };
-		OBJ_59 /* Mappable.swift */ = {isa = PBXFileReference; path = Mappable.swift; sourceTree = "<group>"; };
+		OBJ_13 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/ajeyatj/Documents/iKanType/Dependencies/.build/checkouts/ObjectMapper.git-8268093107879668280/Package.swift"; sourceTree = "<group>"; };
+		OBJ_14 /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; path = CustomDateFormatTransform.swift; sourceTree = "<group>"; };
+		OBJ_15 /* DataTransform.swift */ = {isa = PBXFileReference; path = DataTransform.swift; sourceTree = "<group>"; };
+		OBJ_16 /* DateFormatterTransform.swift */ = {isa = PBXFileReference; path = DateFormatterTransform.swift; sourceTree = "<group>"; };
+		OBJ_17 /* DateTransform.swift */ = {isa = PBXFileReference; path = DateTransform.swift; sourceTree = "<group>"; };
+		OBJ_18 /* DictionaryTransform.swift */ = {isa = PBXFileReference; path = DictionaryTransform.swift; sourceTree = "<group>"; };
+		OBJ_19 /* EnumOperators.swift */ = {isa = PBXFileReference; path = EnumOperators.swift; sourceTree = "<group>"; };
+		OBJ_20 /* EnumTransform.swift */ = {isa = PBXFileReference; path = EnumTransform.swift; sourceTree = "<group>"; };
+		OBJ_21 /* FromJSON.swift */ = {isa = PBXFileReference; path = FromJSON.swift; sourceTree = "<group>"; };
+		OBJ_22 /* HexColorTransform.swift */ = {isa = PBXFileReference; path = HexColorTransform.swift; sourceTree = "<group>"; };
+		OBJ_23 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; path = ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		OBJ_24 /* ImmutableMappable.swift */ = {isa = PBXFileReference; path = ImmutableMappable.swift; sourceTree = "<group>"; };
+		OBJ_25 /* IntegerOperators.swift */ = {isa = PBXFileReference; path = IntegerOperators.swift; sourceTree = "<group>"; };
+		OBJ_26 /* Map.swift */ = {isa = PBXFileReference; path = Map.swift; sourceTree = "<group>"; };
+		OBJ_27 /* MapError.swift */ = {isa = PBXFileReference; path = MapError.swift; sourceTree = "<group>"; };
+		OBJ_28 /* Mappable.swift */ = {isa = PBXFileReference; path = Mappable.swift; sourceTree = "<group>"; };
+		OBJ_29 /* Mapper.swift */ = {isa = PBXFileReference; path = Mapper.swift; sourceTree = "<group>"; };
+		OBJ_30 /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; path = NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
+		OBJ_31 /* Operators.swift */ = {isa = PBXFileReference; path = Operators.swift; sourceTree = "<group>"; };
+		OBJ_32 /* ToJSON.swift */ = {isa = PBXFileReference; path = ToJSON.swift; sourceTree = "<group>"; };
+		OBJ_33 /* TransformOf.swift */ = {isa = PBXFileReference; path = TransformOf.swift; sourceTree = "<group>"; };
+		OBJ_34 /* TransformOperators.swift */ = {isa = PBXFileReference; path = TransformOperators.swift; sourceTree = "<group>"; };
+		OBJ_35 /* TransformType.swift */ = {isa = PBXFileReference; path = TransformType.swift; sourceTree = "<group>"; };
+		OBJ_36 /* URLTransform.swift */ = {isa = PBXFileReference; path = URLTransform.swift; sourceTree = "<group>"; };
+		OBJ_39 /* KannadaSentenceParser.swift */ = {isa = PBXFileReference; path = KannadaSentenceParser.swift; sourceTree = "<group>"; };
+		OBJ_40 /* KannadaWordExtractor.swift */ = {isa = PBXFileReference; path = KannadaWordExtractor.swift; sourceTree = "<group>"; };
+		OBJ_42 /* UnigramMO.swift */ = {isa = PBXFileReference; path = UnigramMO.swift; sourceTree = "<group>"; };
+		OBJ_43 /* Predictor.swift */ = {isa = PBXFileReference; path = Predictor.swift; sourceTree = "<group>"; };
+		OBJ_45 /* IPredictor.swift */ = {isa = PBXFileReference; path = IPredictor.swift; sourceTree = "<group>"; };
+		OBJ_46 /* ISentenceParser.swift */ = {isa = PBXFileReference; path = ISentenceParser.swift; sourceTree = "<group>"; };
+		OBJ_47 /* IStemmer.swift */ = {isa = PBXFileReference; path = IStemmer.swift; sourceTree = "<group>"; };
+		OBJ_48 /* IWordExtractor.swift */ = {isa = PBXFileReference; path = IWordExtractor.swift; sourceTree = "<group>"; };
+		OBJ_49 /* PredictiveKeyboardDelegate.swift */ = {isa = PBXFileReference; path = PredictiveKeyboardDelegate.swift; sourceTree = "<group>"; };
+		OBJ_50 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/ajeyatj/Documents/iKanType/Dependencies/.build/checkouts/nlp.git-2233001872454134981/Package.swift"; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_60 /* Mapper.swift */ = {isa = PBXFileReference; path = Mapper.swift; sourceTree = "<group>"; };
-		OBJ_61 /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; path = NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
-		OBJ_62 /* Operators.swift */ = {isa = PBXFileReference; path = Operators.swift; sourceTree = "<group>"; };
-		OBJ_63 /* ToJSON.swift */ = {isa = PBXFileReference; path = ToJSON.swift; sourceTree = "<group>"; };
-		OBJ_64 /* TransformOf.swift */ = {isa = PBXFileReference; path = TransformOf.swift; sourceTree = "<group>"; };
-		OBJ_65 /* TransformOperators.swift */ = {isa = PBXFileReference; path = TransformOperators.swift; sourceTree = "<group>"; };
-		OBJ_66 /* TransformType.swift */ = {isa = PBXFileReference; path = TransformType.swift; sourceTree = "<group>"; };
-		OBJ_67 /* URLTransform.swift */ = {isa = PBXFileReference; path = URLTransform.swift; sourceTree = "<group>"; };
-		OBJ_70 /* KannadaSentenceParser.swift */ = {isa = PBXFileReference; path = KannadaSentenceParser.swift; sourceTree = "<group>"; };
-		OBJ_71 /* KannadaWordExtractor.swift */ = {isa = PBXFileReference; path = KannadaWordExtractor.swift; sourceTree = "<group>"; };
-		OBJ_73 /* UnigramMO.swift */ = {isa = PBXFileReference; path = UnigramMO.swift; sourceTree = "<group>"; };
-		OBJ_74 /* Predictor.swift */ = {isa = PBXFileReference; path = Predictor.swift; sourceTree = "<group>"; };
-		OBJ_76 /* IPredictor.swift */ = {isa = PBXFileReference; path = IPredictor.swift; sourceTree = "<group>"; };
-		OBJ_77 /* ISentenceParser.swift */ = {isa = PBXFileReference; path = ISentenceParser.swift; sourceTree = "<group>"; };
-		OBJ_78 /* IStemmer.swift */ = {isa = PBXFileReference; path = IStemmer.swift; sourceTree = "<group>"; };
-		OBJ_79 /* IWordExtractor.swift */ = {isa = PBXFileReference; path = IWordExtractor.swift; sourceTree = "<group>"; };
-		OBJ_80 /* PredictiveKeyboardDelegate.swift */ = {isa = PBXFileReference; path = PredictiveKeyboardDelegate.swift; sourceTree = "<group>"; };
-		OBJ_81 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/ajeyatj/Documents/iKanType/Dependencies/.build/checkouts/nlp.git-2360360469229250649/Package.swift"; sourceTree = "<group>"; };
 		OBJ_9 /* Dependencies.swift */ = {isa = PBXFileReference; path = Dependencies.swift; sourceTree = "<group>"; };
 		ObjectMapper::ObjectMapper::Product /* ObjectMapper.framework */ = {isa = PBXFileReference; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		nlp::nlp::Product /* nlp.framework */ = {isa = PBXFileReference; path = nlp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_137 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			files = (
-				OBJ_138 /* ObjectMapper.framework in Frameworks */,
-				OBJ_139 /* nlp.framework in Frameworks */,
-			);
-		};
-		OBJ_175 /* Frameworks */ = {
+		OBJ_101 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
 			);
 		};
-		OBJ_195 /* Frameworks */ = {
+		OBJ_121 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
 			);
 		};
-		OBJ_93 /* Frameworks */ = {
+		OBJ_61 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
-				OBJ_94 /* Keyboard.framework in Frameworks */,
-				OBJ_95 /* ObjectMapper.framework in Frameworks */,
-				OBJ_96 /* nlp.framework in Frameworks */,
+				OBJ_62 /* ObjectMapper.framework in Frameworks */,
+				OBJ_63 /* nlp.framework in Frameworks */,
 			);
 		};
 /* End PBXFrameworksBuildPhase section */
@@ -183,123 +121,89 @@
 		OBJ_11 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_12 /* Keyboard 0.1.3 */,
-				OBJ_43 /* ObjectMapper 3.3.0 */,
-				OBJ_68 /* nlp 0.1.0 */,
+				OBJ_12 /* ObjectMapper 3.3.0 */,
+				OBJ_37 /* nlp 0.1.0 */,
 			);
 			name = Dependencies;
 			path = "";
 			sourceTree = "<group>";
 		};
-		OBJ_12 /* Keyboard 0.1.3 */ = {
+		OBJ_12 /* ObjectMapper 3.3.0 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_13 /* Keyboard */,
-				OBJ_42 /* Package.swift */,
+				OBJ_13 /* Package.swift */,
+				OBJ_14 /* CustomDateFormatTransform.swift */,
+				OBJ_15 /* DataTransform.swift */,
+				OBJ_16 /* DateFormatterTransform.swift */,
+				OBJ_17 /* DateTransform.swift */,
+				OBJ_18 /* DictionaryTransform.swift */,
+				OBJ_19 /* EnumOperators.swift */,
+				OBJ_20 /* EnumTransform.swift */,
+				OBJ_21 /* FromJSON.swift */,
+				OBJ_22 /* HexColorTransform.swift */,
+				OBJ_23 /* ISO8601DateTransform.swift */,
+				OBJ_24 /* ImmutableMappable.swift */,
+				OBJ_25 /* IntegerOperators.swift */,
+				OBJ_26 /* Map.swift */,
+				OBJ_27 /* MapError.swift */,
+				OBJ_28 /* Mappable.swift */,
+				OBJ_29 /* Mapper.swift */,
+				OBJ_30 /* NSDecimalNumberTransform.swift */,
+				OBJ_31 /* Operators.swift */,
+				OBJ_32 /* ToJSON.swift */,
+				OBJ_33 /* TransformOf.swift */,
+				OBJ_34 /* TransformOperators.swift */,
+				OBJ_35 /* TransformType.swift */,
+				OBJ_36 /* URLTransform.swift */,
 			);
-			name = "Keyboard 0.1.3";
+			name = "ObjectMapper 3.3.0";
+			path = ".build/checkouts/ObjectMapper.git-8268093107879668280/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_37 /* nlp 0.1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_38 /* nlp */,
+				OBJ_50 /* Package.swift */,
+			);
+			name = "nlp 0.1.0";
 			path = "";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_13 /* Keyboard */ = {
+		OBJ_38 /* nlp */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_14 /* Controller */,
-				OBJ_16 /* Extensions */,
-				OBJ_20 /* Model */,
-				OBJ_34 /* View */,
+				OBJ_39 /* KannadaSentenceParser.swift */,
+				OBJ_40 /* KannadaWordExtractor.swift */,
+				OBJ_41 /* Model */,
+				OBJ_43 /* Predictor.swift */,
+				OBJ_44 /* Protocols */,
 			);
-			name = Keyboard;
-			path = ".build/checkouts/Keyboard.git--2806166683179931253/Sources/Keyboard";
+			name = nlp;
+			path = ".build/checkouts/nlp.git-2233001872454134981/Sources/nlp";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_14 /* Controller */ = {
+		OBJ_41 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_15 /* KBViewController.swift */,
-			);
-			name = Controller;
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		OBJ_16 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_17 /* AJColorExtensions.swift */,
-				OBJ_18 /* UIColorExtensions.swift */,
-				OBJ_19 /* UIViewExtensions.swift */,
-			);
-			name = Extensions;
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		OBJ_20 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_21 /* AJColor.swift */,
-				OBJ_22 /* AJGradientColor.swift */,
-				OBJ_23 /* ButtonTheme.swift */,
-				OBJ_24 /* KeyAlignmentType.swift */,
-				OBJ_25 /* KeyModel.swift */,
-				OBJ_26 /* KeyboardFactory.swift */,
-				OBJ_27 /* KeyboardModel.swift */,
-				OBJ_28 /* PredictionTheme.swift */,
-				OBJ_29 /* Theme.swift */,
-				OBJ_30 /* ThemeFactory.swift */,
-				OBJ_31 /* Themes.swift */,
-				OBJ_32 /* iDiacriticKeyboard.swift */,
-				OBJ_33 /* iKeyboard.swift */,
+				OBJ_42 /* UnigramMO.swift */,
 			);
 			name = Model;
 			path = Model;
 			sourceTree = "<group>";
 		};
-		OBJ_34 /* View */ = {
+		OBJ_44 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_35 /* ButtonViewController.swift */,
-				OBJ_36 /* KBAlphaView.swift */,
-				OBJ_37 /* KBButton.swift */,
-				OBJ_38 /* KBCommandButton.swift */,
-				OBJ_39 /* KBNumericView.swift */,
-				OBJ_40 /* KBPredictionView.swift */,
-				OBJ_41 /* KBView.swift */,
+				OBJ_45 /* IPredictor.swift */,
+				OBJ_46 /* ISentenceParser.swift */,
+				OBJ_47 /* IStemmer.swift */,
+				OBJ_48 /* IWordExtractor.swift */,
+				OBJ_49 /* PredictiveKeyboardDelegate.swift */,
 			);
-			name = View;
-			path = View;
+			name = Protocols;
+			path = Protocols;
 			sourceTree = "<group>";
-		};
-		OBJ_43 /* ObjectMapper 3.3.0 */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_44 /* Package.swift */,
-				OBJ_45 /* CustomDateFormatTransform.swift */,
-				OBJ_46 /* DataTransform.swift */,
-				OBJ_47 /* DateFormatterTransform.swift */,
-				OBJ_48 /* DateTransform.swift */,
-				OBJ_49 /* DictionaryTransform.swift */,
-				OBJ_50 /* EnumOperators.swift */,
-				OBJ_51 /* EnumTransform.swift */,
-				OBJ_52 /* FromJSON.swift */,
-				OBJ_53 /* HexColorTransform.swift */,
-				OBJ_54 /* ISO8601DateTransform.swift */,
-				OBJ_55 /* ImmutableMappable.swift */,
-				OBJ_56 /* IntegerOperators.swift */,
-				OBJ_57 /* Map.swift */,
-				OBJ_58 /* MapError.swift */,
-				OBJ_59 /* Mappable.swift */,
-				OBJ_60 /* Mapper.swift */,
-				OBJ_61 /* NSDecimalNumberTransform.swift */,
-				OBJ_62 /* Operators.swift */,
-				OBJ_63 /* ToJSON.swift */,
-				OBJ_64 /* TransformOf.swift */,
-				OBJ_65 /* TransformOperators.swift */,
-				OBJ_66 /* TransformType.swift */,
-				OBJ_67 /* URLTransform.swift */,
-			);
-			name = "ObjectMapper 3.3.0";
-			path = ".build/checkouts/ObjectMapper.git-5035995262165061095/Sources";
-			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_5 = {
 			isa = PBXGroup;
@@ -308,33 +212,21 @@
 				OBJ_7 /* Sources */,
 				OBJ_10 /* Tests */,
 				OBJ_11 /* Dependencies */,
-				OBJ_82 /* Products */,
+				OBJ_51 /* Products */,
 			);
 			path = "";
 			sourceTree = "<group>";
 		};
-		OBJ_68 /* nlp 0.1.0 */ = {
+		OBJ_51 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_69 /* nlp */,
-				OBJ_81 /* Package.swift */,
+				ObjectMapper::ObjectMapper::Product /* ObjectMapper.framework */,
+				nlp::nlp::Product /* nlp.framework */,
+				Dependencies::Dependencies::Product /* Dependencies.framework */,
 			);
-			name = "nlp 0.1.0";
+			name = Products;
 			path = "";
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_69 /* nlp */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_70 /* KannadaSentenceParser.swift */,
-				OBJ_71 /* KannadaWordExtractor.swift */,
-				OBJ_72 /* Model */,
-				OBJ_74 /* Predictor.swift */,
-				OBJ_75 /* Protocols */,
-			);
-			name = nlp;
-			path = ".build/checkouts/nlp.git-2360360469229250649/Sources/nlp";
-			sourceTree = SOURCE_ROOT;
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
@@ -345,28 +237,6 @@
 			path = "";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_72 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_73 /* UnigramMO.swift */,
-			);
-			name = Model;
-			path = Model;
-			sourceTree = "<group>";
-		};
-		OBJ_75 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_76 /* IPredictor.swift */,
-				OBJ_77 /* ISentenceParser.swift */,
-				OBJ_78 /* IStemmer.swift */,
-				OBJ_79 /* IWordExtractor.swift */,
-				OBJ_80 /* PredictiveKeyboardDelegate.swift */,
-			);
-			name = Protocols;
-			path = Protocols;
-			sourceTree = "<group>";
-		};
 		OBJ_8 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
@@ -376,34 +246,21 @@
 			path = "";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_82 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				Keyboard::Keyboard::Product /* Keyboard.framework */,
-				Dependencies::Dependencies::Product /* Dependencies.framework */,
-				ObjectMapper::ObjectMapper::Product /* ObjectMapper.framework */,
-				nlp::nlp::Product /* nlp.framework */,
-			);
-			name = Products;
-			path = "";
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
 		Dependencies::Dependencies /* Dependencies */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_88 /* Build configuration list for PBXNativeTarget "Dependencies" */;
+			buildConfigurationList = OBJ_56 /* Build configuration list for PBXNativeTarget "Dependencies" */;
 			buildPhases = (
-				OBJ_91 /* Sources */,
-				OBJ_93 /* Frameworks */,
+				OBJ_59 /* Sources */,
+				OBJ_61 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_97 /* PBXTargetDependency */,
-				OBJ_99 /* PBXTargetDependency */,
-				OBJ_101 /* PBXTargetDependency */,
+				OBJ_64 /* PBXTargetDependency */,
+				OBJ_66 /* PBXTargetDependency */,
 			);
 			name = Dependencies;
 			productName = Dependencies;
@@ -412,9 +269,9 @@
 		};
 		Dependencies::SwiftPMPackageDescription /* DependenciesPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_104 /* Build configuration list for PBXNativeTarget "DependenciesPackageDescription" */;
+			buildConfigurationList = OBJ_69 /* Build configuration list for PBXNativeTarget "DependenciesPackageDescription" */;
 			buildPhases = (
-				OBJ_107 /* Sources */,
+				OBJ_72 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -424,44 +281,12 @@
 			productName = DependenciesPackageDescription;
 			productType = "com.apple.product-type.framework";
 		};
-		Keyboard::Keyboard /* Keyboard */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_109 /* Build configuration list for PBXNativeTarget "Keyboard" */;
-			buildPhases = (
-				OBJ_112 /* Sources */,
-				OBJ_137 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				OBJ_140 /* PBXTargetDependency */,
-				OBJ_141 /* PBXTargetDependency */,
-			);
-			name = Keyboard;
-			productName = Keyboard;
-			productReference = Keyboard::Keyboard::Product /* Keyboard.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		Keyboard::SwiftPMPackageDescription /* KeyboardPackageDescription */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_143 /* Build configuration list for PBXNativeTarget "KeyboardPackageDescription" */;
-			buildPhases = (
-				OBJ_146 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = KeyboardPackageDescription;
-			productName = KeyboardPackageDescription;
-			productType = "com.apple.product-type.framework";
-		};
 		ObjectMapper::ObjectMapper /* ObjectMapper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_148 /* Build configuration list for PBXNativeTarget "ObjectMapper" */;
+			buildConfigurationList = OBJ_74 /* Build configuration list for PBXNativeTarget "ObjectMapper" */;
 			buildPhases = (
-				OBJ_151 /* Sources */,
-				OBJ_175 /* Frameworks */,
+				OBJ_77 /* Sources */,
+				OBJ_101 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -474,9 +299,9 @@
 		};
 		ObjectMapper::SwiftPMPackageDescription /* ObjectMapperPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_177 /* Build configuration list for PBXNativeTarget "ObjectMapperPackageDescription" */;
+			buildConfigurationList = OBJ_103 /* Build configuration list for PBXNativeTarget "ObjectMapperPackageDescription" */;
 			buildPhases = (
-				OBJ_180 /* Sources */,
+				OBJ_106 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -488,9 +313,9 @@
 		};
 		nlp::SwiftPMPackageDescription /* nlpPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_197 /* Build configuration list for PBXNativeTarget "nlpPackageDescription" */;
+			buildConfigurationList = OBJ_123 /* Build configuration list for PBXNativeTarget "nlpPackageDescription" */;
 			buildPhases = (
-				OBJ_200 /* Sources */,
+				OBJ_126 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -502,10 +327,10 @@
 		};
 		nlp::nlp /* nlp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_182 /* Build configuration list for PBXNativeTarget "nlp" */;
+			buildConfigurationList = OBJ_108 /* Build configuration list for PBXNativeTarget "nlp" */;
 			buildPhases = (
-				OBJ_185 /* Sources */,
-				OBJ_195 /* Frameworks */,
+				OBJ_111 /* Sources */,
+				OBJ_121 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -532,13 +357,11 @@
 				en,
 			);
 			mainGroup = OBJ_5;
-			productRefGroup = OBJ_82 /* Products */;
+			productRefGroup = OBJ_51 /* Products */;
 			projectDirPath = .;
 			targets = (
 				Dependencies::Dependencies /* Dependencies */,
 				Dependencies::SwiftPMPackageDescription /* DependenciesPackageDescription */,
-				Keyboard::Keyboard /* Keyboard */,
-				Keyboard::SwiftPMPackageDescription /* KeyboardPackageDescription */,
 				ObjectMapper::ObjectMapper /* ObjectMapper */,
 				ObjectMapper::SwiftPMPackageDescription /* ObjectMapperPackageDescription */,
 				nlp::nlp /* nlp */,
@@ -548,274 +371,87 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_107 /* Sources */ = {
+		OBJ_106 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
-				OBJ_108 /* Package.swift in Sources */,
+				OBJ_107 /* Package.swift in Sources */,
 			);
 		};
-		OBJ_112 /* Sources */ = {
+		OBJ_111 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
-				OBJ_113 /* KBViewController.swift in Sources */,
-				OBJ_114 /* AJColorExtensions.swift in Sources */,
-				OBJ_115 /* UIColorExtensions.swift in Sources */,
-				OBJ_116 /* UIViewExtensions.swift in Sources */,
-				OBJ_117 /* AJColor.swift in Sources */,
-				OBJ_118 /* AJGradientColor.swift in Sources */,
-				OBJ_119 /* ButtonTheme.swift in Sources */,
-				OBJ_120 /* KeyAlignmentType.swift in Sources */,
-				OBJ_121 /* KeyModel.swift in Sources */,
-				OBJ_122 /* KeyboardFactory.swift in Sources */,
-				OBJ_123 /* KeyboardModel.swift in Sources */,
-				OBJ_124 /* PredictionTheme.swift in Sources */,
-				OBJ_125 /* Theme.swift in Sources */,
-				OBJ_126 /* ThemeFactory.swift in Sources */,
-				OBJ_127 /* Themes.swift in Sources */,
-				OBJ_128 /* iDiacriticKeyboard.swift in Sources */,
-				OBJ_129 /* iKeyboard.swift in Sources */,
-				OBJ_130 /* ButtonViewController.swift in Sources */,
-				OBJ_131 /* KBAlphaView.swift in Sources */,
-				OBJ_132 /* KBButton.swift in Sources */,
-				OBJ_133 /* KBCommandButton.swift in Sources */,
-				OBJ_134 /* KBNumericView.swift in Sources */,
-				OBJ_135 /* KBPredictionView.swift in Sources */,
-				OBJ_136 /* KBView.swift in Sources */,
+				OBJ_112 /* KannadaSentenceParser.swift in Sources */,
+				OBJ_113 /* KannadaWordExtractor.swift in Sources */,
+				OBJ_114 /* UnigramMO.swift in Sources */,
+				OBJ_115 /* Predictor.swift in Sources */,
+				OBJ_116 /* IPredictor.swift in Sources */,
+				OBJ_117 /* ISentenceParser.swift in Sources */,
+				OBJ_118 /* IStemmer.swift in Sources */,
+				OBJ_119 /* IWordExtractor.swift in Sources */,
+				OBJ_120 /* PredictiveKeyboardDelegate.swift in Sources */,
 			);
 		};
-		OBJ_146 /* Sources */ = {
+		OBJ_126 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
-				OBJ_147 /* Package.swift in Sources */,
+				OBJ_127 /* Package.swift in Sources */,
 			);
 		};
-		OBJ_151 /* Sources */ = {
+		OBJ_59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
-				OBJ_152 /* CustomDateFormatTransform.swift in Sources */,
-				OBJ_153 /* DataTransform.swift in Sources */,
-				OBJ_154 /* DateFormatterTransform.swift in Sources */,
-				OBJ_155 /* DateTransform.swift in Sources */,
-				OBJ_156 /* DictionaryTransform.swift in Sources */,
-				OBJ_157 /* EnumOperators.swift in Sources */,
-				OBJ_158 /* EnumTransform.swift in Sources */,
-				OBJ_159 /* FromJSON.swift in Sources */,
-				OBJ_160 /* HexColorTransform.swift in Sources */,
-				OBJ_161 /* ISO8601DateTransform.swift in Sources */,
-				OBJ_162 /* ImmutableMappable.swift in Sources */,
-				OBJ_163 /* IntegerOperators.swift in Sources */,
-				OBJ_164 /* Map.swift in Sources */,
-				OBJ_165 /* MapError.swift in Sources */,
-				OBJ_166 /* Mappable.swift in Sources */,
-				OBJ_167 /* Mapper.swift in Sources */,
-				OBJ_168 /* NSDecimalNumberTransform.swift in Sources */,
-				OBJ_169 /* Operators.swift in Sources */,
-				OBJ_170 /* ToJSON.swift in Sources */,
-				OBJ_171 /* TransformOf.swift in Sources */,
-				OBJ_172 /* TransformOperators.swift in Sources */,
-				OBJ_173 /* TransformType.swift in Sources */,
-				OBJ_174 /* URLTransform.swift in Sources */,
+				OBJ_60 /* Dependencies.swift in Sources */,
 			);
 		};
-		OBJ_180 /* Sources */ = {
+		OBJ_72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
-				OBJ_181 /* Package.swift in Sources */,
+				OBJ_73 /* Package.swift in Sources */,
 			);
 		};
-		OBJ_185 /* Sources */ = {
+		OBJ_77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
-				OBJ_186 /* KannadaSentenceParser.swift in Sources */,
-				OBJ_187 /* KannadaWordExtractor.swift in Sources */,
-				OBJ_188 /* UnigramMO.swift in Sources */,
-				OBJ_189 /* Predictor.swift in Sources */,
-				OBJ_190 /* IPredictor.swift in Sources */,
-				OBJ_191 /* ISentenceParser.swift in Sources */,
-				OBJ_192 /* IStemmer.swift in Sources */,
-				OBJ_193 /* IWordExtractor.swift in Sources */,
-				OBJ_194 /* PredictiveKeyboardDelegate.swift in Sources */,
-			);
-		};
-		OBJ_200 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			files = (
-				OBJ_201 /* Package.swift in Sources */,
-			);
-		};
-		OBJ_91 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			files = (
-				OBJ_92 /* Dependencies.swift in Sources */,
+				OBJ_78 /* CustomDateFormatTransform.swift in Sources */,
+				OBJ_79 /* DataTransform.swift in Sources */,
+				OBJ_80 /* DateFormatterTransform.swift in Sources */,
+				OBJ_81 /* DateTransform.swift in Sources */,
+				OBJ_82 /* DictionaryTransform.swift in Sources */,
+				OBJ_83 /* EnumOperators.swift in Sources */,
+				OBJ_84 /* EnumTransform.swift in Sources */,
+				OBJ_85 /* FromJSON.swift in Sources */,
+				OBJ_86 /* HexColorTransform.swift in Sources */,
+				OBJ_87 /* ISO8601DateTransform.swift in Sources */,
+				OBJ_88 /* ImmutableMappable.swift in Sources */,
+				OBJ_89 /* IntegerOperators.swift in Sources */,
+				OBJ_90 /* Map.swift in Sources */,
+				OBJ_91 /* MapError.swift in Sources */,
+				OBJ_92 /* Mappable.swift in Sources */,
+				OBJ_93 /* Mapper.swift in Sources */,
+				OBJ_94 /* NSDecimalNumberTransform.swift in Sources */,
+				OBJ_95 /* Operators.swift in Sources */,
+				OBJ_96 /* ToJSON.swift in Sources */,
+				OBJ_97 /* TransformOf.swift in Sources */,
+				OBJ_98 /* TransformOperators.swift in Sources */,
+				OBJ_99 /* TransformType.swift in Sources */,
+				OBJ_100 /* URLTransform.swift in Sources */,
 			);
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_101 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = nlp::nlp /* nlp */;
-		};
-		OBJ_140 /* PBXTargetDependency */ = {
+		OBJ_64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ObjectMapper::ObjectMapper /* ObjectMapper */;
 		};
-		OBJ_141 /* PBXTargetDependency */ = {
+		OBJ_66 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = nlp::nlp /* nlp */;
-		};
-		OBJ_97 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = Keyboard::Keyboard /* Keyboard */;
-		};
-		OBJ_99 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ObjectMapper::ObjectMapper /* ObjectMapper */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_105 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Volumes/Ajeya/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		OBJ_106 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Volumes/Ajeya/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		OBJ_110 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Dependencies.xcodeproj/Keyboard_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Keyboard;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.2;
-				TARGET_NAME = Keyboard;
-			};
-			name = Debug;
-		};
-		OBJ_111 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Dependencies.xcodeproj/Keyboard_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Keyboard;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.2;
-				TARGET_NAME = Keyboard;
-			};
-			name = Release;
-		};
-		OBJ_144 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Volumes/Ajeya/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 4.2;
-			};
-			name = Debug;
-		};
-		OBJ_145 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Volumes/Ajeya/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 4.2;
-			};
-			name = Release;
-		};
-		OBJ_149 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Dependencies.xcodeproj/ObjectMapper_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = ObjectMapper;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 3.0;
-				TARGET_NAME = ObjectMapper;
-			};
-			name = Debug;
-		};
-		OBJ_150 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Dependencies.xcodeproj/ObjectMapper_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = ObjectMapper;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 3.0;
-				TARGET_NAME = ObjectMapper;
-			};
-			name = Release;
-		};
-		OBJ_178 /* Debug */ = {
+		OBJ_104 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -825,7 +461,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_179 /* Release */ = {
+		OBJ_105 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -835,7 +471,7 @@
 			};
 			name = Release;
 		};
-		OBJ_183 /* Debug */ = {
+		OBJ_109 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -860,7 +496,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_184 /* Release */ = {
+		OBJ_110 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -885,7 +521,7 @@
 			};
 			name = Release;
 		};
-		OBJ_198 /* Debug */ = {
+		OBJ_124 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -895,7 +531,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_199 /* Release */ = {
+		OBJ_125 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -949,7 +585,7 @@
 			};
 			name = Release;
 		};
-		OBJ_89 /* Debug */ = {
+		OBJ_57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -974,7 +610,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_90 /* Release */ = {
+		OBJ_58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -999,68 +635,102 @@
 			};
 			name = Release;
 		};
+		OBJ_70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Volumes/Ajeya/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Volumes/Ajeya/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Dependencies.xcodeproj/ObjectMapper_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ObjectMapper;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = ObjectMapper;
+			};
+			name = Debug;
+		};
+		OBJ_76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Dependencies.xcodeproj/ObjectMapper_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ObjectMapper;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = ObjectMapper;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_104 /* Build configuration list for PBXNativeTarget "DependenciesPackageDescription" */ = {
+		OBJ_103 /* Build configuration list for PBXNativeTarget "ObjectMapperPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_105 /* Debug */,
-				OBJ_106 /* Release */,
+				OBJ_104 /* Debug */,
+				OBJ_105 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_109 /* Build configuration list for PBXNativeTarget "Keyboard" */ = {
+		OBJ_108 /* Build configuration list for PBXNativeTarget "nlp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_110 /* Debug */,
-				OBJ_111 /* Release */,
+				OBJ_109 /* Debug */,
+				OBJ_110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_143 /* Build configuration list for PBXNativeTarget "KeyboardPackageDescription" */ = {
+		OBJ_123 /* Build configuration list for PBXNativeTarget "nlpPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_144 /* Debug */,
-				OBJ_145 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_148 /* Build configuration list for PBXNativeTarget "ObjectMapper" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_149 /* Debug */,
-				OBJ_150 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_177 /* Build configuration list for PBXNativeTarget "ObjectMapperPackageDescription" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_178 /* Debug */,
-				OBJ_179 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_182 /* Build configuration list for PBXNativeTarget "nlp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_183 /* Debug */,
-				OBJ_184 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_197 /* Build configuration list for PBXNativeTarget "nlpPackageDescription" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_198 /* Debug */,
-				OBJ_199 /* Release */,
+				OBJ_124 /* Debug */,
+				OBJ_125 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1074,11 +744,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_88 /* Build configuration list for PBXNativeTarget "Dependencies" */ = {
+		OBJ_56 /* Build configuration list for PBXNativeTarget "Dependencies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_89 /* Debug */,
-				OBJ_90 /* Release */,
+				OBJ_57 /* Debug */,
+				OBJ_58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_69 /* Build configuration list for PBXNativeTarget "DependenciesPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_70 /* Debug */,
+				OBJ_71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_74 /* Build configuration list for PBXNativeTarget "ObjectMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_75 /* Debug */,
+				OBJ_76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

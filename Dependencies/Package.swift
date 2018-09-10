@@ -8,9 +8,10 @@ let package = Package(
         .library(name: "Dependencies", type: .dynamic, targets: ["Dependencies"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/xyryx/Keyboard.git", from: "0.1.0"),
+        .package(url: "https://github.com/xyryx/nlp.git", from: "0.1.0"),
+        .package(url: "https://github.com/Hearst-DD/ObjectMapper.git", from: "3.2.0")
     ],
     targets: [
-        .target(name: "Dependencies", dependencies: ["Keyboard"], path: "." )
+        .target(name: "Dependencies", dependencies: ["nlp", "ObjectMapper"], path: "." )
     ]
 )
