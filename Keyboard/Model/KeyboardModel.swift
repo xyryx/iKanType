@@ -32,6 +32,8 @@ public class KeyboardModel: Mappable {
         defaultTitle <- map["defaultTitle"]
         alpha <- map["alpha"]
         shift <- map["shift"]
+        numeric <- map["numeric"]
+        punctuations <- map["punctuations"]
     }
     
     public required init?(map: Map) {

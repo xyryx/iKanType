@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		590C586121475C5400CCDE86 /* ThemeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590C586021475C5400CCDE86 /* ThemeCell.swift */; };
+		590C586721476DB500CCDE86 /* du.theme in Resources */ = {isa = PBXBuildFile; fileRef = 590C586621476DB500CCDE86 /* du.theme */; };
+		590C586921476E5400CCDE86 /* gold.theme in Resources */ = {isa = PBXBuildFile; fileRef = 590C586821476E5400CCDE86 /* gold.theme */; };
+		590C586A21476ED700CCDE86 /* du.theme in Resources */ = {isa = PBXBuildFile; fileRef = 590C586621476DB500CCDE86 /* du.theme */; };
+		590C586B21476ED700CCDE86 /* du.theme in Resources */ = {isa = PBXBuildFile; fileRef = 590C586621476DB500CCDE86 /* du.theme */; };
+		590C586C21476EDA00CCDE86 /* gold.theme in Resources */ = {isa = PBXBuildFile; fileRef = 590C586821476E5400CCDE86 /* gold.theme */; };
+		590C586D21476EDB00CCDE86 /* gold.theme in Resources */ = {isa = PBXBuildFile; fileRef = 590C586821476E5400CCDE86 /* gold.theme */; };
+		590C586F21476F0A00CCDE86 /* milkyway.theme in Resources */ = {isa = PBXBuildFile; fileRef = 590C586E21476F0A00CCDE86 /* milkyway.theme */; };
+		590C587021476F2D00CCDE86 /* milkyway.theme in Resources */ = {isa = PBXBuildFile; fileRef = 590C586E21476F0A00CCDE86 /* milkyway.theme */; };
+		590C587121476F2D00CCDE86 /* milkyway.theme in Resources */ = {isa = PBXBuildFile; fileRef = 590C586E21476F0A00CCDE86 /* milkyway.theme */; };
+		590C587321476F6200CCDE86 /* purple.theme in Resources */ = {isa = PBXBuildFile; fileRef = 590C587221476F6200CCDE86 /* purple.theme */; };
+		590C587521476F9D00CCDE86 /* space.theme in Resources */ = {isa = PBXBuildFile; fileRef = 590C587421476F9D00CCDE86 /* space.theme */; };
+		590C587721476FC200CCDE86 /* transformers.theme in Resources */ = {isa = PBXBuildFile; fileRef = 590C587621476FC200CCDE86 /* transformers.theme */; };
+		590C587821476FE100CCDE86 /* transformers.theme in Resources */ = {isa = PBXBuildFile; fileRef = 590C587621476FC200CCDE86 /* transformers.theme */; };
+		590C587921476FE100CCDE86 /* transformers.theme in Resources */ = {isa = PBXBuildFile; fileRef = 590C587621476FC200CCDE86 /* transformers.theme */; };
+		590C587A21476FE500CCDE86 /* space.theme in Resources */ = {isa = PBXBuildFile; fileRef = 590C587421476F9D00CCDE86 /* space.theme */; };
+		590C587B21476FE500CCDE86 /* space.theme in Resources */ = {isa = PBXBuildFile; fileRef = 590C587421476F9D00CCDE86 /* space.theme */; };
+		590C587C21476FE900CCDE86 /* purple.theme in Resources */ = {isa = PBXBuildFile; fileRef = 590C587221476F6200CCDE86 /* purple.theme */; };
+		590C587D21476FE900CCDE86 /* purple.theme in Resources */ = {isa = PBXBuildFile; fileRef = 590C587221476F6200CCDE86 /* purple.theme */; };
 		59146B0D2145F35B00F01D90 /* Keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59146B042145F35A00F01D90 /* Keyboard.framework */; };
 		59146B142145F35B00F01D90 /* KeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B132145F35B00F01D90 /* KeyboardTests.swift */; };
 		59146B192145F35B00F01D90 /* Keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59146B042145F35A00F01D90 /* Keyboard.framework */; };
@@ -75,7 +94,7 @@
 		59146B7D21462AC500F01D90 /* NGramModel.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 59146B7A21462ABF00F01D90 /* NGramModel.sqlite-wal */; };
 		597A231F2144DD370081C8E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A231E2144DD370081C8E1 /* AppDelegate.swift */; };
 		597A23212144DD370081C8E1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A23202144DD370081C8E1 /* FirstViewController.swift */; };
-		597A23232144DD370081C8E1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A23222144DD370081C8E1 /* SecondViewController.swift */; };
+		597A23232144DD370081C8E1 /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A23222144DD370081C8E1 /* ThemeViewController.swift */; };
 		597A23262144DD370081C8E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597A23242144DD370081C8E1 /* Main.storyboard */; };
 		597A23282144DD370081C8E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 597A23272144DD370081C8E1 /* Assets.xcassets */; };
 		597A232B2144DD370081C8E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597A23292144DD370081C8E1 /* LaunchScreen.storyboard */; };
@@ -213,6 +232,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		590C586021475C5400CCDE86 /* ThemeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCell.swift; sourceTree = "<group>"; };
+		590C586621476DB500CCDE86 /* du.theme */ = {isa = PBXFileReference; lastKnownFileType = text; path = du.theme; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		590C586821476E5400CCDE86 /* gold.theme */ = {isa = PBXFileReference; lastKnownFileType = text; path = gold.theme; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		590C586E21476F0A00CCDE86 /* milkyway.theme */ = {isa = PBXFileReference; lastKnownFileType = text; path = milkyway.theme; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		590C587221476F6200CCDE86 /* purple.theme */ = {isa = PBXFileReference; lastKnownFileType = text; path = purple.theme; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		590C587421476F9D00CCDE86 /* space.theme */ = {isa = PBXFileReference; lastKnownFileType = text; path = space.theme; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		590C587621476FC200CCDE86 /* transformers.theme */ = {isa = PBXFileReference; lastKnownFileType = text; path = transformers.theme; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		59146B042145F35A00F01D90 /* Keyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Keyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59146B072145F35A00F01D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59146B0C2145F35B00F01D90 /* KeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -247,7 +273,7 @@
 		597A231B2144DD370081C8E1 /* iKanType.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKanType.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		597A231E2144DD370081C8E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		597A23202144DD370081C8E1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		597A23222144DD370081C8E1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		597A23222144DD370081C8E1 /* ThemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeViewController.swift; sourceTree = "<group>"; };
 		597A23252144DD370081C8E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		597A23272144DD370081C8E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		597A232A2144DD370081C8E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -436,11 +462,12 @@
 				597A23662144DDE40081C8E1 /* Resources */,
 				597A231E2144DD370081C8E1 /* AppDelegate.swift */,
 				597A23202144DD370081C8E1 /* FirstViewController.swift */,
-				597A23222144DD370081C8E1 /* SecondViewController.swift */,
+				597A23222144DD370081C8E1 /* ThemeViewController.swift */,
 				597A23242144DD370081C8E1 /* Main.storyboard */,
 				597A23272144DD370081C8E1 /* Assets.xcassets */,
 				597A23292144DD370081C8E1 /* LaunchScreen.storyboard */,
 				597A232C2144DD370081C8E1 /* Info.plist */,
+				590C586021475C5400CCDE86 /* ThemeCell.swift */,
 			);
 			path = iKanType;
 			sourceTree = "<group>";
@@ -499,6 +526,12 @@
 			children = (
 				597A236C2144DDE40081C8E1 /* default.theme */,
 				597A236D2144DDE40081C8E1 /* dark.theme */,
+				590C586621476DB500CCDE86 /* du.theme */,
+				590C586821476E5400CCDE86 /* gold.theme */,
+				590C586E21476F0A00CCDE86 /* milkyway.theme */,
+				590C587221476F6200CCDE86 /* purple.theme */,
+				590C587421476F9D00CCDE86 /* space.theme */,
+				590C587621476FC200CCDE86 /* transformers.theme */,
 			);
 			path = Themes;
 			sourceTree = "<group>";
@@ -756,11 +789,17 @@
 				599322892146327D0019C5FC /* NGramModel.sqlite-shm in Resources */,
 				59146B5A21461C8B00F01D90 /* kn.json in Resources */,
 				59146B5E21461C9A00F01D90 /* NGramModel.sqlite in Resources */,
+				590C587D21476FE900CCDE86 /* purple.theme in Resources */,
+				590C586D21476EDB00CCDE86 /* gold.theme in Resources */,
+				590C587121476F2D00CCDE86 /* milkyway.theme in Resources */,
+				590C587921476FE100CCDE86 /* transformers.theme in Resources */,
+				590C586B21476ED700CCDE86 /* du.theme in Resources */,
 				59146B5921461C7D00F01D90 /* Assets.xcassets in Resources */,
 				59146B4F2145F39E00F01D90 /* Keyboard.storyboard in Resources */,
 				59146B5D21461C9700F01D90 /* dark.theme in Resources */,
 				59146B7D21462AC500F01D90 /* NGramModel.sqlite-wal in Resources */,
 				59146B5C21461C9500F01D90 /* default.theme in Resources */,
+				590C587B21476FE500CCDE86 /* space.theme in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -775,14 +814,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				590C587521476F9D00CCDE86 /* space.theme in Resources */,
 				597A236F2144DDE40081C8E1 /* kn.json in Resources */,
 				597A232B2144DD370081C8E1 /* LaunchScreen.storyboard in Resources */,
+				590C586F21476F0A00CCDE86 /* milkyway.theme in Resources */,
 				597A23282144DD370081C8E1 /* Assets.xcassets in Resources */,
 				597A23712144DDE40081C8E1 /* default.theme in Resources */,
 				59146B7B21462AC000F01D90 /* NGramModel.sqlite-wal in Resources */,
 				597A23732144DDE40081C8E1 /* NGramModel.sqlite in Resources */,
+				590C587721476FC200CCDE86 /* transformers.theme in Resources */,
+				590C586921476E5400CCDE86 /* gold.theme in Resources */,
 				59932287214632770019C5FC /* NGramModel.sqlite-shm in Resources */,
+				590C587321476F6200CCDE86 /* purple.theme in Resources */,
 				597A23262144DD370081C8E1 /* Main.storyboard in Resources */,
+				590C586721476DB500CCDE86 /* du.theme in Resources */,
 				597A23722144DDE40081C8E1 /* dark.theme in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -808,11 +853,17 @@
 				599322882146327D0019C5FC /* NGramModel.sqlite-shm in Resources */,
 				597A23882144DFE40081C8E1 /* kn.json in Resources */,
 				59146B5821461BE900F01D90 /* Keyboard.storyboard in Resources */,
+				590C587C21476FE900CCDE86 /* purple.theme in Resources */,
+				590C586C21476EDA00CCDE86 /* gold.theme in Resources */,
+				590C587021476F2D00CCDE86 /* milkyway.theme in Resources */,
+				590C587821476FE100CCDE86 /* transformers.theme in Resources */,
+				590C586A21476ED700CCDE86 /* du.theme in Resources */,
 				597A23C82144EEF40081C8E1 /* NGramModel.sqlite in Resources */,
 				597A238C2144DFF90081C8E1 /* dark.theme in Resources */,
 				597A238D2144E1AC0081C8E1 /* Assets.xcassets in Resources */,
 				59146B7C21462AC400F01D90 /* NGramModel.sqlite-wal in Resources */,
 				597A238B2144DFF60081C8E1 /* default.theme in Resources */,
+				590C587A21476FE500CCDE86 /* space.theme in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -863,7 +914,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				597A23232144DD370081C8E1 /* SecondViewController.swift in Sources */,
+				597A23232144DD370081C8E1 /* ThemeViewController.swift in Sources */,
+				590C586121475C5400CCDE86 /* ThemeCell.swift in Sources */,
 				597A23702144DDE40081C8E1 /* NGramModel.xcdatamodeld in Sources */,
 				597A231F2144DD370081C8E1 /* AppDelegate.swift in Sources */,
 				597A23212144DD370081C8E1 /* FirstViewController.swift in Sources */,
