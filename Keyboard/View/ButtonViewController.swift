@@ -62,7 +62,7 @@ class ButtonViewController: UIViewController {
     }
     
     override func updateViewConstraints() {
-        self.topImageHeightConstraint.constant = self.view.frame.size.height / 4
+        self.topImageHeightConstraint.constant = self.view.frame.size.height
         super.updateViewConstraints()
     }
     
