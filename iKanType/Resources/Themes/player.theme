@@ -1,0 +1,88 @@
+{
+    "themeName": "player",
+    "version": "1.0",
+    "previewImage": "du",
+    "darkTheme": {
+        "backgroundColor": { "rgb": "#2B2D5D", "alpha": 1.0},
+        "key": {
+            "textColor": { "rgb": "#ffffff", "alpha": 1.0 },
+            "keyColor": { "rgb": "#2B2D5D", "alpha": 1.0 },
+            "borderColor": { "rgb": "#2B2D5D", "alpha": 1.0 },
+            "font": "Noto Serif Kannada"
+        },
+        "popUp": {
+            "keyColor": { "rgb": "#2B2D5D", "alpha": 1.0 },
+            "textColor": { "rgb": "#ffffff", "alpha": 1.0 },
+            "borderColor": { "rgb": "#2B2D5D", "alpha": 1.0 },
+            "shadowColor": { "rgb": "#ff4785", "alpha": 1.0 }
+        },
+        "shift": {
+            "keyColor": { "rgb": "#232234", "alpha": 1.0 },
+            "tintColor": { "rgb": "#00caff", "alpha": 1.0 },
+            "textColor": { "rgb": "#00caff", "alpha": 1.0 },
+            "borderColor": { "rgb": "#00caff", "alpha": 1.0 },
+            "highlightKeyColor": { "rgb": "#232234", "alpha": 1.0 },
+            "highlightTintColor": { "rgb": "#00caff", "alpha": 1.0 },
+            "font": "Noto Serif Kannada"
+        },
+        "delete": {
+            "keyColor": { "rgb": "#232234", "alpha": 1.0 },
+            "tintColor": { "rgb": "#00caff", "alpha": 1.0 },
+            "textColor": { "rgb": "#00caff", "alpha": 1.0 },
+            "borderColor": { "rgb": "#00caff", "alpha": 1.0 },
+            "highlightKeyColor": { "rgb": "#232234", "alpha": 1.0 },
+            "highlightTintColor": { "rgb": "#00caff", "alpha": 1.0 }
+        },
+        "alphaNumeric": {
+            "keyColor": { "rgb": "#232234", "alpha": 1.0 },
+            "tintColor": { "rgb": "#00caff", "alpha": 1.0 },
+            "borderColor": { "rgb": "#00caff", "alpha": 1.0 },
+            "highlightKeyColor": { "rgb": "#232234", "alpha": 1.0 },
+            "highlightTintColor": { "rgb": "#00caff", "alpha": 1.0 },
+            "font": "Noto Serif Kannada"
+        },
+        "changeKeyboard": {
+            "keyColor": { "rgb": "#232234", "alpha": 1.0 },
+            "tintColor": { "rgb": "#00caff", "alpha": 1.0 },
+            "borderColor": { "rgb": "#00caff", "alpha": 1.0 },
+            "highlightKeyColor": { "rgb": "#232234", "alpha": 1.0 },
+            "highlightTintColor": { "rgb": "#00caff", "alpha": 1.0 }
+        },
+        "space": {
+            "keyColor": { "rgb": "#232234", "alpha": 1.0 },
+            "textColor": { "rgb": "#00caff", "alpha": 1.0 },
+            "borderColor": { "rgb": "#00caff", "alpha": 1.0 },
+            "font": "Noto Serif Kannada"
+        },
+        "returnKey": {
+            "keyColor": { "rgb": "#232234", "alpha": 1.0 },
+            "textColor": { "rgb": "#ffffff", "alpha": 1.0 },
+            "borderColor": { "rgb": "#ffffff", "alpha": 1.0 },
+            "font": "Noto Serif Kannada"
+        },
+        "disabledReturnKey": {
+            "keyColor": { "rgb": "#232234", "alpha": 1.0 },
+            "textColor": { "rgb": "#ffffff", "alpha": 1.0 },
+            "borderColor": { "rgb": "#ffffff", "alpha": 1.0 },
+            "font": "Noto Serif Kannada"
+        },
+        "defaultReturnKey": {
+            "keyColor": { "rgb": "#232234", "alpha": 1.0 },
+            "textColor": { "rgb": "#ffffff", "alpha": 1.0 },
+            "borderColor": { "rgb": "#ffffff", "alpha": 1.0 },
+            "font": "Noto Serif Kannada"
+        },
+        "defaultDisabledReturn": {
+            "keyColor": { "rgb": "#232234", "alpha": 1.0 },
+            "textColor": { "rgb": "#ffffff", "alpha": 1.0 },
+            "borderColor": { "rgb": "#ffffff", "alpha": 1.0 },
+            "font": "Noto Serif Kannada"
+        },
+        "prediction": {
+            "textColor": { "rgb": "#ff4785", "alpha": 1.0 },
+            "backgroundColor": { "rgb": "#232234", "alpha": 1.0 },
+            "predictionColor": { "rgb": "#232234", "alpha": 1.0 },
+            "font": "Noto Serif Kannada"
+        }
+    }
+}

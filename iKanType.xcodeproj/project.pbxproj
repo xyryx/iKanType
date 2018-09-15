@@ -26,6 +26,9 @@
 		590C587B21476FE500CCDE86 /* space.theme in Resources */ = {isa = PBXBuildFile; fileRef = 590C587421476F9D00CCDE86 /* space.theme */; };
 		590C587C21476FE900CCDE86 /* purple.theme in Resources */ = {isa = PBXBuildFile; fileRef = 590C587221476F6200CCDE86 /* purple.theme */; };
 		590C587D21476FE900CCDE86 /* purple.theme in Resources */ = {isa = PBXBuildFile; fileRef = 590C587221476F6200CCDE86 /* purple.theme */; };
+		59131810214D7E6400702F5D /* player.theme in Resources */ = {isa = PBXBuildFile; fileRef = 5913180B214D7E6400702F5D /* player.theme */; };
+		59131811214D7E6C00702F5D /* player.theme in Resources */ = {isa = PBXBuildFile; fileRef = 5913180B214D7E6400702F5D /* player.theme */; };
+		59131812214D7E6D00702F5D /* player.theme in Resources */ = {isa = PBXBuildFile; fileRef = 5913180B214D7E6400702F5D /* player.theme */; };
 		59146B0D2145F35B00F01D90 /* Keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59146B042145F35A00F01D90 /* Keyboard.framework */; };
 		59146B142145F35B00F01D90 /* KeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146B132145F35B00F01D90 /* KeyboardTests.swift */; };
 		59146B192145F35B00F01D90 /* Keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59146B042145F35A00F01D90 /* Keyboard.framework */; };
@@ -239,6 +242,7 @@
 		590C587221476F6200CCDE86 /* purple.theme */ = {isa = PBXFileReference; lastKnownFileType = text; path = purple.theme; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		590C587421476F9D00CCDE86 /* space.theme */ = {isa = PBXFileReference; lastKnownFileType = text; path = space.theme; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		590C587621476FC200CCDE86 /* transformers.theme */ = {isa = PBXFileReference; lastKnownFileType = text; path = transformers.theme; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		5913180B214D7E6400702F5D /* player.theme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = player.theme; sourceTree = "<group>"; };
 		59146B042145F35A00F01D90 /* Keyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Keyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59146B072145F35A00F01D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59146B0C2145F35B00F01D90 /* KeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -524,6 +528,7 @@
 		597A236B2144DDE40081C8E1 /* Themes */ = {
 			isa = PBXGroup;
 			children = (
+				5913180B214D7E6400702F5D /* player.theme */,
 				597A236C2144DDE40081C8E1 /* default.theme */,
 				597A236D2144DDE40081C8E1 /* dark.theme */,
 				590C586621476DB500CCDE86 /* du.theme */,
@@ -795,6 +800,7 @@
 				590C587921476FE100CCDE86 /* transformers.theme in Resources */,
 				590C586B21476ED700CCDE86 /* du.theme in Resources */,
 				59146B5921461C7D00F01D90 /* Assets.xcassets in Resources */,
+				59131812214D7E6D00702F5D /* player.theme in Resources */,
 				59146B4F2145F39E00F01D90 /* Keyboard.storyboard in Resources */,
 				59146B5D21461C9700F01D90 /* dark.theme in Resources */,
 				59146B7D21462AC500F01D90 /* NGramModel.sqlite-wal in Resources */,
@@ -824,6 +830,7 @@
 				597A23732144DDE40081C8E1 /* NGramModel.sqlite in Resources */,
 				590C587721476FC200CCDE86 /* transformers.theme in Resources */,
 				590C586921476E5400CCDE86 /* gold.theme in Resources */,
+				59131810214D7E6400702F5D /* player.theme in Resources */,
 				59932287214632770019C5FC /* NGramModel.sqlite-shm in Resources */,
 				590C587321476F6200CCDE86 /* purple.theme in Resources */,
 				597A23262144DD370081C8E1 /* Main.storyboard in Resources */,
@@ -859,6 +866,7 @@
 				590C587821476FE100CCDE86 /* transformers.theme in Resources */,
 				590C586A21476ED700CCDE86 /* du.theme in Resources */,
 				597A23C82144EEF40081C8E1 /* NGramModel.sqlite in Resources */,
+				59131811214D7E6C00702F5D /* player.theme in Resources */,
 				597A238C2144DFF90081C8E1 /* dark.theme in Resources */,
 				597A238D2144E1AC0081C8E1 /* Assets.xcassets in Resources */,
 				59146B7C21462AC400F01D90 /* NGramModel.sqlite-wal in Resources */,
