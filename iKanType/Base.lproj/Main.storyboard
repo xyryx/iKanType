@@ -87,10 +87,10 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F6f-fK-OU2">
-                                            <rect key="frame" x="13" y="33" width="324" height="134"/>
+                                            <rect key="frame" x="13" y="33" width="324" height="128"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tup-UJ-XS4">
-                                            <rect key="frame" x="0.0" y="172" width="42" height="21"/>
+                                            <rect key="frame" x="0.0" y="166" width="42" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -99,12 +99,12 @@
                                 </view>
                                 <constraints>
                                     <constraint firstItem="F6f-fK-OU2" firstAttribute="leading" secondItem="DRZ-JW-uCL" secondAttribute="leadingMargin" constant="5" id="AZY-LT-8dS"/>
-                                    <constraint firstItem="tup-UJ-XS4" firstAttribute="top" secondItem="F6f-fK-OU2" secondAttribute="bottom" constant="5" id="BOs-H0-CeW"/>
                                     <constraint firstItem="F6f-fK-OU2" firstAttribute="top" secondItem="DRZ-JW-uCL" secondAttribute="topMargin" constant="5" id="JmZ-Pf-tTR"/>
-                                    <constraint firstItem="F6f-fK-OU2" firstAttribute="centerX" secondItem="DRZ-JW-uCL" secondAttribute="centerX" id="U8h-zW-yP5"/>
+                                    <constraint firstItem="F6f-fK-OU2" firstAttribute="centerX" secondItem="DRZ-JW-uCL" secondAttribute="centerX" id="KKf-gr-8aY"/>
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="tup-UJ-XS4" secondAttribute="trailing" symbolic="YES" id="bqA-Sb-2Hd"/>
-                                    <constraint firstItem="F6f-fK-OU2" firstAttribute="centerY" secondItem="DRZ-JW-uCL" secondAttribute="centerY" id="mNm-5G-GIi"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="tup-UJ-XS4" secondAttribute="bottom" constant="5" id="hG3-sv-3Z7"/>
                                     <constraint firstItem="tup-UJ-XS4" firstAttribute="leading" secondItem="DRZ-JW-uCL" secondAttribute="leading" id="rRi-U7-u7n"/>
+                                    <constraint firstItem="tup-UJ-XS4" firstAttribute="top" secondItem="F6f-fK-OU2" secondAttribute="bottom" constant="5" id="ux0-kp-Zmt"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="imageView" destination="F6f-fK-OU2" id="FK5-AH-y2L"/>
