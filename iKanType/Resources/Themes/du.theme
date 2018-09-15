@@ -1,7 +1,7 @@
 {
     "themeName": "du",
     "version": "1.0",
-    "previewImage": "transformers",
+    "previewImage": "du",
     "darkTheme": {
         "backgroundColor": { "rgb": "#232234", "alpha": 1.0},
         "key": {
