@@ -125,6 +125,8 @@
 		59932287214632770019C5FC /* NGramModel.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 59932282214632770019C5FC /* NGramModel.sqlite-shm */; };
 		599322882146327D0019C5FC /* NGramModel.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 59932282214632770019C5FC /* NGramModel.sqlite-shm */; };
 		599322892146327D0019C5FC /* NGramModel.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 59932282214632770019C5FC /* NGramModel.sqlite-shm */; };
+		59A592B2214D942B000611DF /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A592B1214D942B000611DF /* KeyboardViewController.swift */; };
+		59A592B6214D942B000611DF /* Telugu.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 59A592AF214D942B000611DF /* Telugu.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -205,6 +207,13 @@
 			remoteGlobalIDString = "nlp::nlp";
 			remoteInfo = nlp;
 		};
+		59A592B4214D942B000611DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 597A23132144DD360081C8E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59A592AE214D942B000611DF;
+			remoteInfo = Telugu;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -214,6 +223,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				59A592B6214D942B000611DF /* Telugu.appex in Embed App Extensions */,
 				597A23802144DF390081C8E1 /* Kannada.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -300,6 +310,9 @@
 		597A237D2144DF390081C8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		597A23852144DF590081C8E1 /* Kannada.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Kannada.entitlements; sourceTree = "<group>"; };
 		59932282214632770019C5FC /* NGramModel.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NGramModel.sqlite-shm"; sourceTree = "<group>"; };
+		59A592AF214D942B000611DF /* Telugu.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Telugu.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A592B1214D942B000611DF /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		59A592B3214D942B000611DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -351,6 +364,13 @@
 				59146B5F21461EDC00F01D90 /* Keyboard.framework in Frameworks */,
 				597A23BE2144E83A0081C8E1 /* nlp.framework in Frameworks */,
 				597A23BF2144E83E0081C8E1 /* ObjectMapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A592AC214D942B000611DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +461,7 @@
 				597A237A2144DF390081C8E1 /* Kannada */,
 				59146B052145F35A00F01D90 /* Keyboard */,
 				59146B122145F35B00F01D90 /* KeyboardTests */,
+				59A592B0214D942B000611DF /* Telugu */,
 				597A231C2144DD370081C8E1 /* Products */,
 				597A238F2144E3B40081C8E1 /* Frameworks */,
 			);
@@ -455,6 +476,7 @@
 				597A23792144DF390081C8E1 /* Kannada.appex */,
 				59146B042145F35A00F01D90 /* Keyboard.framework */,
 				59146B0C2145F35B00F01D90 /* KeyboardTests.xctest */,
+				59A592AF214D942B000611DF /* Telugu.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -558,6 +580,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		59A592B0214D942B000611DF /* Telugu */ = {
+			isa = PBXGroup;
+			children = (
+				59A592B1214D942B000611DF /* KeyboardViewController.swift */,
+				59A592B3214D942B000611DF /* Info.plist */,
+			);
+			path = Telugu;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -625,6 +656,7 @@
 				597A23C32144E8910081C8E1 /* PBXTargetDependency */,
 				597A23C72144E8970081C8E1 /* PBXTargetDependency */,
 				59146B182145F35B00F01D90 /* PBXTargetDependency */,
+				59A592B5214D942B000611DF /* PBXTargetDependency */,
 			);
 			name = iKanType;
 			productName = iKanType;
@@ -684,6 +716,23 @@
 			productReference = 597A23792144DF390081C8E1 /* Kannada.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		59A592AE214D942B000611DF /* Telugu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59A592BD214D942B000611DF /* Build configuration list for PBXNativeTarget "Telugu" */;
+			buildPhases = (
+				59A592AB214D942B000611DF /* Sources */,
+				59A592AC214D942B000611DF /* Frameworks */,
+				59A592AD214D942B000611DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Telugu;
+			productName = Telugu;
+			productReference = 59A592AF214D942B000611DF /* Telugu.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -731,6 +780,9 @@
 							};
 						};
 					};
+					59A592AE214D942B000611DF = {
+						CreatedOnToolsVersion = 10.0;
+					};
 				};
 			};
 			buildConfigurationList = 597A23162144DD360081C8E1 /* Build configuration list for PBXProject "iKanType" */;
@@ -758,6 +810,7 @@
 				597A23782144DF390081C8E1 /* Kannada */,
 				59146B032145F35A00F01D90 /* Keyboard */,
 				59146B0B2145F35B00F01D90 /* KeyboardTests */,
+				59A592AE214D942B000611DF /* Telugu */,
 			);
 		};
 /* End PBXProject section */
@@ -875,6 +928,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		59A592AD214D942B000611DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -979,6 +1039,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		59A592AB214D942B000611DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A592B2214D942B000611DF /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1021,6 +1089,11 @@
 			isa = PBXTargetDependency;
 			name = nlp;
 			targetProxy = 597A23C62144E8970081C8E1 /* PBXContainerItemProxy */;
+		};
+		59A592B5214D942B000611DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59A592AE214D942B000611DF /* Telugu */;
+			targetProxy = 59A592B4214D942B000611DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1420,6 +1493,44 @@
 			};
 			name = Release;
 		};
+		59A592B7214D942B000611DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XM48Z8F5QX;
+				INFOPLIST_FILE = Telugu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ajeyatj.blogspot.com.iKanType.Telugu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59A592B8214D942B000611DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XM48Z8F5QX;
+				INFOPLIST_FILE = Telugu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ajeyatj.blogspot.com.iKanType.Telugu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1482,6 +1593,15 @@
 			buildConfigurations = (
 				597A23822144DF390081C8E1 /* Debug */,
 				597A23832144DF390081C8E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59A592BD214D942B000611DF /* Build configuration list for PBXNativeTarget "Telugu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A592B7214D942B000611DF /* Debug */,
+				59A592B8214D942B000611DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
