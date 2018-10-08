@@ -131,5 +131,53 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Keyboard/View/KBNumericView.swift"
+            timestampString = "560645061.874092"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "shiftMode"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Kannada.KBNumericView.shiftMode.didset : Swift.Bool"
+                  moduleName = "Kannada"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajeyatj/Documents/iKanType/Keyboard/View/KBNumericView.swift"
+                  timestampString = "560643679.004527"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "2916">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Keyboard.KBNumericView.shiftMode.didset : Swift.Bool"
+                  moduleName = "Keyboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajeyatj/Documents/iKanType/Keyboard/View/KBNumericView.swift"
+                  timestampString = "560643679.248871"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "2916">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

@@ -19,9 +19,17 @@ public class KBAlphaView: KBView {
         }
     }
     
+    override var delegate: IKeyboard? {
+        didSet {
+            if delegate != nil {
+                self.setReturnKeyTitle()
+            }
+        }
+    }
+    
     override var shiftMode: Bool {
         didSet {
-            var characters: [KeyModel]?
+            var characters: [[KeyModel]]?
             if shiftMode {
                 characters = keyboard!.shift
             }
@@ -30,9 +38,11 @@ public class KBAlphaView: KBView {
             }
             if characters != nil {
                 for i in 0 ..< characters!.count {
-                    let button: KBButton = self.viewWithTag(i + 1) as! KBButton
-                    let key: KeyModel = characters![i]
-                    button.setTitle(key.key, for: .normal)
+                    for j in 0 ..< characters![i].count {
+                        let button: KBButton = self.viewWithTag(i * 10 + j + 1) as! KBButton
+                        let key: KeyModel = characters![i][j]
+                        button.setTitle(key.key, for: .normal)
+                    }
                 }
             }
         }
@@ -40,7 +50,7 @@ public class KBAlphaView: KBView {
     
     var isDiacriticEnabled: Bool = false {
         didSet{
-            var characters : [KeyModel]?
+            var characters : [[KeyModel]]?
             if shiftMode {
                 characters = keyboard!.shift
             }
@@ -49,13 +59,15 @@ public class KBAlphaView: KBView {
             }
             if characters != nil {
                 for i in 0 ..< characters!.count {
-                    let button: KBButton = self.viewWithTag(i + 1) as! KBButton
-                    let key: KeyModel = characters![i]
-                    if self.isDiacriticEnabled && key.diacritic != nil {
-                        button.setTitle(key.diacritic, for: .normal)
-                    }
-                    else {
-                        button.setTitle(key.key, for: .normal)
+                    for j in 0 ..< characters![i].count {
+                        let button: KBButton = self.viewWithTag(i * 10 + j + 1) as! KBButton
+                        let key: KeyModel = characters![i][j]
+                        if self.isDiacriticEnabled && key.diacritic != nil {
+                            button.setTitle(key.diacritic, for: .normal)
+                        }
+                        else {
+                            button.setTitle(key.key, for: .normal)
+                        }
                     }
                 }
             }
@@ -69,7 +81,7 @@ public class KBAlphaView: KBView {
             self.removeKeyButtons()
             self.addKeyButtons()
             self.addKeyConstraints()
-            var characters: [KeyModel]?
+            var characters: [[KeyModel]]?
             if shiftMode {
                 characters = keyboard!.shift
             }
@@ -78,19 +90,20 @@ public class KBAlphaView: KBView {
             }
             if characters != nil {
                 for i in 0 ..< characters!.count {
-                    let key: KeyModel = characters![i]
-                    let button: KBButton = self.viewWithTag(i + 1) as! KBButton
-                    button.setTitle(key.key, for: .normal)
-                    button.fontSize = keyboard!.keyFontSize
-                    if(key.diacritic != nil) {
-                        if key.diacritic!.count != 0 {
-                            vowelButtonCollection.append(button)
+                    for j in 0 ..< characters![i].count {
+                        let key: KeyModel = characters![i][j]
+                        let button: KBButton = self.viewWithTag(i * 10 + j + 1) as! KBButton
+                        button.setTitle(key.key, for: .normal)
+                        button.fontSize = keyboard!.keyFontSize
+                        if(key.diacritic != nil) {
+                            if key.diacritic!.count != 0 {
+                                vowelButtonCollection.append(button)
+                            }
                         }
                     }
                 }
             }
             self.alphaNumericButton.setTitle(keyboard!.numericKeyTitle, for: .normal)
-            self.setReturnKeyTitle()
         }
     }
     
@@ -104,8 +117,17 @@ public class KBAlphaView: KBView {
         super.init(coder: aDecoder)
     }
     
-    override func baseInit() {
-        super.baseInit()
+    override func addKeys() {
+        super.addKeys()
+        
+        for _ in 0 ..< self.keyboard!.alpha.count {
+            let row: UIView = UIView()
+            row.translatesAutoresizingMaskIntoConstraints = false
+            row.isUserInteractionEnabled = false
+            rows.append(row)
+            self.addSubview(row)
+        }
+
         self.vowelButtonCollection = [KBButton]()
         self.shiftButton.adjustsImageWhenHighlighted = false
         let shiftImage: UIImage = UIImage(named: "caps-on")!.withRenderingMode(.alwaysTemplate)
@@ -119,21 +141,19 @@ public class KBAlphaView: KBView {
     //MARK: - constraints
     override func setupConstraints() {
         super.setupConstraints()
-        //self.addKeyConstraints()
     }
     
     func addKeyConstraints() {
         for i in 0 ..< self.rows.count {
             let row: UIView = self.rows[i]
             var previousButton: KBButton?
-            var numberOfButtons: Int = self.keyboard!.alpha.count - (i * self.numberOfKeysPerRow)
-            numberOfButtons = numberOfButtons > self.numberOfKeysPerRow ? self.numberOfKeysPerRow : numberOfButtons
+            let numberOfButtons: Int = self.keyboard!.alpha[i].count
             
             for j in 0 ..< row.subviews.count {
                 let button: KBButton = row.subviews[j] as! KBButton
                 
                 //rows preceding the last two
-                if i < self.rows.count - 2 {
+                if i < self.rows.count - 1 {
                     //first button
                     if j == 0 {
                         button.keyAlignment = .LeftKey
@@ -186,40 +206,17 @@ public class KBAlphaView: KBView {
         }
         super.updateConstraints()
     }
-    
-    //    func traitCollectionDidChange(previousTraitCollection: UITraitCollection) {
-    //        //iphone portrait
-    //        NSLog("traitCollectionDidChange")
-    //        if self.traitCollection.userInterfaceIdiom == .Pad {
-    //            //ipad landscape and portrait
-    //        }
-    //
-    //        if self.traitCollection.userInterfaceIdiom == .Phone {
-    //            if self.traitCollection.horizontalSizeClass == .Compact && self.traitCollection.verticalSizeClass == .Regular {
-    //                //iphone portrait
-    //                NSLog("iphone portrait")
-    //            }
-    //            if self.traitCollection.horizontalSizeClass == .Compact && self.traitCollection.verticalSizeClass == .Compact {
-    //                //iphone landscape
-    //                NSLog("iphone landscape")
-    //            }
-    //            if self.traitCollection.horizontalSizeClass == .Regular && self.traitCollection.verticalSizeClass == .Compact {
-    //                //iphone 6+ landscape
-    //                NSLog("iphone 6+ landscape")
-    //            }
-    //        }
-    //    }
-    
+        
     //MARK: - keyboard events
     @IBAction override func keyPressed(sender: UIButton) {
-        var characters: Array<KeyModel>
+        var characters: Array<[KeyModel]>
         if shiftMode {
             characters = (keyboard!.shift)
         }
         else {
             characters = (keyboard!.alpha)
         }
-        let key: KeyModel = characters[sender.tag - 1]
+        let key: KeyModel = characters[(sender.tag-1)/10][(sender.tag-1)%10]
         
         let alphabet: String = isDiacriticEnabled ? (key.diacritic ?? key.value!) : key.value!
         
@@ -254,7 +251,7 @@ public class KBAlphaView: KBView {
     }
     
     override func doubleTap(previousButtonTag: Int) {
-        var characters: Array<KeyModel>
+        var characters: Array<[KeyModel]>
         if !shiftMode {
             characters = (keyboard!.shift)
         }
@@ -262,7 +259,7 @@ public class KBAlphaView: KBView {
             characters = (keyboard!.alpha)
         }
         let button: KBButton = self.viewWithTag(previousButtonTag) as! KBButton
-        let key: KeyModel = characters[button.tag - 1]
+        let key: KeyModel = characters[(button.tag-1)/10][(button.tag-1)%10]
         let alphabet: String = (previousDiacriticState == true ? key.diacritic ?? key.value : key.value)!
         let isVowel: Bool = vowelButtonCollection.contains(button)
         if isVowel {

@@ -14,7 +14,6 @@ public class KeyboardFactory: NSObject {
     public class func createKeyboard(fileName: String) -> KeyboardModel {
         var keyboard: KeyboardModel? = nil
         let filePath: String = Bundle.main.path(forResource: fileName, ofType: "json")!
-        //        NSData *data = [NSData dataWithContentsOfFile:filePath];
         do {
             let data: String = try String(contentsOfFile: filePath, encoding: String.Encoding.utf8)
             keyboard = Mapper<KeyboardModel>().map(JSONString: data)!

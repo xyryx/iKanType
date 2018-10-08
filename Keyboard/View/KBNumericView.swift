@@ -11,7 +11,7 @@ import UIKit
 class KBNumericView: KBView {
     override var shiftMode: Bool {
         didSet{
-            var characters: [KeyModel]?
+            var characters: [[KeyModel]]?
             if shiftMode {
                 characters = keyboard!.punctuations
                 self.shiftButton.setTitle(keyboard!.numericKeyTitle, for: .normal)
@@ -22,10 +22,12 @@ class KBNumericView: KBView {
             }
             if characters != nil {
                 for i in 0 ..< characters!.count {
-                    let button: KBButton = self.viewWithTag(i + 1) as! KBButton
-                    let key: KeyModel = characters![i]
-                    button.setTitle(key.key, for: .normal)
-                    button.fontSize = keyboard!.keyFontSize
+                    for j in 0 ..< characters![i].count {
+                        let button: KBButton = self.viewWithTag(i * 10 + j + 1) as! KBButton
+                        let key: KeyModel = characters![i][j]
+                        button.setTitle(key.key, for: .normal)
+                        button.fontSize = keyboard!.keyFontSize
+                    }
                 }
             }
         }
@@ -55,8 +57,17 @@ class KBNumericView: KBView {
         super.init(coder: aDecoder)
     }
     
-    override func baseInit() {
-        super.baseInit()
+    override func addKeys() {
+        super.addKeys()
+        
+        for _ in 0 ..< self.keyboard!.numeric.count {
+            let row: UIView = UIView()
+            row.translatesAutoresizingMaskIntoConstraints = false
+            row.isUserInteractionEnabled = false
+            rows.append(row)
+            self.addSubview(row)
+        }
+        
         self.shiftButton.adjustsImageWhenHighlighted = false
         self.shiftButton.addTarget(self, action: #selector(KBView.resetShiftKey(button:)), for: .touchUpOutside)
         self.setupConstraints()
@@ -72,8 +83,7 @@ class KBNumericView: KBView {
         for i in 0 ..< self.rows.count {
             let row: UIView = self.rows[i]
             var previousButton: KBButton?
-            var numberOfButtons: Int = self.keyboard!.numeric.count - (i * self.numberOfKeysPerRow)
-            numberOfButtons = numberOfButtons > self.numberOfKeysPerRow ? self.numberOfKeysPerRow : numberOfButtons
+            let numberOfButtons: Int = self.keyboard!.numeric[i].count
             
             for j in 0 ..< row.subviews.count {
                 let button: KBButton = row.subviews[j] as! KBButton
@@ -130,34 +140,32 @@ class KBNumericView: KBView {
     
     //MARK: - add keybuttons
     override func addKeyButtons() {
-        for i in 0 ..< self.numberOfRows {
+        for i in 0 ..< self.keyboard!.numeric.count {
             let row: UIView = self.rows[i]
-            for j in 0 ..< self.numberOfKeysPerRow {
-                if i * self.numberOfKeysPerRow + j < self.keyboard!.numeric.count {
-                    let button: KBButton = KBButton()
-                    button.translatesAutoresizingMaskIntoConstraints = false
-                    button.isUserInteractionEnabled = false
-                    button.sizeToFit()
-                    let key: KeyModel = self.keyboard!.numeric[i * self.numberOfKeysPerRow + j]
-                    button.title = key.key ?? ""
-                    button.center = row.center
-                    button.tag = i * self.numberOfKeysPerRow + j + 1
-                    row.addSubview(button)
-                }
+            for j in 0 ..< self.keyboard!.numeric[i].count {
+                let button: KBButton = KBButton()
+                button.translatesAutoresizingMaskIntoConstraints = false
+                button.isUserInteractionEnabled = false
+                button.sizeToFit()
+                let key: KeyModel = self.keyboard!.numeric[i][j]
+                button.title = key.key ?? ""
+                button.center = row.center
+                button.tag = i * 10 + j + 1
+                row.addSubview(button)
             }
         }
     }
     
     //MARK: - keyboard events
     @IBAction override func keyPressed(sender: UIButton) {
-        var characters: [KeyModel]
+        var characters: [[KeyModel]]
         if shiftMode {
             characters = keyboard!.punctuations
         }
         else {
             characters = keyboard!.numeric
         }
-        let key: KeyModel = characters[sender.tag - 1]
+        let key: KeyModel = characters[(sender.tag-1)/10][(sender.tag-1)%10]
         let alphabet: String = key.value!
         self.delegate!.textEntered(text: alphabet)
         self.textChanged()
@@ -174,7 +182,7 @@ class KBNumericView: KBView {
     }
     
     override func doubleTap(previousButtonTag: Int) {
-        var characters: [KeyModel]
+        var characters: [[KeyModel]]
         if shiftMode {
             characters = keyboard!.numeric
         }
@@ -182,7 +190,7 @@ class KBNumericView: KBView {
             characters = keyboard!.punctuations
         }
         let button: UIButton = self.viewWithTag(previousButtonTag) as! UIButton
-        let key: KeyModel = characters[button.tag - 1]
+        let key: KeyModel = characters[(button.tag-1)/10][(button.tag-1)%10]
         self.delegate!.textEntered(text: key.value!)
     }
 }

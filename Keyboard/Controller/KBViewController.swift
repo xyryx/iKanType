@@ -55,9 +55,9 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
     
     public func initAlphaView() {
         self.alphaView = KBAlphaView()
+        self.alphaView!.keyboard = keyboard
         self.alphaView!.translatesAutoresizingMaskIntoConstraints = false
         self.alphaView!.delegate = self
-        self.alphaView!.keyboard = keyboard
         self.alphaView!.shiftMode = false
         self.updateAppearance()
         //self.addConstraints(alphaView!)
@@ -65,9 +65,9 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
     
     func initShiftView() {
         self.shiftAlphaView = KBAlphaView()
+        self.shiftAlphaView!.keyboard = keyboard
         self.shiftAlphaView!.translatesAutoresizingMaskIntoConstraints = false
         self.shiftAlphaView!.delegate = self
-        self.shiftAlphaView!.keyboard = keyboard
         self.shiftAlphaView!.shiftMode = true
         self.updateAppearance()
         self.addConstraints(subview: shiftAlphaView!)
@@ -76,9 +76,9 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
     
     func initNumericView() {
         self.numericView = KBNumericView()
+        self.numericView!.keyboard = keyboard
         self.numericView!.translatesAutoresizingMaskIntoConstraints = false
         self.numericView!.delegate = self
-        self.numericView!.keyboard = keyboard
         self.numericView!.shiftMode = false
         self.updateAppearance()
         self.addConstraints(subview: numericView!)
@@ -87,9 +87,9 @@ open class KBViewController: UIInputViewController, IKeyboard, PredictiveKeyboar
     
     func initPunctuationView() {
         self.punctationView = KBNumericView()
+        self.punctationView!.keyboard = keyboard
         self.punctationView!.translatesAutoresizingMaskIntoConstraints = false
         self.punctationView!.delegate = self
-        self.punctationView!.keyboard = keyboard
         self.punctationView!.shiftMode = true
         self.updateAppearance()
         self.addConstraints(subview: punctationView!)

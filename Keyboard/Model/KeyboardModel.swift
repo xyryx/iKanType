@@ -63,10 +63,10 @@ public class KeyboardModel: Mappable {
     var defaultTitle: String = ""
     var continueTitle: String = ""
     
-    var alpha: [KeyModel] = []
-    var shift: [KeyModel] = []
-    var numeric: [KeyModel] = []
-    var punctuations: [KeyModel] = []
+    var alpha: [Array<KeyModel>] = []
+    var shift: [Array<KeyModel>] = []
+    var numeric: [Array<KeyModel>] = []
+    var punctuations: [Array<KeyModel>] = []
     
     func getKeyboardTitle(type: UIReturnKeyType) -> String {
         switch(type){
